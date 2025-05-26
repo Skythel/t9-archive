@@ -1,17 +1,19 @@
-import { useState } from "react";
 import { makeStyles } from "@mui/styles";
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import { Container } from "@mui/system";
 import { useMediaQuery } from 'react-responsive';
-import '@fontsource/noto-sans/400.css';
-import '@fontsource/noto-sans/500.css';
-import '@fontsource/noto-sans/600.css';
-import '@fontsource/noto-sans/800.css';
+// import '@fontsource/noto-sans/400.css';
+// import '@fontsource/noto-sans/500.css';
+// import '@fontsource/noto-sans/600.css';
+// import '@fontsource/noto-sans/800.css';
 import './App.css';
 import TopBar from './components/TopBar';
 import Content from './components/Content';
 import MobileTopBar from "./mobile/MobileTopBar";
 import MobileContent from "./mobile/MobileContent";
+import {
+  BrowserRouter as Router,
+} from "react-router-dom";
 
 const bg = require('./assets/bg/bg_130103.jpg');
 
@@ -36,19 +38,20 @@ const App = () => {
   const isTabletOrMobile = useMediaQuery({ query: '(max-width: 1224px)' });
 
   const classes = useStyles();
-  const [currentPage, setCurrentPage] = useState('');
   return (
     <ThemeProvider theme={theme}>
-      <Container className={classes.container} maxWidth={false} disableGutters>
-        {isDesktopOrLaptop && (<>
-          <TopBar setCurrentPage={setCurrentPage} />
-          <Content currentPage={currentPage} />
-        </>)}
-        {isTabletOrMobile && (<>
-          <MobileTopBar setCurrentPage={setCurrentPage} />
-          <MobileContent currentPage={currentPage} />
-        </>)}
-      </Container>
+      <Router>
+        <Container className={classes.container} maxWidth={false} disableGutters>
+          {isDesktopOrLaptop && (<>
+            <TopBar />
+            <Content />
+          </>)}
+          {isTabletOrMobile && (<>
+            <MobileTopBar />
+            <MobileContent />
+          </>)}
+        </Container>
+      </Router>
     </ThemeProvider>
   );
 }

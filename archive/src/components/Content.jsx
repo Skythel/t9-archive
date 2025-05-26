@@ -3,6 +3,11 @@ import { createTheme, ThemeProvider } from '@mui/material/styles';
 import { Container } from "@mui/system";
 import Character from "./Character";
 import TensionCards from "./TensionCards";
+import {
+  Route,
+  Routes,
+  Link,
+} from "react-router-dom";
 
 const theme = createTheme();
 const useStyles = makeStyles((theme) => ({
@@ -16,21 +21,33 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-const Content = ({ currentPage }) => {
+const Content = () => {
   const classes = useStyles();
-  const completed = ["Character", "Cards"];
   return (
     <ThemeProvider theme={theme}>
       <Container className={classes.content} maxWidth={false}>
-        {!completed.includes(currentPage) && (
-          <div style={{ color: "white", textAlign: "left" }}>
-            <h2>Welcome to the Tribe Nine archival project!</h2>
-            <p>Content will slowly be added over time. Currently, the only page available is Character (click on the head icon on top).</p>
-            <p>Do let me know if you encounter any issues. (Discord: @skythel)</p>
-          </div>
-        )}
-        {currentPage === "Character" && <Character />}
-        {currentPage === "Cards" && <TensionCards />}
+        <Routes>
+          <Route
+            path="/"
+            element={
+              <div style={{ color: "white", textAlign: "left" }}>
+                <h2>Welcome to the Tribe Nine archival project!</h2>
+                <p>Content will slowly be added over time. Currently, the only pages available are <Link to="./characters">Characters</Link> and <Link to="./tension-cards">Tension Cards</Link>.</p>
+                <p>Do let me know if you encounter any issues. (Discord: @skythel)</p>
+              </div>
+            }
+          />
+          <Route
+            path="/characters"
+            element={<Character />}
+          />
+          <Route
+            path="/tension-cards"
+            element={<TensionCards />}
+          />
+        </Routes>
+        {/* {currentPage === "Character" && <Character />}
+        {currentPage === "Cards" && <TensionCards />} */}
       </Container>
     </ThemeProvider>
   )

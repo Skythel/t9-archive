@@ -1,6 +1,6 @@
 import { makeStyles } from "@mui/styles";
 import { createTheme, ThemeProvider } from '@mui/material/styles';
-import { Box, Grid, textAlign } from "@mui/system";
+import { Box, Grid } from "@mui/system";
 import { useState } from "react";
 import { Button, ButtonBase, Dialog, IconButton } from "@mui/material";
 import { tensionCardList } from "../content/TensionCardList";

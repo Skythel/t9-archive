@@ -1,6 +1,7 @@
 import { makeStyles } from "@mui/styles";
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import { IconButton, Tooltip } from "@mui/material";
+import { Link } from "react-router-dom";
 
 const IconMenu = require('../assets/topbar/ui_common_icon_header_menu_navigation.png');
 const IconSynchro = require('../assets/topbar/ui_common_icon_header_gacha_navigation.png');
@@ -29,78 +30,78 @@ const useStyles = makeStyles((theme) => ({
 
 const defaultSize = 42;
 
-const TopBar = ({ setCurrentPage }) => {
+const TopBar = () => {
   const classes = useStyles();
   return (
     <ThemeProvider theme={theme}>
       <div>
         <Tooltip title="Logo" style={{ paddingRight: "15px" }}>
-          <span>
+          <Link to="./">
             <IconButton><img src={IconLogo} alt="Logo Button" height={defaultSize * 1.5} /></IconButton>
-          </span>
+          </Link>
         </Tooltip>
         <ul className={classes.topbar}>
           <li className={classes.topbarItem}>
             <Tooltip title="Menu">
-              <span>
+              <Link to="./">
                 <IconButton><img src={IconMenu} alt="Menu Button" height={defaultSize} /></IconButton>
-              </span>
+              </Link>
             </Tooltip>
           </li>
           <li className={classes.topbarItem}>
             <Tooltip title="Synchro">
-              <span>
-                <IconButton onClick={() => setCurrentPage("Synchro")}><img src={IconSynchro} alt="Synchro Button" height={defaultSize} /></IconButton>
-              </span>
+              <Link to="./">
+                <IconButton><img src={IconSynchro} alt="Synchro Button" height={defaultSize} /></IconButton>
+              </Link>
             </Tooltip>
           </li>
           <li className={classes.topbarItem}>
             <Tooltip title="Calendar">
-              <span>
-                <IconButton onClick={() => setCurrentPage("Calendar")}><img src={IconCalendar} alt="Calendar Button" height={defaultSize} /></IconButton>
-              </span>
+              <Link to="./">
+                <IconButton><img src={IconCalendar} alt="Calendar Button" height={defaultSize} /></IconButton>
+              </Link>
             </Tooltip>
           </li>
           <li className={classes.topbarItem}>
             <Tooltip title="Dailies">
-              <span>
-                <IconButton onClick={() => setCurrentPage("Dailies")}><img src={IconDailies} alt="Dailies Button" height={defaultSize} /></IconButton>
-              </span>
+              <Link to="./">
+                <IconButton><img src={IconDailies} alt="Dailies Button" height={defaultSize} /></IconButton>
+              </Link>
             </Tooltip>
           </li>
           <li className={classes.topbarItem}>
             <Tooltip title="Bag">
-              <span>
-                <IconButton onClick={() => setCurrentPage("Bag")}><img src={IconBag} alt="Bag Button" height={defaultSize} /></IconButton>
-              </span>
+              <Link to="./">
+                <IconButton><img src={IconBag} alt="Bag Button" height={defaultSize} /></IconButton>
+              </Link>
             </Tooltip>
           </li>
           <li className={classes.topbarItem}>
             <Tooltip title="Party">
-              <span>
-                <IconButton onClick={() => setCurrentPage("Party")}><img src={IconParty} alt="Party Button" height={defaultSize} /></IconButton>
-              </span>
+              <Link to="./">
+                <IconButton><img src={IconParty} alt="Party Button" height={defaultSize} /></IconButton>
+              </Link>
             </Tooltip>
           </li>
           <li className={classes.topbarItem}>
             <Tooltip title="Character">
-              <span>
-                <IconButton onClick={() => setCurrentPage("Character")}><img src={IconCharacter} alt="Character Button" height={defaultSize} /></IconButton>
-              </span>
+              <Link to="./characters">
+                <IconButton><img src={IconCharacter} alt="Character Button" height={defaultSize} /></IconButton>
+              </Link>
             </Tooltip>
           </li>
           <li className={classes.topbarItem}>
             <Tooltip title="Cards">
-              <span>
-                <IconButton onClick={() => setCurrentPage("Cards")}><img src={IconCards} alt="Cards Button" height={defaultSize} /></IconButton>
-              </span>
+              <Link to="./tension-cards">
+                <IconButton><img src={IconCards} alt="Cards Button" height={defaultSize} /></IconButton>
+              </Link>
             </Tooltip>
           </li>
           <li className={classes.topbarItem}>
             <Tooltip title="NINE">
-              <span>
-                <IconButton onClick={() => setCurrentPage("NINE")}><img src={IconNINE} alt="NINE Button" height={defaultSize} /></IconButton>
-              </span>
+              <Link to="./">
+                <IconButton><img src={IconNINE} alt="NINE Button" height={defaultSize} /></IconButton>
+              </Link>
             </Tooltip>
           </li>
         </ul>
