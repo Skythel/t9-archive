@@ -4,8 +4,7 @@ import { Box, Grid } from "@mui/system";
 import { useState } from "react";
 import { ButtonBase, Dialog, IconButton } from "@mui/material";
 import { characterList } from "../content/CharacterList";
-
-const closeButton = require("../assets/ui/ui_common_button_detailmenu_close.png");
+import { closeButton } from "../assets/Icons";
 
 const theme = createTheme();
 const useStyles = makeStyles((theme) => ({
@@ -22,7 +21,7 @@ const useStyles = makeStyles((theme) => ({
     color: "white",
     fontWeight: 600,
     overflow: "hidden",
-    fontFamily: "Noto Sans, sans-serif",
+    fontFamily: "Antic Cezanne Pro DB, sans-serif",
     fontSize: "16px",
   },
   characterCardInfo: {
@@ -30,7 +29,7 @@ const useStyles = makeStyles((theme) => ({
     color: "white",
     textAlign: "left",
     fontWeight: 600,
-    fontSize: "22px",
+    fontSize: "16px",
     padding: "20px",
   },
   characterCardPicture: {
@@ -91,7 +90,7 @@ const MobileCharacter = () => {
           ))}
         </Box>
     </Dialog>
-    </ThemeProvider >
+    </ThemeProvider>
   )
 };
 export default MobileCharacter;

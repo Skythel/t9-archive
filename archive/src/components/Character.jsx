@@ -20,7 +20,7 @@ const useStyles = makeStyles((theme) => ({
     color: "white",
     fontWeight: 600,
     overflow: "hidden",
-    fontFamily: "Noto Sans, sans-serif",
+    fontFamily: "Antic Cezanne Pro DB, sans-serif",
     fontSize: "16px",
   },
   characterCardInfo: {

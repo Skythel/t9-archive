@@ -29,7 +29,7 @@ const useStyles = makeStyles((theme) => ({
   }
 }));
 
-const defaultSize = 28;
+const defaultSize = 24;
 
 const MobileTopBar = ({ setCurrentPage }) => {
   const classes = useStyles();

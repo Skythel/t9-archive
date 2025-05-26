@@ -32,8 +32,8 @@ const useStyles = makeStyles((theme) => ({
 const App = () => {
   const isDesktopOrLaptop = useMediaQuery({
     query: '(min-width: 1224px)'
-  })
-  const isTabletOrMobile = useMediaQuery({ query: '(max-width: 1224px)' })
+  });
+  const isTabletOrMobile = useMediaQuery({ query: '(max-width: 1224px)' });
 
   const classes = useStyles();
   const [currentPage, setCurrentPage] = useState('');

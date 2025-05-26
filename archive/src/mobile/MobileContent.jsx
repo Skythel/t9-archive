@@ -2,6 +2,7 @@ import { makeStyles } from "@mui/styles";
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import { Container } from "@mui/system";
 import MobileCharacter from "./MobileCharacter";
+import MobileTensionCards from "./MobileTensionCards";
 
 const theme = createTheme();
 const useStyles = makeStyles((theme) => ({
@@ -17,10 +18,11 @@ const useStyles = makeStyles((theme) => ({
 
 const MobileContent = ({ currentPage }) => {
   const classes = useStyles();
+  const completed = ["Character", "Cards"];
   return (
     <ThemeProvider theme={theme}>
       <Container className={classes.content} maxWidth={false}>
-        {currentPage !== "Character" && (
+        {!completed.includes(currentPage) && (
           <div style={{ color: "white", textAlign: "left" }}>
             <h2>Welcome to the Tribe Nine archival project!</h2>
             <p>Content will slowly be added over time. Currently, the only page available is Character (click on the head icon on top).</p>
@@ -28,6 +30,7 @@ const MobileContent = ({ currentPage }) => {
           </div>
         )}
         {currentPage === "Character" && <MobileCharacter />}
+        {currentPage === "Cards" && <MobileTensionCards />}
       </Container>
     </ThemeProvider>
   )
