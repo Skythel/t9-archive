@@ -2,8 +2,8 @@ import { makeStyles } from "@mui/styles";
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import { Card, IconButton } from "@mui/material";
 import { Box } from "@mui/system";
-import { closeButton } from "../assets/Icons";
-import { closeButtonStyled } from "../assets/Styles";
+import { closeButton } from "../vars/Icons";
+import { closeButtonStyled } from "../vars/Styles";
 
 const IconTensionHeadingArrow = require("../assets/tension_misc/tension_heading_arrow.png");
 

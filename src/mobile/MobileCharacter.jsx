@@ -81,7 +81,7 @@ const MobileCharacter = () => {
         <Box className={classes.characterCardInfo}>
           <span className={classes.characterCardHeading}>Character card:</span>
           <IconButton onClick={() => setShowCard(false)} style={{ float: "right" }}>
-            <img src={closeButton} alt="Close Info" height={24} />
+            <img src={closeButton} alt="Close Info" height={36} />
           </IconButton>
           <h3 className={classes.characterCardHeading}>{currentCharacter.name}</h3>
           <Box sx={{ backgroundImage: `url(${currentCharacter.card})` }} className={classes.characterCardPicture} />

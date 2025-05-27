@@ -2,8 +2,8 @@ import { makeStyles } from "@mui/styles";
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import { Card, IconButton } from "@mui/material";
 import { Box } from "@mui/system";
-import { closeButton } from "../assets/Icons";
-import { closeButtonStyled } from "../assets/Styles";
+import { closeButton } from "../vars/Icons";
+import { closeButtonStyled } from "../vars/Styles";
 
 const IconTensionHeadingArrow = require("../assets/tension_misc/tension_heading_arrow.png");
 
@@ -21,7 +21,7 @@ const useStyles = makeStyles((theme) => ({
     background: "rgba(0, 0, 0, 0.9) !important",
     color: "white !important",
     fontWeight: 600,
-    fontSize: "18px",
+    fontSize: "16px",
     padding: "20px",
     height: "35vh",
     overflow: "auto",
@@ -31,7 +31,7 @@ const useStyles = makeStyles((theme) => ({
     color: "white !important",
     borderRadius: "35px !important",
     width: "match-parent",
-    height: "50vh",
+    height: "40vh",
   },
   tensionCardHeading: {
     padding: "20px",
@@ -51,7 +51,7 @@ const useStyles = makeStyles((theme) => ({
     gridTemplateColumns: "2fr 4fr 6fr",
     display: "grid",
     fontWeight: 600,
-    fontSize: "16px",
+    fontSize: "14px",
     paddingBottom: "10px",
   },
   footerL: {
@@ -76,7 +76,7 @@ const useStyles = makeStyles((theme) => ({
     fontSize: "14px",
   },
   tensionCardViewName: {
-    fontSize: "20px",
+    fontSize: "16px",
     fontWeight: "800",
     fontStyle: "italic",
     borderRadius: "10px",
@@ -100,10 +100,10 @@ const useStyles = makeStyles((theme) => ({
 
 const TensionCardExpanded = ({ currentCard, setShowExpandedCard }) => {
   const classes = useStyles();
-  const sizeOfTagline = currentCard.tagline.length < 20 ? 22
-    : currentCard.tagline.length < 30 ? 18
-      : currentCard.tagline.length < 50 ? 16
-        : 14;
+  const sizeOfTagline = currentCard.tagline.length < 20 ? 20
+    : currentCard.tagline.length < 30 ? 16
+      : currentCard.tagline.length < 50 ? 14
+        : 12;
 
   return (
     <ThemeProvider theme={theme}>
