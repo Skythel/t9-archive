@@ -2,9 +2,9 @@
 A compilation of archived assets and content from the Tribe Nine game. More will be added over time.
 
 ## Credits
-Code by Remileth (@skythel)
-Assets from Tribe Nine and spriters-resource
-Content:
+Code by Remileth (@skythel)  
+Assets from Tribe Nine and spriters-resource  
+Content:  
 * Character card info: Tribe Nine Forever archive
 * Tension card text: Tribe Nine Forever archive, AninaWalksleeper, Lucifer, Donna-sor, PixelVixi, Raptor, Toast, Hitamitu, ryansinbela, HuangET
 
