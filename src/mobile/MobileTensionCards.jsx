@@ -4,8 +4,9 @@ import { Box, Grid } from "@mui/system";
 import { useState } from "react";
 import { Button, ButtonBase, Dialog, IconButton } from "@mui/material";
 import { tensionCardList } from "../content/TensionCardList";
-import TensionCardExpanded from "./TensionCardExpanded";
 import { closeButton } from "../vars/Icons";
+import MobileTensionCardView from "./MobileTensionCardView";
+import MobileTensionStoryView from "./MobileTensionStoryView";
 
 const IconRarity = require("../assets/common_icons/ui_common_icon_rarity.png");
 const IconTension0 = require("../assets/common_icons/ui_common_icon_tensionlevel_0.png");
@@ -16,7 +17,8 @@ const IconTargetAll = require("../assets/tension_misc/ui_tension_card_effect_ico
 const IconTargetUnmet = require("../assets/tension_misc/ui_tension_card_effect_icon_00002.png");
 const IconTargetMet = require("../assets/tension_misc/ui_tension_card_effect_icon_00003.png");
 const IconTargetSpecial = require("../assets/tension_misc/ui_tension_card_effect_icon_00004.png");
-const ButtonBg = require("../assets/ui/button_story.png");
+const ButtonCard = require("../assets/ui/button_card.png");
+const ButtonStory = require("../assets/ui/button_story.png");
 
 const theme = createTheme();
 const useStyles = makeStyles((theme) => ({
@@ -28,7 +30,7 @@ const useStyles = makeStyles((theme) => ({
   tensionCardIconImage: {
     borderRadius: "10px",
     borderBottomRightRadius: 0,
-    height: "15vh",
+    height: "120px",
   },
   tensionCardName: {
     backgroundColor: "black",
@@ -90,7 +92,7 @@ const useStyles = makeStyles((theme) => ({
   },
   tensionType: {
     position: "absolute",
-    bottom: "30px",
+    bottom: "27px",
     left: "10px",
     backgroundColor: "black",
     height: "30px",
@@ -122,7 +124,8 @@ const useStyles = makeStyles((theme) => ({
 const MobileTensionCards = () => {
   const classes = useStyles();
   const [currentCard, setCurrentCard] = useState(tensionCardList[0]);
-  const [showExpandedCard, setShowExpandedCard] = useState(false);
+  const [showCardView, setShowCardView] = useState(false);
+  const [showStoryView, setShowStoryView] = useState(false);
   const [showCard, setShowCard] = useState(false);
   return (
     <ThemeProvider theme={theme}>
@@ -142,7 +145,7 @@ const MobileTensionCards = () => {
                 <div className={classes.tensionType}>
                   <img src={c.type} alt="Tension Type" height={26} />
                 </div>
-                <div className={classes.tensionCardName}>{c.name.substring(0, 10)}</div>
+                <div className={classes.tensionCardName}>{c.name.substring(0, 13)}</div>
               </div>
             </Grid>
           </ButtonBase>
@@ -156,7 +159,7 @@ const MobileTensionCards = () => {
           }
         }
       }}>
-        <Box style={{ overflow: "hidden", height: "85vh", position: "sticky", top: 0, }}>
+        <Box style={{ overflow: "hidden", height: "85vh" }}>
           <Box className={classes.tensionCardInfo} height="65vh">
             <Box className={classes.tensionCardViewName}>
               {currentCard.name}
@@ -203,13 +206,32 @@ const MobileTensionCards = () => {
             ))}
           </Box>
           <Box style={{ textAlign: "center" }}>
-            <Button className={classes.styledButton} disableRipple onClick={() => setShowExpandedCard(true)}>
-              <img src={ButtonBg} alt="Story" height={40} />
+            <Button className={classes.styledButton} disableRipple onClick={() => setShowCardView(true)}>
+              <img src={ButtonCard} alt="Card" height={40} />
+            </Button>
+            <Button className={classes.styledButton} disableRipple onClick={() => setShowStoryView(true)}>
+              <img src={ButtonStory} alt="Story" height={40} />
             </Button>
           </Box>
         </Box>
       </Dialog>
-      <Dialog open={showExpandedCard} onClose={() => setShowExpandedCard(false)} slotProps={{
+      <Dialog open={showCardView} onClose={() => setShowCardView(false)} slotProps={{
+        paper: {
+          elevation: 0,
+          sx: {
+            width: "85vw",
+            height: "85vh",
+            maxWidth: "none",
+            background: "rgba(0, 0, 0, 0.8)",
+            color: "white",
+            overflow: "visible",
+            margin: 0,
+          }
+        }
+      }}>
+        <MobileTensionCardView currentCard={currentCard} setShowCardView={setShowCardView} />
+      </Dialog>
+      <Dialog open={showStoryView} onClose={() => setShowStoryView(false)} slotProps={{
         paper: {
           elevation: 0,
           sx: {
@@ -219,10 +241,11 @@ const MobileTensionCards = () => {
             background: "transparent",
             color: "white",
             overflow: "visible",
+            margin: 0,
           }
         }
       }}>
-        <TensionCardExpanded currentCard={currentCard} setShowExpandedCard={setShowExpandedCard} />
+        <MobileTensionStoryView currentCard={currentCard} setShowStoryView={setShowStoryView} />
       </Dialog>
     </ThemeProvider>
   )

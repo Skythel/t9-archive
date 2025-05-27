@@ -35,6 +35,7 @@ const useStyles = makeStyles((theme) => ({
   tensionCardHeading: {
     padding: "20px",
     paddingBottom: "10px",
+    display: "flex",
   },
   cardViewImg: {
     backgroundSize: "cover",
