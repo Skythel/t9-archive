@@ -6,7 +6,7 @@ Code by Remileth (@skythel)
 Assets from Tribe Nine and spriters-resource
 Content:
 * Character card info: Tribe Nine Forever archive
-* Tension card text: Tribe Nine Forever archive, AninaWalksleeper, Lucifer
+* Tension card text: Tribe Nine Forever archive, AninaWalksleeper, Lucifer, Donna-sor, PixelVixi, Raptor, Toast, Hitamitu, ryansinbela, HuangET
 
 ## Changelog
 ### v0.0.2 - 27/5/2025

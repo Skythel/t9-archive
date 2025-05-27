@@ -2065,7 +2065,7 @@ export const tensionCardList = [
   },
   {
     name: "Piping Hot!",
-    title: "Squeak squeak",
+    title: "Scheeze",
     rarity: 1,
     tensionPhase: 2,
     effectTarget: "Met",
@@ -2076,8 +2076,8 @@ export const tensionCardList = [
     type: Meguro,
     icon: require('../assets/tension_card_icons/ui_tension_card_icon_5251101.png'),
     art: require('../assets/tension_card_art/tc_fullscreen_5251101.jpg'),
-    tagline: "",
-    descrip: "",
+    tagline: "Have you heard about the \"Cursed Sneakers\"?",
+    descrip: "The rumored \"Cursed Sneakers\" that's said to be very much alive...",
     info: [
       "Urban legends — Tales of events from unknown sources that are spread around by people.",
       "",
@@ -3022,8 +3022,8 @@ export const tensionCardList = [
     type: None,
     icon: require('../assets/tension_card_icons/ui_tension_card_icon_5260201.png'),
     art: require('../assets/tension_card_art/tc_fullscreen_5260201.jpg'),
-    tagline: "",
-    descrip: "",
+    tagline: "Hang in there, Diver! Don't lose, Diver!",
+    descrip: "The holy sword of the heroic knight slays evil that stands against justice.",
     info: [
       "A heroic knight stood quietly in the Odaiba Plaza—",
       "As usual, the hero of justice, Brave Diver, was watching over everyone from top.",
@@ -3231,8 +3231,8 @@ export const tensionCardList = [
     type: Bunkyo,
     icon: require('../assets/tension_card_icons/ui_tension_card_icon_5100803.png'),
     art: require('../assets/tension_card_art/tc_fullscreen_5100803.jpg'),
-    tagline: "",
-    descrip: "",
+    tagline: "I do fancy the idea of living in a library...",
+    descrip: "Always enjoying every brain sizzling moment. That's Tsuruko Semba for you.",
     info: [
       "Koishi noticed someone, surrounded by towers of books, staring down at some thick, reading materials. That person was none other than Tsuruko.",
       "",
@@ -3565,8 +3565,8 @@ export const tensionCardList = [
     type: Shinagawa,
     icon: require('../assets/tension_card_icons/ui_tension_card_icon_5100603.png'),
     art: require('../assets/tension_card_art/tc_fullscreen_5100603.jpg'),
-    tagline: "",
-    descrip: "",
+    tagline: "Would you like to join our business?",
+    descrip: "The calm, collected and capable secretary. She first met her boss on a \"wall\"?",
     info: [
       "Oi, walking along the streets of Shinagawa City, saw the towering Shinagawa Princess Hotel on her usual commuting route.",
       "The wall of the skyscraper was like a mirror, reflecting the cityscape of Shinagawa.",
@@ -3612,8 +3612,8 @@ export const tensionCardList = [
     type: Meguro,
     icon: require('../assets/tension_card_icons/ui_tension_card_icon_5100203.png'),
     art: require('../assets/tension_card_art/tc_fullscreen_5100203.jpg'),
-    tagline: "",
-    descrip: "",
+    tagline: "Snacks are the source of energy! I'm going full throttle today!",
+    descrip: "Spunky girl who loves sweets. Fights with precious memories in her heart.",
     info: [
       "\"What's wrong, Tsuki? Did something happen to Mr. Yo?\"",
       "\"Ah... Tsuruko!\"",
@@ -4046,7 +4046,7 @@ export const tensionCardList = [
   },
   {
     name: "All Out",
-    title: "End Credits",
+    title: "Endrone",
     rarity: 2,
     tensionPhase: 0,
     effectTarget: "All",
@@ -4057,8 +4057,8 @@ export const tensionCardList = [
     type: None,
     icon: require('../assets/tension_card_icons/ui_tension_card_icon_5257101.png'),
     art: require('../assets/tension_card_art/tc_fullscreen_5257101.jpg'),
-    tagline: "",
-    descrip: "",
+    tagline: "Making the final judgment.",
+    descrip: "What remains in the corner of the database. A past memory wishing for the end.",
     info: [
       "A few months had passed since Neo Tokyo was taken over by Zero.",
       "In the blazing dusk, two masked men in white — members of an organization which would later be known as 24 Tribe — stood shoulder to shoulder, staring at the surface.",
@@ -4168,8 +4168,8 @@ export const tensionCardList = [
     type: Shinagawa2,
     icon: require('../assets/tension_card_icons/ui_tension_card_icon_5101803.png'),
     art: require('../assets/tension_card_art/tc_fullscreen_5101803.jpg'),
-    tagline: "",
-    descrip: "",
+    tagline: "I have always been #1!",
+    descrip: "The man who is obsessed with the Director's seat. What exactly is his forgotten past about?",
     info: [
       "\"I've had enough...\"",
       "",
@@ -4417,8 +4417,8 @@ export const tensionCardList = [
     type: Chiyoda,
     icon: require('../assets/tension_card_icons/ui_tension_card_icon_5103003.png'),
     art: require('../assets/tension_card_art/tc_fullscreen_5103003.jpg'),
-    tagline: "",
-    descrip: "",
+    tagline: "All the cuteness in this world belongs to Hina! Brace yourself, nya!",
+    descrip: "Eldest daughter of the Akiba siblings and famous for being an ultra-cute maid.",
     info: [
       "\"Wow! You know everything, nya! Hina truly respects that!\"",
       "",
@@ -4513,7 +4513,7 @@ export const tensionCardList = [
   },
   {
     name: "Narrow Focus",
-    title: "",
+    title: "Deadly Red Alert",
     rarity: 2,
     tensionPhase: 2,
     effectTarget: "Met",
@@ -4524,8 +4524,8 @@ export const tensionCardList = [
     type: None,
     icon: require('../assets/tension_card_icons/ui_tension_card_icon_5257201.png'),
     art: require('../assets/tension_card_art/tc_fullscreen_5257201.jpg'),
-    tagline: "",
-    descrip: "",
+    tagline: "How do you plan to even struggle in the face of this army?",
+    descrip: "A massive unit with an arsenal of autonomous weapons, it overwhelms enemies with sheer numbers.",
     info: [
       "\"Boring. Next.\"",
       "",
@@ -4629,7 +4629,7 @@ export const tensionCardList = [
   },
   {
     name: "Full-Bloomed Cherry Blossoms",
-    title: "",
+    title: "Rakuzakai",
     rarity: 2,
     tensionPhase: 2,
     effectTarget: "Special",
@@ -4642,8 +4642,8 @@ export const tensionCardList = [
     type: None,
     icon: require('../assets/tension_card_icons/ui_tension_card_icon_5260301.png'),
     art: require('../assets/tension_card_art/tc_fullscreen_5260301.jpg'),
-    tagline: "",
-    descrip: "",
+    tagline: "Creak... Creak... Glurp.",
+    descrip: "A lone cherry blossom tree gleaming in gold. Its true nature remains unknown.",
     info: [
       "—One day, two botanists sat across from each other, locked in an intense debate.",
       "They were discussing the cause of the massive blackout that had recently swept across Neo Chiyoda City.",
@@ -4691,7 +4691,7 @@ export const tensionCardList = [
   },
   {
     name: "Rejection Impulse",
-    title: "",
+    title: "Zenichi Magata",
     rarity: 2,
     tensionPhase: 1,
     effectTarget: "All",
@@ -4703,8 +4703,8 @@ export const tensionCardList = [
     type: Chiyoda,
     icon: require('../assets/tension_card_icons/ui_tension_card_icon_5102103.png'),
     art: require('../assets/tension_card_art/tc_fullscreen_5102103.jpg'),
-    tagline: "",
-    descrip: "",
+    tagline: "At last... The time has come to fulfill my ultimate wish!",
+    descrip: "A man who claimed the title of genius. Driven by an ambition he refused to abandon.",
     info: [
       "\"Another failure. This is nothing more than a fantasy.\"",
       "",
@@ -4832,7 +4832,7 @@ export const tensionCardList = [
   },
   {
     name: "Vanquish",
-    title: "",
+    title: "Embraced By The Soft Morning Sun",
     rarity: 3,
     tensionPhase: 3,
     effectTarget: "Met",
@@ -4843,8 +4843,8 @@ export const tensionCardList = [
     type: Kita2,
     icon: require('../assets/tension_card_icons/ui_tension_card_icon_5100405.png'),
     art: require('../assets/tension_card_art/tc_fullscreen_5100405.jpg'),
-    tagline: "",
-    descrip: "",
+    tagline: "It's so warm... It's been a while, waking up in peace.",
+    descrip: "How long has it been since I've slept so well?",
     info: [
       "Squinting at the morning sun shining through the lace curtains, Miu thought to herself.",
       "",
@@ -4903,7 +4903,7 @@ export const tensionCardList = [
   },
   {
     name: "Interlocking Stratagems",
-    title: "",
+    title: "Ueno's Limits",
     rarity: 3,
     tensionPhase: 1,
     effectTarget: "Met",
@@ -4914,8 +4914,8 @@ export const tensionCardList = [
     type: Taito,
     icon: require('../assets/tension_card_icons/ui_tension_card_icon_5103705.png'),
     art: require('../assets/tension_card_art/tc_fullscreen_5103705.jpg'),
-    tagline: "",
-    descrip: "",
+    tagline: "I will no longer tolerate you throwing away the chance of starting anew.",
+    descrip: "A merciless sledgehammer that delivers judgment to the fools who cannot learn.",
     info: [
       "In the days before the world was invaded by Zero...",
       "",
@@ -5148,7 +5148,7 @@ export const tensionCardList = [
   },
   {
     name: "Add Insult to Injury",
-    title: "",
+    title: "When I Fall in Love",
     rarity: 3,
     tensionPhase: 3,
     effectTarget: "Met",
@@ -5159,8 +5159,8 @@ export const tensionCardList = [
     type: None,
     icon: require('../assets/tension_card_icons/ui_tension_card_icon_5100805.png'),
     art: require('../assets/tension_card_art/tc_fullscreen_5100805.jpg'),
-    tagline: "",
-    descrip: "",
+    tagline: "When will my Prince Charming arrive?",
+    descrip: "This is a story about an innocent girl dreaming of a romantic encounter.",
     info: [
       "Bunkyo City — the place for the diligent to quench their thirst for knowledge.",
       "In the city stood a huge library, a perfect spot for students to appease their curiosity. Visiting the library had become a routine for these students. This was no exception for Tsuruko when she was still living there.",
@@ -5336,7 +5336,7 @@ export const tensionCardList = [
   },
   {
     name: "Quintuple Play",
-    title: "",
+    title: "The Silhouette of Minato",
     rarity: 3,
     tensionPhase: 3,
     effectTarget: "Special",
@@ -5347,8 +5347,8 @@ export const tensionCardList = [
     type: None,
     icon: require('../assets/tension_card_icons/ui_tension_card_icon_5101505.png'),
     art: require('../assets/tension_card_art/tc_fullscreen_5101505.jpg'),
-    tagline: "",
-    descrip: "",
+    tagline: "Get behind me. I'll show you the soul of Minato!",
+    descrip: "The self-proclaimed ace has grown up and has become a trustworthy man who can protect his allies.",
     info: [
       "Everything has changed.",
       "",
@@ -5540,7 +5540,7 @@ export const tensionCardList = [
   },
   {
     name: "The Game Starts Now",
-    title: "",
+    title: "Midnight Tristar",
     rarity: 3,
     tensionPhase: 1,
     effectTarget: "Met",
@@ -5551,8 +5551,8 @@ export const tensionCardList = [
     type: None,
     icon: require('../assets/tension_card_icons/ui_tension_card_icon_5100806.png'),
     art: require('../assets/tension_card_art/tc_fullscreen_5100806.jpg'),
-    tagline: "",
-    descrip: "",
+    tagline: "There is no intel that they can't obtain.",
+    descrip: "Outfits designed to evoke the looks of skilled hackers, allowing the wearers to blend smoothly into the night.",
     info: [
       "\"We appreciate your help in the prototype testing the other day.\"",
       "",
@@ -5605,7 +5605,7 @@ export const tensionCardList = [
   },
   {
     name: "Work-Life Balance",
-    title: "",
+    title: "A Businessperson's Hobby",
     rarity: 3,
     tensionPhase: 0,
     effectTarget: "Met",
@@ -5615,8 +5615,8 @@ export const tensionCardList = [
     type: None,
     icon: require('../assets/tension_card_icons/ui_tension_card_icon_5100604.png'),
     art: require('../assets/tension_card_art/tc_fullscreen_5100604.jpg'),
-    tagline: "",
-    descrip: "",
+    tagline: "Thanks to everyone, our lives are back to normal.",
+    descrip: "Holding peace firmly in our hands, we reach out to the future.",
     info: [
       "Freed from the terror of executions, peace had returned to Shinagawa City, and everyone's lives gradually went back to normal.",
       "The fitness gym Oi used to go to had also reopened, so she invited Tsuki and Miu to go with her.",
@@ -5712,7 +5712,7 @@ export const tensionCardList = [
   },
   {
     name: "Breakthrough",
-    title: "",
+    title: "Minato's Beast Aiming For The Top",
     rarity: 3,
     tensionPhase: 2,
     effectTarget: "Met",
@@ -5722,8 +5722,8 @@ export const tensionCardList = [
     type: Minato,
     icon: require('../assets/tension_card_icons/ui_tension_card_icon_5103604.png'),
     art: require('../assets/tension_card_art/tc_fullscreen_5103604.jpg'),
-    tagline: "",
-    descrip: "",
+    tagline: "I will become the top XB player!",
+    descrip: "Taiga, driving away the opposing runners with unmatched power.",
     info: [
       "A shock wave bearing the power of a cannonball hit the runner as he ran for the next base.",
       "The Judge Robot declared the poor guy, who was knocked back miles away, out.",
@@ -5771,7 +5771,7 @@ export const tensionCardList = [
   },
   {
     name: "Mutual Trust",
-    title: "",
+    title: "A Biss While Shopping",
     rarity: 3,
     tensionPhase: 1,
     effectTarget: "Met",
@@ -5782,8 +5782,8 @@ export const tensionCardList = [
     type: Ota,
     icon: require('../assets/tension_card_icons/ui_tension_card_icon_5101004.png'),
     art: require('../assets/tension_card_art/tc_fullscreen_5101004.jpg'),
-    tagline: "",
-    descrip: "",
+    tagline: "No need to break the machine. Slowly drink it and taste it.",
+    descrip: "Buying a drink from a vending machine. That's not something I will take for granted.",
     info: [
       "That day, Saigo and Enoki were out in the streets looking for supplies.",
       "It was just before they arrived at the supermarket that Enoki got stuck to the vending machine on the roadside.",
@@ -5839,19 +5839,19 @@ export const tensionCardList = [
   },
   {
     name: "Power Resonance",
-    title: "",
+    title: "Inheriting Will And Bat",
     rarity: 3,
     tensionPhase: 3,
     effectTarget: "Met",
     effect: [
       "The operating character inherits all [Kingship] stacks granted to party members.",
-      "All [Kingship] stacks on the operating character will be removed ~~after x s."
+      "All [Kingship] stacks on the operating character will be removed after x s."
     ],
     type: Minato,
     icon: require('../assets/tension_card_icons/ui_tension_card_icon_5105004.png'),
     art: require('../assets/tension_card_art/tc_fullscreen_5105004.jpg'),
-    tagline: "",
-    descrip: "",
+    tagline: "Mr. Kamiya... Watch this!",
+    descrip: "The matured and independent XB player — Haru Shirokane.",
     info: [
       "Top of the first inning. The pitcher threw the ball directly towards the catcher's glove.",
       "He was confident that no one would be able to hit it.",
@@ -5901,7 +5901,7 @@ export const tensionCardList = [
   },
   {
     name: "Croesus",
-    title: "",
+    title: "Royal Demeanor",
     rarity: 3,
     tensionPhase: 1,
     effectTarget: "Met",
@@ -5911,8 +5911,8 @@ export const tensionCardList = [
     type: Setagaya,
     icon: require('../assets/tension_card_icons/ui_tension_card_icon_5100904.png'),
     art: require('../assets/tension_card_art/tc_fullscreen_5100904.jpg'),
-    tagline: "",
-    descrip: "",
+    tagline: "Serve me of the upper class, Kohinata!",
+    descrip: "It is a natural right to have tea made for me. A celebrity is entitled to such privilege.",
     info: [
       "This was back when the Trash Tribe was planning its raid on 24 City.",
       "Todoroki, who had just gathered the funds, returned to the Trash Tribe base at the time and sat down on the sofa with a thud.",
@@ -6038,7 +6038,7 @@ export const tensionCardList = [
   },
   {
     name: "Heavy Metal",
-    title: "",
+    title: "Old Days As Punks",
     rarity: 3,
     tensionPhase: 3,
     effectTarget: "Met",
@@ -6050,8 +6050,8 @@ export const tensionCardList = [
     type: None,
     icon: require('../assets/tension_card_icons/ui_tension_card_icon_5105104.png'),
     art: require('../assets/tension_card_art/tc_fullscreen_5105104.jpg'),
-    tagline: "",
-    descrip: "",
+    tagline: "I have friends by my side now. It's different from before.",
+    descrip: "The unexpected past of a gentle man. Now, he uses his powers to protect his friends.",
     info: [
       "\"For Minato Tribe's victory! Cheers!\"",
       "\"Cheers!\"",
@@ -6114,7 +6114,7 @@ export const tensionCardList = [
   },
   {
     name: "Fighting With Flames",
-    title: "",
+    title: "Gotta Be a Man!",
     rarity: 3,
     tensionPhase: 3,
     effectTarget: "All",
@@ -6125,8 +6125,8 @@ export const tensionCardList = [
     type: Adachi,
     icon: require('../assets/tension_card_icons/ui_tension_card_icon_5100704.png'),
     art: require('../assets/tension_card_art/tc_fullscreen_5100704.jpg'),
-    tagline: "",
-    descrip: "",
+    tagline: "Brother is the real deal, the manliest of all men!",
+    descrip: "You wanna know about Brother? Then allow me, the number one fan, to share with you his great deeds!",
     info: [
       "\"Oh? You want to see Brother?\"",
       "",
@@ -6161,7 +6161,7 @@ export const tensionCardList = [
   },
   {
     name: "Instant Perception",
-    title: "",
+    title: "Through the Night",
     rarity: 3,
     tensionPhase: 1,
     effectTarget: "Special",
@@ -6172,8 +6172,8 @@ export const tensionCardList = [
     type: None,
     icon: require('../assets/tension_card_icons/ui_tension_card_icon_5104004.png'),
     art: require('../assets/tension_card_art/tc_fullscreen_5104004.jpg'),
-    tagline: "",
-    descrip: "",
+    tagline: "We have to become stronger, even if they're not here.",
+    descrip: "Arisugawa leads her friends on without hesitation, carrying their dreams on her shoulders.",
     info: [
       "\"Victory will be ours! Ha—!\"",
       "",
@@ -6343,7 +6343,7 @@ export const tensionCardList = [
   },
   {
     name: "Professional Maid",
-    title: "",
+    title: "Perfect Maid",
     rarity: 3,
     tensionPhase: 2,
     effectTarget: "Met",
@@ -6354,8 +6354,8 @@ export const tensionCardList = [
     type: None,
     icon: require('../assets/tension_card_icons/ui_tension_card_icon_5103005.png'),
     art: require('../assets/tension_card_art/tc_fullscreen_5103005.jpg'),
-    tagline: "",
-    descrip: "",
+    tagline: "My dear guest, I want you to taste Hina's homemade cooking, perfectly prepared just for you, nya!",
+    descrip: "The ultimate, most perfect lovely maid. She represents hospitality at its finest.",
     info: [
       "While Hinagiku is widely recognized as a lovely maid, she wasn't as flawless all along.",
       "",
