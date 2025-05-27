@@ -4,7 +4,7 @@ import { Box, Grid } from "@mui/system";
 import { useState } from "react";
 import { ButtonBase, Dialog, IconButton } from "@mui/material";
 import { characterList } from "../content/CharacterList";
-import { closeButton } from "../assets/Icons";
+import { closeButton } from "../vars/Icons";
 
 const theme = createTheme();
 const useStyles = makeStyles((theme) => ({
