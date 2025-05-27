@@ -4743,7 +4743,7 @@ export const tensionCardList = [
   },
   {
     name: "Things To Hold On To",
-    title: "",
+    title: "A Dream Yet To Come True",
     rarity: 3,
     tensionPhase: 0,
     effectTarget: "All",
@@ -4753,8 +4753,8 @@ export const tensionCardList = [
     type: None,
     icon: require('../assets/tension_card_icons/ui_tension_card_icon_5101405.png'),
     art: require('../assets/tension_card_art/tc_fullscreen_5101405.jpg'),
-    tagline: "",
-    descrip: "",
+    tagline: "...Gotta realize that dream.",
+    descrip: "No matter how impractical the dream may seem now, it will come true one day—",
     info: [
       "The battles came one after another. There wasn't a single moment for Kazuki to catch a breath.",
       "What options did they have to tackle the dreadful assaults Zero schemed up?",
@@ -5015,7 +5015,7 @@ export const tensionCardList = [
   },
   {
     name: "Chaotic Order",
-    title: "",
+    title: "Dazzling Chaos",
     rarity: 3,
     tensionPhase: 0,
     effectTarget: "All",
@@ -5027,8 +5027,8 @@ export const tensionCardList = [
     type: Ota,
     icon: require('../assets/tension_card_icons/ui_tension_card_icon_5104105.png'),
     art: require('../assets/tension_card_art/tc_fullscreen_5104105.jpg'),
-    tagline: "",
-    descrip: "",
+    tagline: "Wow, that's chaotic. This is what I've been waiting for!",
+    descrip: "In Ota Tribe... There is chaos and confusion.",
     info: [
       "I'm going to kill you today...",
       "",
@@ -5203,7 +5203,7 @@ export const tensionCardList = [
   },
   {
     name: "Bad Wish",
-    title: "",
+    title: "Eyes of the Survivor",
     rarity: 3,
     tensionPhase: 1,
     effectTarget: "Met",
@@ -5214,8 +5214,8 @@ export const tensionCardList = [
     type: None,
     icon: require('../assets/tension_card_icons/ui_tension_card_icon_5101105.png'),
     art: require('../assets/tension_card_art/tc_fullscreen_5101105.jpg'),
-    tagline: "",
-    descrip: "",
+    tagline: "If you're in Ota, your life might have already been taken.",
+    descrip: "Surviving in Ota wasn't easy — danger lurked everywhere. The eyes of the girl were sharp and wild.",
     info: [
       "Enoki was missing...",
       "Though it was almost snack time, Tsuki wasn't able to find any trace of her.",
@@ -6286,7 +6286,7 @@ export const tensionCardList = [
   },
   {
     name: "Minato Tribe Bomber!",
-    title: "",
+    title: "Stand United!",
     rarity: 3,
     tensionPhase: 1,
     effectTarget: "Met",
@@ -6296,8 +6296,8 @@ export const tensionCardList = [
     type: None,
     icon: require('../assets/tension_card_icons/ui_tension_card_icon_5101404.png'),
     art: require('../assets/tension_card_art/tc_fullscreen_5101404.jpg'),
-    tagline: "",
-    descrip: "",
+    tagline: "Minato Tribe... Bomber!!!",
+    descrip: "The Minato Tribe, united as one.",
     info: [
       "Tension intensified as the XB match between Minato Tribe and Chiyoda Tribe was about to commence.",
       "To put an end to the tyranny aggravated by the new XB law that Ojiro Otori issued, this was a battle that must be won.",
