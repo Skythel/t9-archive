@@ -1,0 +1,1157 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -4437644984782067869
+  },
+  "m_Name": "likabilityNINE_Main2_Yo_en",
+  "Speakers": [
+    {
+      "SpeakerId": "5",
+      "SpeakerName": "Yo Kuronaka"
+    },
+    {
+      "SpeakerId": "8",
+      "SpeakerName": "Tsuki Iroha"
+    },
+    {
+      "SpeakerId": "35",
+      "SpeakerName": "Kazuki Aoyama"
+    },
+    {
+      "SpeakerId": "44",
+      "SpeakerName": "Yutaka Gotanda"
+    },
+    {
+      "SpeakerId": "46",
+      "SpeakerName": "Minami Oi"
+    },
+    {
+      "SpeakerId": "48",
+      "SpeakerName": "Enoki Yukigaya"
+    },
+    {
+      "SpeakerId": "50",
+      "SpeakerName": "Roku Saigo"
+    },
+    {
+      "SpeakerId": "52",
+      "SpeakerName": "Eiji Todoroki"
+    },
+    {
+      "SpeakerId": "54",
+      "SpeakerName": "Koishi Kohinata"
+    },
+    {
+      "SpeakerId": "55",
+      "SpeakerName": "Jio Takinogawa"
+    },
+    {
+      "SpeakerId": "56",
+      "SpeakerName": "Miu Jujo"
+    },
+    {
+      "SpeakerId": "57",
+      "SpeakerName": "Tsuruko Semba"
+    },
+    {
+      "SpeakerId": "58",
+      "SpeakerName": "Hyakuichitaro Senju"
+    }
+  ],
+  "Contents": [
+    {
+      "TextId": "236820",
+      "Text": "Don't you think everything in Minato City is super expensive?",
+      "SpeakerIds": [
+        "5"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "236821",
+      "Text": "I was browsing through a random store and was shocked by the price.",
+      "SpeakerIds": [
+        "5"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "236822",
+      "Text": "Is this also due to the governing rules?",
+      "SpeakerIds": [
+        "5"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "236823",
+      "Text": "Well, part of it...",
+      "SpeakerIds": [
+        "35"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "236824",
+      "Text": "But there are certain places in Minato that target people with high income in the first place.",
+      "SpeakerIds": [
+        "35"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "236825",
+      "Text": "You may find plenty of luxury brands in those areas.",
+      "SpeakerIds": [
+        "35"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "236826",
+      "Text": "But the shops we usually visit are similar to those in other cities, so don't worry.",
+      "SpeakerIds": [
+        "35"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "241833",
+      "Text": "Apologies for sending a message to everyone via NINE. I hope it's not an inconvenience.",
+      "SpeakerIds": [
+        "46"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "241834",
+      "Text": "Nakanobu, who joined our company after being freed from Ichinose's control, would like me to pass a few words on his behalf.",
+      "SpeakerIds": [
+        "46"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "241835",
+      "Text": "\"It's hard to express how I feel in words... but thank you for freeing us from mind control. I can't thank you enough for what you have done.\"",
+      "SpeakerIds": [
+        "46"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "241836",
+      "Text": "\"Although it's personal, I have a young daughter. I wish to follow your examples and stand up bravely against all odds, so I can live my life to the fullest and make my girl proud.\"",
+      "SpeakerIds": [
+        "46"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "241837",
+      "Text": "Those are his words.",
+      "SpeakerIds": [
+        "46"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "241838",
+      "Text": "I'm glad to hear that. It was worth risking our lives for.",
+      "SpeakerIds": [
+        "5"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "241839",
+      "Text": "Mr. Nakanobu...? Did we fight him in the XB?",
+      "SpeakerIds": [
+        "57"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "241840",
+      "Text": "He was brave and determined. If his talents can be used for something good, I'm sure he'll be a reliable father.",
+      "SpeakerIds": [
+        "57"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "241841",
+      "Text": "Yes, he's actually a very talented person. I'm sure he'll gradually get his life back in the future.",
+      "SpeakerIds": [
+        "44"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "241842",
+      "Text": "Tell him he can repay the favor with Kane.",
+      "SpeakerIds": [
+        "52"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "241843",
+      "Text": "Oh, hello?! Why do you have to ruin the mood!",
+      "SpeakerIds": [
+        "8"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "241844",
+      "Text": "But, I'm glad...! It seems like we've done the right thing!",
+      "SpeakerIds": [
+        "8"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "241845",
+      "Text": "Yeah.",
+      "SpeakerIds": [
+        "5"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "241846",
+      "Text": "I've never realized what we're doing can also benefit society and others...",
+      "SpeakerIds": [
+        "5"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "241847",
+      "Text": "Alas, we need to be stronger to take back everything that matters to us.",
+      "SpeakerIds": [
+        "5"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "245621",
+      "Text": "Mr. Kazuki, are you there?",
+      "SpeakerIds": [
+        "5"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "245622",
+      "Text": "I'm here. What's wrong?",
+      "SpeakerIds": [
+        "35"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "245623",
+      "Text": "It's been a while since we last met. I was wondering if you'd like to meet up so we can practice passing and catching?",
+      "SpeakerIds": [
+        "5"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "245624",
+      "Text": "I'd also like to learn more about Minato City and what's happened with the Trash Tribe so far.",
+      "SpeakerIds": [
+        "5"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "245625",
+      "Text": "Sure.",
+      "SpeakerIds": [
+        "35"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "245626",
+      "Text": "It's great to catch up, but it's also important to make sure we're ready for XB at all times and work on our teamwork.",
+      "SpeakerIds": [
+        "35"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "245627",
+      "Text": "Thanks. I'll see you tonight, then.",
+      "SpeakerIds": [
+        "5"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "245628",
+      "Text": "I look forward to seeing the results of your training in Shinagawa City.",
+      "SpeakerIds": [
+        "35"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "248328",
+      "Text": "During practice today, I tried to catch Mr. Mita's ball.",
+      "SpeakerIds": [
+        "5"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "248329",
+      "Text": "As a member of Minato Tribe, his pitch control and power are amazing.",
+      "SpeakerIds": [
+        "5"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "248330",
+      "Text": "That's to be expected.",
+      "SpeakerIds": [
+        "35"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "248331",
+      "Text": "He's going to get carried away if you keep praising him like that.",
+      "SpeakerIds": [
+        "35"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "248332",
+      "Text": "Oh...",
+      "SpeakerIds": [
+        "5"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "248333",
+      "Text": "It's true that after the practice, he started saying, \"I'm Berserker Mita\".",
+      "SpeakerIds": [
+        "5"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "248334",
+      "Text": "Booboo Mita!",
+      "SpeakerIds": [
+        "48"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "248335",
+      "Text": "But he's really strong. He inspired me to train harder.",
+      "SpeakerIds": [
+        "5"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "248336",
+      "Text": "I think there's still room for him to grow.",
+      "SpeakerIds": [
+        "35"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "248337",
+      "Text": "Really?",
+      "SpeakerIds": [
+        "5"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "248338",
+      "Text": "He admires the past ace pitcher greatly and is a little too obsessed with chasing after his shadow.",
+      "SpeakerIds": [
+        "35"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "248339",
+      "Text": "The past ace pitcher? Was he also from Minato Tribe?",
+      "SpeakerIds": [
+        "5"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "248340",
+      "Text": "Well, you can ask Mita if you want more details.",
+      "SpeakerIds": [
+        "35"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "248341",
+      "Text": "I'll ask him, then.",
+      "SpeakerIds": [
+        "5"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "248342",
+      "Text": "Oh, it's hard to make him stop once he starts talking. Also, he might spice things up while he's at it, so don't take his words too seriously.",
+      "SpeakerIds": [
+        "35"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "248343",
+      "Text": "...Okay.",
+      "SpeakerIds": [
+        "5"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "248347",
+      "Text": "I know the Beam Bat is very important to Minato Tribe...",
+      "SpeakerIds": [
+        "5"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "248348",
+      "Text": "But doesn't it look kinda ordinary? I wonder if it's because of its functions...",
+      "SpeakerIds": [
+        "5"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "248349",
+      "Text": "!!!",
+      "SpeakerIds": [
+        "58"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "248350",
+      "Text": "Hey, did you just mention Minato Tribe's Beam Bat?",
+      "SpeakerIds": [
+        "52"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "248351",
+      "Text": "It's a shame that you don't know the legendary XB gear.",
+      "SpeakerIds": [
+        "58"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "248352",
+      "Text": "You knew it?",
+      "SpeakerIds": [
+        "5"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "248353",
+      "Text": "It's well-known among all XB players.",
+      "SpeakerIds": [
+        "58"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "248354",
+      "Text": "Although it's a powerful bat, it's very difficult to use. My big brother used to say only a select few can truly wield its power.",
+      "SpeakerIds": [
+        "58"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "248355",
+      "Text": "About Minato's Beam Bat, it's valuable not because of its functions. Rather, it's a rare item because it used to belong to the legendary XB player.",
+      "SpeakerIds": [
+        "52"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "248356",
+      "Text": "That's one of the few things I couldn't buy with money. Do you have it near you?",
+      "SpeakerIds": [
+        "52"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "248358",
+      "Text": "(\"Judge Robot - Stop\" sent)",
+      "SpeakerIds": [
+        "35"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "248359",
+      "Text": "Sorry, Yo. Let's keep the bat's location a secret for now.",
+      "SpeakerIds": [
+        "35"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "248360",
+      "Text": "I don't want too many people to know about it, given Todoroki's history.",
+      "SpeakerIds": [
+        "35"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "248361",
+      "Text": "What did you say?!",
+      "SpeakerIds": [
+        "52"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "248362",
+      "Text": "...As much as I'd like to say something, it's probably a wise decision.",
+      "SpeakerIds": [
+        "52"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "248363",
+      "Text": "You never know who might leak the information or from where.",
+      "SpeakerIds": [
+        "52"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "248364",
+      "Text": "I-Is that so...?",
+      "SpeakerIds": [
+        "5"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "248365",
+      "Text": "Sorry. I might have been too careless. It's better not to discuss this via NINE...?",
+      "SpeakerIds": [
+        "5"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "248366",
+      "Text": "It's alright. To most people like Yo, who know nothing about it, it's just an ordinary bat.",
+      "SpeakerIds": [
+        "35"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "248367",
+      "Text": "But it's still a special item to some people... Just be careful next time.",
+      "SpeakerIds": [
+        "35"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "248368",
+      "Text": "I will.",
+      "SpeakerIds": [
+        "5"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "248372",
+      "Text": "Hey, Yo! Wanna go for ramen today?",
+      "SpeakerIds": [
+        "8"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "248373",
+      "Text": "An uncle at the construction site told me about a place called \"Ramen Juro\".",
+      "SpeakerIds": [
+        "8"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "248374",
+      "Text": "Sure. Let's check it out.",
+      "SpeakerIds": [
+        "5"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "248375",
+      "Text": "Oh... Are you going to Ramen Juro?",
+      "SpeakerIds": [
+        "54"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "248376",
+      "Text": "I personally don't recommend it... But if it's Tsuki and Yo, I guess you'll be fine.",
+      "SpeakerIds": [
+        "35"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "248377",
+      "Text": "Huh...?! Why? Does the food taste bad there...?",
+      "SpeakerIds": [
+        "8"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "248378",
+      "Text": "No, but their food comes in large portions. It's best not to order anything large as first-timers.",
+      "SpeakerIds": [
+        "35"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "248379",
+      "Text": "They have strict rules about finishing all the food you order. Also, it's best not to chat or stay too long in the restaurant after you eat.",
+      "SpeakerIds": [
+        "54"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "248380",
+      "Text": "Even the regulars'd help keep an eye on other customers...",
+      "SpeakerIds": [
+        "54"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "248381",
+      "Text": "Err... That sounds scary...",
+      "SpeakerIds": [
+        "8"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "248382",
+      "Text": "Though it sounds scary... I'm becoming more interested.",
+      "SpeakerIds": [
+        "5"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "248383",
+      "Text": "I used to love Ramen Juro, too. Although it's food for lower-class people, the food there is incredibly satisfying.",
+      "SpeakerIds": [
+        "52"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "248384",
+      "Text": "I also heard that Ramen Juro in Minato City always serves high-quality noodles.",
+      "SpeakerIds": [
+        "52"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "248385",
+      "Text": "Tsuki... We need to take extra care.",
+      "SpeakerIds": [
+        "5"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "248386",
+      "Text": "Yeah...! I'm sure the food there is going to be good!",
+      "SpeakerIds": [
+        "8"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "248390",
+      "Text": "I don't think I'll ever forgive Tsuki.",
+      "SpeakerIds": [
+        "5"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "248391",
+      "Text": "Huh... What happened?",
+      "SpeakerIds": [
+        "46"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "248392",
+      "Text": "I didn't expect to hear that from Yo.",
+      "SpeakerIds": [
+        "56"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "248393",
+      "Text": "I'm sorryyy!",
+      "SpeakerIds": [
+        "8"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "248394",
+      "Text": "Hear me out! Tsuki and I went to Ramen Juro.",
+      "SpeakerIds": [
+        "5"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "248395",
+      "Text": "Then, Tsuki got carried away and ordered veggies and garlic oil on the noodles.",
+      "SpeakerIds": [
+        "5"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "248396",
+      "Text": "Oh... That sounds crazy for first-timers.",
+      "SpeakerIds": [
+        "52"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "248397",
+      "Text": "Because I wanted to order my meal like a regular.",
+      "SpeakerIds": [
+        "8"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "248398",
+      "Text": "Even so, why did you order for me too...?",
+      "SpeakerIds": [
+        "5"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "248399",
+      "Text": "It's not a big deal as long as the noodles are yummy!",
+      "SpeakerIds": [
+        "8"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "248400",
+      "Text": "But I was kinda shocked to see a huge bowl of ramen placed in front of me...",
+      "SpeakerIds": [
+        "8"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "248401",
+      "Text": "It was hard to see the noodles no matter how hard I tried to eat the veggies...",
+      "SpeakerIds": [
+        "5"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "248402",
+      "Text": "It's true that it tasted great... But... I think my tummy's going to explode...",
+      "SpeakerIds": [
+        "5"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "248403",
+      "Text": "I'm relieved that it's just a cute little fight between you.",
+      "SpeakerIds": [
+        "56"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "248404",
+      "Text": "I feel like going to Ramen Juro, too! ...No, I should call it a battlefield.",
+      "SpeakerIds": [
+        "52"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "248408",
+      "Text": "If it weren't for the governing rules, I'd say Odaiba is a place with a great vibe. It's close to the sea, has plenty of open space, and it even has a bridge that's lit up by the lights.",
+      "SpeakerIds": [
+        "5"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "248409",
+      "Text": "That's spot on, Yo. The area around Odaiba is actually well-known for its night view.",
+      "SpeakerIds": [
+        "55"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "248410",
+      "Text": "The bridge that's lit up by the lights must be the \"Rainbow Bridge\"? It has been the talk of the town since it was opened to the public due to its gorgeous exterior.",
+      "SpeakerIds": [
+        "44"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "248411",
+      "Text": "The bridge even appeared in the climax scene of a movie. The main hero's line was so popular that it sparked a widespread trend.",
+      "SpeakerIds": [
+        "44"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "248412",
+      "Text": "Wow, how nostalgic! The line was, \"I'm gonna seal the Rainbow Bridge!\", right?",
+      "SpeakerIds": [
+        "58"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "248413",
+      "Text": "It was my favorite movie! The fact that the bridge cannot be sealed is even more depressing...!",
+      "SpeakerIds": [
+        "58"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "248414",
+      "Text": "Eh?! So it wasn't sealed? No spoilers! I haven't seen that movie yet.",
+      "SpeakerIds": [
+        "8"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "248415",
+      "Text": "S-Sorry... But it's a pretty old movie. I think it's fine if I just talk about it a little, right?",
+      "SpeakerIds": [
+        "58"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "248416",
+      "Text": "It's not fine! But...",
+      "SpeakerIds": [
+        "8"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "248417",
+      "Text": "Come to think of it... Sui, Yo, and I used to talk about it, too.",
+      "SpeakerIds": [
+        "8"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "248418",
+      "Text": "I think Sui and Yo went to the movie together because I couldn't make it at that time...",
+      "SpeakerIds": [
+        "8"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "248419",
+      "Text": "Ah, I see... So I actually knew about Odaiba and the Rainbow Bridge, right?",
+      "SpeakerIds": [
+        "5"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "248420",
+      "Text": "If Sui saw this view... I wonder if it would remind him of our memories?",
+      "SpeakerIds": [
+        "5"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "250595",
+      "Text": "Rubbles Pile... Although it's a sad place, it feels kind of peaceful here.",
+      "SpeakerIds": [
+        "5"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "250596",
+      "Text": "I can relate. I guess it's because there are many kind people here, so we don't feel bound by the governing rules that much.",
+      "SpeakerIds": [
+        "54"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "250597",
+      "Text": "Yet, like what Mr. Kuronaka said, many people here have been through sad things.",
+      "SpeakerIds": [
+        "54"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "250598",
+      "Text": "I met a girl last time who lost her parents due to the governing rules...",
+      "SpeakerIds": [
+        "54"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "250599",
+      "Text": "People are kind here because they were hurt before.",
+      "SpeakerIds": [
+        "5"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "250601",
+      "Text": "It sounds similar to Ota.",
+      "SpeakerIds": [
+        "50"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "250603",
+      "Text": "Most people lose their minds in a place with broken public security.",
+      "SpeakerIds": [
+        "50"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "250604",
+      "Text": "But there are few others who are trying their best to stay kind and make a difference for future generations.",
+      "SpeakerIds": [
+        "50"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "250605",
+      "Text": "I see...",
+      "SpeakerIds": [
+        "5"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "250606",
+      "Text": "I wish we could be one of those few people.",
+      "SpeakerIds": [
+        "5"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "250607",
+      "Text": "Yeah, that's so true.",
+      "SpeakerIds": [
+        "54"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    }
+  ]
+}

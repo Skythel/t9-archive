@@ -1,0 +1,628 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -4437644984782067869
+  },
+  "m_Name": "likabilityNINE_C_common_Kazuki_en",
+  "Speakers": [
+    {
+      "SpeakerId": "5",
+      "SpeakerName": "Yo Kuronaka"
+    },
+    {
+      "SpeakerId": "8",
+      "SpeakerName": "Tsuki Iroha"
+    },
+    {
+      "SpeakerId": "35",
+      "SpeakerName": "Kazuki Aoyama"
+    },
+    {
+      "SpeakerId": "44",
+      "SpeakerName": "Yutaka Gotanda"
+    },
+    {
+      "SpeakerId": "52",
+      "SpeakerName": "Eiji Todoroki"
+    },
+    {
+      "SpeakerId": "54",
+      "SpeakerName": "Koishi Kohinata"
+    },
+    {
+      "SpeakerId": "55",
+      "SpeakerName": "Jio Takinogawa"
+    },
+    {
+      "SpeakerId": "57",
+      "SpeakerName": "Tsuruko Semba"
+    },
+    {
+      "SpeakerId": "58",
+      "SpeakerName": "Hyakuichitaro Senju"
+    }
+  ],
+  "Contents": [
+    {
+      "TextId": "233575",
+      "Text": "I just had a dream that Miu hated me from the bottom of her heart.",
+      "SpeakerIds": [
+        "55"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "233576",
+      "Text": "My heart is still pounding really fast...",
+      "SpeakerIds": [
+        "55"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "233577",
+      "Text": "You mean you wish it was a dream?",
+      "SpeakerIds": [
+        "35"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "233578",
+      "Text": "It WAS a dream.",
+      "SpeakerIds": [
+        "55"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "233579",
+      "Text": "You'd better hurry and go apologize, regardless of whether she'll forgive you or not.",
+      "SpeakerIds": [
+        "57"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "233580",
+      "Text": "I said it was a dream!",
+      "SpeakerIds": [
+        "55"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "233581",
+      "Text": "Well, it's part of the daily routine now. I'm sure she'll be over it.",
+      "SpeakerIds": [
+        "8"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "233582",
+      "Text": "IT WAS A DREAM!",
+      "SpeakerIds": [
+        "55"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "233583",
+      "Text": "But I think I've calmed down a bit after letting it out. Luckily it was just a dream!",
+      "SpeakerIds": [
+        "55"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "233584",
+      "Text": "I've also been having nightmares lately. Didn't really manage to get much sleep...",
+      "SpeakerIds": [
+        "54"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "233585",
+      "Text": "Me, too! I had a nightmare about someone stealing the pudding I was saving!",
+      "SpeakerIds": [
+        "8"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "233586",
+      "Text": "Dr. Koishi! Why do people have nightmares?",
+      "SpeakerIds": [
+        "8"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "233587",
+      "Text": "Well, there are many factors like stress, trauma, or medication...",
+      "SpeakerIds": [
+        "54"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "233588",
+      "Text": "But the exact cause of them is still unknown.",
+      "SpeakerIds": [
+        "54"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "233589",
+      "Text": "Is there any way to avoid nightmares?",
+      "SpeakerIds": [
+        "35"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "233590",
+      "Text": "You can avoid them by improving your sleep quality. People won't dream when they're in a deep sleep after all.",
+      "SpeakerIds": [
+        "54"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "233591",
+      "Text": "What if someone just couldn't get a good night's sleep no matter what they did?",
+      "SpeakerIds": [
+        "35"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "233592",
+      "Text": "Hmm...",
+      "SpeakerIds": [
+        "54"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "233593",
+      "Text": "If they solve the anxiety or trauma that's bothering them, they may have fewer nightmares.",
+      "SpeakerIds": [
+        "54"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "233594",
+      "Text": "I see.",
+      "SpeakerIds": [
+        "35"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "233595",
+      "Text": "Do you often have nightmares, too, Mr. Kazuki?",
+      "SpeakerIds": [
+        "57"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "233596",
+      "Text": "You can say that.",
+      "SpeakerIds": [
+        "35"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "233597",
+      "Text": "What kind of nightmares?",
+      "SpeakerIds": [
+        "8"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "233598",
+      "Text": "It's a secret.",
+      "SpeakerIds": [
+        "35"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "233602",
+      "Text": "Why do you have such a terrible personality, Kazuki?",
+      "SpeakerIds": [
+        "58"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "233603",
+      "Text": "Wow, a straight showdown.",
+      "SpeakerIds": [
+        "5"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "233604",
+      "Text": "Are you scared, Mr. Kazuki?",
+      "SpeakerIds": [
+        "8"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "233605",
+      "Text": "Of course not.",
+      "SpeakerIds": [
+        "35"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "233606",
+      "Text": "Why the sudden remark?",
+      "SpeakerIds": [
+        "35"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "233607",
+      "Text": "You're asking me?! You were being sarcastic the whole time we were chatting earlier!",
+      "SpeakerIds": [
+        "58"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "233608",
+      "Text": "Though I can't remember what you said exactly...",
+      "SpeakerIds": [
+        "58"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "233609",
+      "Text": "I'm sorry if I offended you, but you should have said so then and there.",
+      "SpeakerIds": [
+        "35"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "233610",
+      "Text": "I wouldn't know if you didn't say anything, and I'd just keep going on and on.",
+      "SpeakerIds": [
+        "35"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "233611",
+      "Text": "Not even a trace of hesitation to rationalize such behavior!",
+      "SpeakerIds": [
+        "8"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "233612",
+      "Text": "What I'm trying to say is, if you want to remind me of something, just cut straight to the point.",
+      "SpeakerIds": [
+        "58"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "233613",
+      "Text": "Do you always have to mix your words with sarcasm? Can't you live without it?",
+      "SpeakerIds": [
+        "58"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "233614",
+      "Text": "Well, now that you mention it, I really can't.",
+      "SpeakerIds": [
+        "35"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "233615",
+      "Text": "Mr. Kazuki doesn't intimidate his opponents through force, but rather gains an advantage with his speech.",
+      "SpeakerIds": [
+        "57"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "233616",
+      "Text": "It's a skill he has acquired from a world like this.",
+      "SpeakerIds": [
+        "57"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "233617",
+      "Text": "Oh, that's very convincing!",
+      "SpeakerIds": [
+        "8"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "233618",
+      "Text": "Impressive, Ms. Tsuruko!",
+      "SpeakerIds": [
+        "35"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "233619",
+      "Text": "Similar to Mr. Hyakuichitaro's efforts in building muscles, Mr. Kazuki's sarcasm must be the result of his hard work.",
+      "SpeakerIds": [
+        "57"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "233620",
+      "Text": "So that's how it is... Do you seriously think I'll buy that?!",
+      "SpeakerIds": [
+        "58"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "233621",
+      "Text": "You know, I'm happy to teach you how to speak sarcastically.",
+      "SpeakerIds": [
+        "35"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "233622",
+      "Text": "No thank you!",
+      "SpeakerIds": [
+        "58"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "233710",
+      "Text": "I got an urgent call from a stranger! He said I had registered on some website...",
+      "SpeakerIds": [
+        "8"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "233711",
+      "Text": "And I have to pay a million Kane! I don't have that much money!",
+      "SpeakerIds": [
+        "8"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "233712",
+      "Text": "I didn't know they still do this nowadays.",
+      "SpeakerIds": [
+        "35"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "233713",
+      "Text": "This is fake, right? It can't be true, right?",
+      "SpeakerIds": [
+        "8"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "233714",
+      "Text": "Don't worry. It's probably just a scam.",
+      "SpeakerIds": [
+        "54"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "233715",
+      "Text": "Too bad. I could've kept him on the phone for hours.",
+      "SpeakerIds": [
+        "35"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "233716",
+      "Text": "Seems like you enjoy this kind of conversation, Kazuki.",
+      "SpeakerIds": [
+        "58"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "233717",
+      "Text": "He'd probably keep pressing on until they admitted it was a scam.",
+      "SpeakerIds": [
+        "57"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "233718",
+      "Text": "I think he'd even go to shady seminars just to argue with the host.",
+      "SpeakerIds": [
+        "52"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "233719",
+      "Text": "Oh, you think I'm that kind of guy?",
+      "SpeakerIds": [
+        "35"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "233720",
+      "Text": "Well, if I sneaked into one, I'd probably be the one who talks them into buying a made-up product instead of the other way around.",
+      "SpeakerIds": [
+        "35"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "233721",
+      "Text": "That's even worse.",
+      "SpeakerIds": [
+        "57"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "233722",
+      "Text": "You'd top the charts if you were in sales.",
+      "SpeakerIds": [
+        "44"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "233723",
+      "Text": "That actually sounds nice. Why don't you go work for Gotanda?",
+      "SpeakerIds": [
+        "58"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "233724",
+      "Text": "This kind of stuff is only fun when I'm being irresponsible.",
+      "SpeakerIds": [
+        "35"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "233725",
+      "Text": "If it turns into a job, I'd have to bear all kinds of responsibilities.",
+      "SpeakerIds": [
+        "35"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "233726",
+      "Text": "You really love doing this, huh.",
+      "SpeakerIds": [
+        "57"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "233727",
+      "Text": "Hey, so... Shouldn't I be getting a million Kane ready?",
+      "SpeakerIds": [
+        "8"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "233728",
+      "Text": "...I think you should start learning a thing or two from Aoyama.",
+      "SpeakerIds": [
+        "52"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    }
+  ]
+}

@@ -1,0 +1,249 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -4437644984782067869
+  },
+  "m_Name": "likabilityNINE_C_common_Tsuki_en",
+  "Speakers": [
+    {
+      "SpeakerId": "5",
+      "SpeakerName": "Yo Kuronaka"
+    },
+    {
+      "SpeakerId": "8",
+      "SpeakerName": "Tsuki Iroha"
+    },
+    {
+      "SpeakerId": "35",
+      "SpeakerName": "Kazuki Aoyama"
+    },
+    {
+      "SpeakerId": "46",
+      "SpeakerName": "Minami Oi"
+    },
+    {
+      "SpeakerId": "48",
+      "SpeakerName": "Enoki Yukigaya"
+    },
+    {
+      "SpeakerId": "50",
+      "SpeakerName": "Roku Saigo"
+    },
+    {
+      "SpeakerId": "52",
+      "SpeakerName": "Eiji Todoroki"
+    },
+    {
+      "SpeakerId": "54",
+      "SpeakerName": "Koishi Kohinata"
+    },
+    {
+      "SpeakerId": "55",
+      "SpeakerName": "Jio Takinogawa"
+    },
+    {
+      "SpeakerId": "57",
+      "SpeakerName": "Tsuruko Semba"
+    },
+    {
+      "SpeakerId": "58",
+      "SpeakerName": "Hyakuichitaro Senju"
+    }
+  ],
+  "Contents": [
+    {
+      "TextId": "233334",
+      "Text": "What's everyone's favorite cut of meat?",
+      "SpeakerIds": [
+        "8"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "233335",
+      "Text": "That's an abrupt question!",
+      "SpeakerIds": [
+        "54"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "233336",
+      "Text": "Kalbi only!",
+      "SpeakerIds": [
+        "58"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "233337",
+      "Text": "Heart.",
+      "SpeakerIds": [
+        "50"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "233338",
+      "Text": "Chateaubriand, of course.",
+      "SpeakerIds": [
+        "52"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "233339",
+      "Text": "Everyone answered without hesitation...",
+      "SpeakerIds": [
+        "5"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "233340",
+      "Text": "Ah! I should've asked what type of meat first. I like pork.",
+      "SpeakerIds": [
+        "8"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "233341",
+      "Text": "Beef for me.",
+      "SpeakerIds": [
+        "35"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "233342",
+      "Text": "I'll go with chicken. I don't like fatty meat.",
+      "SpeakerIds": [
+        "57"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "233343",
+      "Text": "I think I'll say chicken, too.",
+      "SpeakerIds": [
+        "54"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "233344",
+      "Text": "Raw horse is nice.",
+      "SpeakerIds": [
+        "55"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "233345",
+      "Text": "Any kind of meat is good!",
+      "SpeakerIds": [
+        "48"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "233346",
+      "Text": "Do you like meat, Ms. Iroha?",
+      "SpeakerIds": [
+        "46"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "233347",
+      "Text": "I do! When things settle down, I'd like to barbecue with everyone.",
+      "SpeakerIds": [
+        "8"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "233348",
+      "Text": "The tong is mine!",
+      "SpeakerIds": [
+        "58"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "233349",
+      "Text": "I won't be satisfied with just any meat, you know?",
+      "SpeakerIds": [
+        "52"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "233350",
+      "Text": "Shall I go get us some meat?",
+      "SpeakerIds": [
+        "48"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "233893",
+      "Text": "How are you going to do that...?",
+      "SpeakerIds": [
+        "54"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "233351",
+      "Text": "Forget it. Don't know what kind of meat she'll bring back.",
+      "SpeakerIds": [
+        "50"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "233352",
+      "Text": "That sounds scary...",
+      "SpeakerIds": [
+        "54"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "233353",
+      "Text": "I can't wait to have a barbecue party!",
+      "SpeakerIds": [
+        "8"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    }
+  ]
+}

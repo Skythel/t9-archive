@@ -1,0 +1,480 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -4437644984782067869
+  },
+  "m_Name": "likabilityNINE_Main1_Kazuki_en",
+  "Speakers": [
+    {
+      "SpeakerId": "5",
+      "SpeakerName": "Yo Kuronaka"
+    },
+    {
+      "SpeakerId": "8",
+      "SpeakerName": "Tsuki Iroha"
+    },
+    {
+      "SpeakerId": "35",
+      "SpeakerName": "Kazuki Aoyama"
+    },
+    {
+      "SpeakerId": "42",
+      "SpeakerName": "Q"
+    },
+    {
+      "SpeakerId": "54",
+      "SpeakerName": "Koishi Kohinata"
+    },
+    {
+      "SpeakerId": "55",
+      "SpeakerName": "Jio Takinogawa"
+    },
+    {
+      "SpeakerId": "56",
+      "SpeakerName": "Miu Jujo"
+    },
+    {
+      "SpeakerId": "57",
+      "SpeakerName": "Tsuruko Semba"
+    }
+  ],
+  "Contents": [
+    {
+      "TextId": "226820",
+      "Text": "I'd like to make an apology to Mr. Kazuki! I saw him on the streets just now.",
+      "SpeakerIds": [
+        "8"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "226821",
+      "Text": "But I couldn't find the right opportunity to say hi, so I hid somewhere else. I'm sorry!",
+      "SpeakerIds": [
+        "8"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "226822",
+      "Text": "I actually noticed you, too.",
+      "SpeakerIds": [
+        "35"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "226823",
+      "Text": "Why didn't you come say hi!",
+      "SpeakerIds": [
+        "8"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "226824",
+      "Text": "Tsuki, you just...",
+      "SpeakerIds": [
+        "5"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "226825",
+      "Text": "Oh, then we're the same, apologies!",
+      "SpeakerIds": [
+        "8"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "226826",
+      "Text": "This kind of awkwardness derives from personal space.",
+      "SpeakerIds": [
+        "57"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "226827",
+      "Text": "Personal space?",
+      "SpeakerIds": [
+        "8"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "226828",
+      "Text": "It's like when someone invades your zone of comfort —\nFor example, you get really uncomfortable when others are sticking too close to you in a packed elevator; or when you don't know where else to look.",
+      "SpeakerIds": [
+        "57"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "226829",
+      "Text": "That's because someone else is within your comfort zone. This is applicable to situations where you meet somebody outside. You're entering each other's boundaries.",
+      "SpeakerIds": [
+        "57"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "226830",
+      "Text": "So that means... Everyone has their own space that they hope would not be intruded.",
+      "SpeakerIds": [
+        "8"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "226831",
+      "Text": "Speaking of which, saying hi to someone whom you just bid farewell seems kinda strange, too.",
+      "SpeakerIds": [
+        "5"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "226832",
+      "Text": "That's super awkward!",
+      "SpeakerIds": [
+        "8"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "226833",
+      "Text": "I'll definitely go another direction and pretend not to see them.",
+      "SpeakerIds": [
+        "57"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "226834",
+      "Text": "But usually at times like this, they have already noticed you. So when we turn around just for a quick check, they are already looking at your direction.",
+      "SpeakerIds": [
+        "8"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "226835",
+      "Text": "Awkward...",
+      "SpeakerIds": [
+        "57"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "226836",
+      "Text": "And to think that they were the ones we were hanging out with a while ago... Human emotions are just so fascinating...",
+      "SpeakerIds": [
+        "5"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "226837",
+      "Text": "The fact that Tsuki cares about such delicate details surprises me.",
+      "SpeakerIds": [
+        "35"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "226838",
+      "Text": "Hey, I'm not so much of an airhead! But it seems that you're not bothered by this, Mr. Kazuki.",
+      "SpeakerIds": [
+        "8"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "226839",
+      "Text": "Oh, yeah. The reason I didn't approach you earlier is because I had nothing to talk to you about. It was only a coincidence that we met.",
+      "SpeakerIds": [
+        "35"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "226840",
+      "Text": "Huh, not because of the awkwardness?!",
+      "SpeakerIds": [
+        "8"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "226841",
+      "Text": "What makes you think I'll feel nervous around you?",
+      "SpeakerIds": [
+        "35"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "226842",
+      "Text": "Th-that's very mean...",
+      "SpeakerIds": [
+        "8"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "232770",
+      "Text": "Running speed is important in XB games, right? So I was wondering...",
+      "SpeakerIds": [
+        "5"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "232771",
+      "Text": "Who's the fastest runner in Trash Tribe?",
+      "SpeakerIds": [
+        "5"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "232772",
+      "Text": "We never had a race among ourselves before.",
+      "SpeakerIds": [
+        "56"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "232773",
+      "Text": "Hmm... I think Mr. Q should be the fastest!",
+      "SpeakerIds": [
+        "54"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "232774",
+      "Text": "Q is indeed fast.",
+      "SpeakerIds": [
+        "35"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "232775",
+      "Text": "But I'm quite confident in my speed, too.",
+      "SpeakerIds": [
+        "35"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "232776",
+      "Text": "Oh? I didn't know you were this competitive, Mr. Kazuki.",
+      "SpeakerIds": [
+        "5"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "232777",
+      "Text": "When it comes to XB, Q and I are rivals after all.",
+      "SpeakerIds": [
+        "35"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "232778",
+      "Text": "If it's power we're talking about, then that's another story. But if it's about speed, I think I have the upper hand.",
+      "SpeakerIds": [
+        "35"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "232780",
+      "Text": "I'm definitely faster...",
+      "SpeakerIds": [
+        "42"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "232781",
+      "Text": "You sure about that?",
+      "SpeakerIds": [
+        "35"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "232782",
+      "Text": "Who was the kid crying behind me when he couldn't catch up?",
+      "SpeakerIds": [
+        "35"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "232783",
+      "Text": "That was a long time ago.",
+      "SpeakerIds": [
+        "42"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "232784",
+      "Text": "I have the upper hand in both power and speed now.",
+      "SpeakerIds": [
+        "42"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "232785",
+      "Text": "Really? Prove it then.",
+      "SpeakerIds": [
+        "35"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "232786",
+      "Text": "Whenever you're ready.",
+      "SpeakerIds": [
+        "42"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "232787",
+      "Text": "Ugh! Hold on a second! Somehow I feel like I was the one who started it...",
+      "SpeakerIds": [
+        "54"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "232788",
+      "Text": "Boys will always be boys...",
+      "SpeakerIds": [
+        "56"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "232789",
+      "Text": "How about Ms. Miu and Mr. Jio?",
+      "SpeakerIds": [
+        "5"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "232790",
+      "Text": "I think both of you are also fast on your feet. Oh, and Ms. Enoki, too...",
+      "SpeakerIds": [
+        "5"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "232791",
+      "Text": "Hmm, I have no idea...",
+      "SpeakerIds": [
+        "56"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "232792",
+      "Text": "I'm not interested in stuff like this.",
+      "SpeakerIds": [
+        "56"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "250029",
+      "Text": "I know there are plenty of things to be done, but I'd advise everyone to slow down a bit and not be too harsh on yourselves.",
+      "SpeakerIds": [
+        "35"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "250030",
+      "Text": "Thanks. I feel calmer after seeing this message.",
+      "SpeakerIds": [
+        "5"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "250031",
+      "Text": "Much appreciated, Kazuki. We all needed this.",
+      "SpeakerIds": [
+        "55"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    }
+  ]
+}

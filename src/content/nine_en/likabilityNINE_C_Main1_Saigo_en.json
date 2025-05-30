@@ -1,0 +1,519 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -4437644984782067869
+  },
+  "m_Name": "likabilityNINE_C_Main1_Saigo_en",
+  "Speakers": [
+    {
+      "SpeakerId": "5",
+      "SpeakerName": "Yo Kuronaka"
+    },
+    {
+      "SpeakerId": "8",
+      "SpeakerName": "Tsuki Iroha"
+    },
+    {
+      "SpeakerId": "35",
+      "SpeakerName": "Kazuki Aoyama"
+    },
+    {
+      "SpeakerId": "48",
+      "SpeakerName": "Enoki Yukigaya"
+    },
+    {
+      "SpeakerId": "50",
+      "SpeakerName": "Roku Saigo"
+    },
+    {
+      "SpeakerId": "54",
+      "SpeakerName": "Koishi Kohinata"
+    },
+    {
+      "SpeakerId": "58",
+      "SpeakerName": "Hyakuichitaro Senju"
+    }
+  ],
+  "Contents": [
+    {
+      "TextId": "233514",
+      "Text": "The Saigo Boot Camp is about to start!",
+      "SpeakerIds": [
+        "35"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "233515",
+      "Text": "Aoyama, what's with this title?",
+      "SpeakerIds": [
+        "50"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "233516",
+      "Text": "Well, there are a lot of requests for muscle training, so I was wondering if you could do a session.",
+      "SpeakerIds": [
+        "35"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "233517",
+      "Text": "I see.",
+      "SpeakerIds": [
+        "50"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "233518",
+      "Text": "Saigo's so nice!",
+      "SpeakerIds": [
+        "48"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "233519",
+      "Text": "Count me in! I'm super interested!",
+      "SpeakerIds": [
+        "8"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "233520",
+      "Text": "I want to gain muscles.",
+      "SpeakerIds": [
+        "54"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "233521",
+      "Text": "I want to become stronger.",
+      "SpeakerIds": [
+        "5"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "233522",
+      "Text": "I want cool muscles, man!",
+      "SpeakerIds": [
+        "58"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "233523",
+      "Text": "I'll start with the basics.",
+      "SpeakerIds": [
+        "50"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "233524",
+      "Text": "First, squats. Make sure your knees don't go too far forward.",
+      "SpeakerIds": [
+        "50"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "233525",
+      "Text": "And then, push ups. Don't use momentum and bounce. Lower your body slowly.",
+      "SpeakerIds": [
+        "50"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "233526",
+      "Text": "Finally, sit ups. You have to focus on your abs, contract them and sit up slowly.",
+      "SpeakerIds": [
+        "50"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "233527",
+      "Text": "That will be all.",
+      "SpeakerIds": [
+        "50"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "233528",
+      "Text": "That's pretty dull. You sure there's nothing to add?",
+      "SpeakerIds": [
+        "35"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "233529",
+      "Text": "Oh, I forgot to mention... Do each 1,000 times a day.",
+      "SpeakerIds": [
+        "50"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "233530",
+      "Text": "1,000?!",
+      "SpeakerIds": [
+        "8"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "233531",
+      "Text": "That sounds a bit...",
+      "SpeakerIds": [
+        "54"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "233904",
+      "Text": "",
+      "SpeakerIds": [],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "233532",
+      "Text": "You guys can do it.",
+      "SpeakerIds": [
+        "50"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "233534",
+      "Text": "That's still really dull! And impossible...",
+      "SpeakerIds": [
+        "35"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "233538",
+      "Text": "I found some nice stuff.",
+      "SpeakerIds": [
+        "50"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "233539",
+      "Text": "What kind of nice stuff?",
+      "SpeakerIds": [
+        "5"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "233540",
+      "Text": "Well, for starters, a bent steel plate.",
+      "SpeakerIds": [
+        "50"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "233541",
+      "Text": "What?",
+      "SpeakerIds": [
+        "5"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "233542",
+      "Text": "It's warped, but if you beat it back in shape, you can use it to reinforce armor.",
+      "SpeakerIds": [
+        "50"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "233543",
+      "Text": "Do you want it?",
+      "SpeakerIds": [
+        "50"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "233544",
+      "Text": "No, I don't think so...",
+      "SpeakerIds": [
+        "5"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "233545",
+      "Text": "Don't be shy.",
+      "SpeakerIds": [
+        "50"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "233546",
+      "Text": "Um... That's not it.",
+      "SpeakerIds": [
+        "8"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "233547",
+      "Text": "On to the next item then.",
+      "SpeakerIds": [
+        "50"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "233548",
+      "Text": "A flat tire.",
+      "SpeakerIds": [
+        "50"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "233549",
+      "Text": "You can use it after fixing it. Or you can burn it for heat.",
+      "SpeakerIds": [
+        "50"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "233550",
+      "Text": "No, I don't think I want that.",
+      "SpeakerIds": [
+        "8"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "233551",
+      "Text": "Me neither...",
+      "SpeakerIds": [
+        "5"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "233552",
+      "Text": "Next item.",
+      "SpeakerIds": [
+        "50"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "233553",
+      "Text": "Expired rations.",
+      "SpeakerIds": [
+        "50"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "233554",
+      "Text": "They're really old, but there's still some flavor in them. Eat at your own risk.",
+      "SpeakerIds": [
+        "50"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "233555",
+      "Text": "I want them!",
+      "SpeakerIds": [
+        "48"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "233556",
+      "Text": "They're yours.",
+      "SpeakerIds": [
+        "50"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "233557",
+      "Text": "Yay!",
+      "SpeakerIds": [
+        "48"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "233558",
+      "Text": "Next.",
+      "SpeakerIds": [
+        "50"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "233559",
+      "Text": "Have you got anything, you know... more useful?",
+      "SpeakerIds": [
+        "5"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "233560",
+      "Text": "Useful? What do you mean?",
+      "SpeakerIds": [
+        "50"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "233561",
+      "Text": "?",
+      "SpeakerIds": [
+        "5"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "233562",
+      "Text": "You can make good use of these items after some refinement.",
+      "SpeakerIds": [
+        "50"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "233563",
+      "Text": "In Ota, everyone would be fighting over these good stuff.",
+      "SpeakerIds": [
+        "50"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "233564",
+      "Text": "I-Is that so?",
+      "SpeakerIds": [
+        "5"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "233565",
+      "Text": "Next.",
+      "SpeakerIds": [
+        "50"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "233566",
+      "Text": "A broken motorcycle engine.",
+      "SpeakerIds": [
+        "50"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "233567",
+      "Text": "I'll take it!",
+      "SpeakerIds": [
+        "48"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "233568",
+      "Text": "It's yours. Next!",
+      "SpeakerIds": [
+        "50"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "233570",
+      "Text": "Everyone from Ota is really resourceful...",
+      "SpeakerIds": [
+        "5"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    }
+  ]
+}

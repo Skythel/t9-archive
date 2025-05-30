@@ -1,0 +1,256 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -4437644984782067869
+  },
+  "m_Name": "likabilityNINE_Main2_Miu_en",
+  "Speakers": [
+    {
+      "SpeakerId": "5",
+      "SpeakerName": "Yo Kuronaka"
+    },
+    {
+      "SpeakerId": "8",
+      "SpeakerName": "Tsuki Iroha"
+    },
+    {
+      "SpeakerId": "46",
+      "SpeakerName": "Minami Oi"
+    },
+    {
+      "SpeakerId": "55",
+      "SpeakerName": "Jio Takinogawa"
+    },
+    {
+      "SpeakerId": "56",
+      "SpeakerName": "Miu Jujo"
+    },
+    {
+      "SpeakerId": "57",
+      "SpeakerName": "Tsuruko Semba"
+    }
+  ],
+  "Contents": [
+    {
+      "TextId": "245658",
+      "Text": "Have you been resting properly?",
+      "SpeakerIds": [
+        "56"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "245659",
+      "Text": "I guess so... I was really tired yesterday.",
+      "SpeakerIds": [
+        "5"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "245660",
+      "Text": "I see. I may not be the right person to say this, but you should rest more when you have the chance.",
+      "SpeakerIds": [
+        "56"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "245661",
+      "Text": "I know you have a lot on your mind regarding your childhood friend...",
+      "SpeakerIds": [
+        "56"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "245662",
+      "Text": "Thanks for your concern. I really appreciate it.",
+      "SpeakerIds": [
+        "5"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "245663",
+      "Text": "I think you're the type of person who tends to figure everything out alone.",
+      "SpeakerIds": [
+        "56"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "245664",
+      "Text": "Just like Miu.",
+      "SpeakerIds": [
+        "55"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "245665",
+      "Text": "Shut up and stay out of this.",
+      "SpeakerIds": [
+        "56"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "245666",
+      "Text": "But I guess we do have similar personalities. It seems like you're not good at relying on others, too, Yo...",
+      "SpeakerIds": [
+        "56"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "245667",
+      "Text": "Tsuki and Kazuki are always by your side, so it may be a good idea to rely on them sometimes.",
+      "SpeakerIds": [
+        "56"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "245668",
+      "Text": "Do you also rely on Mr. Jio when you're feeling troubled, Ms. Miu?",
+      "SpeakerIds": [
+        "5"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "245670",
+      "Text": "If you're able to ask questions like that, I don't think I need to worry about you anymore.",
+      "SpeakerIds": [
+        "56"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "245671",
+      "Text": "Let's end this topic, then.",
+      "SpeakerIds": [
+        "56"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "245672",
+      "Text": "Oh, what a pity. And yet so cute!",
+      "SpeakerIds": [
+        "55"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "245676",
+      "Text": "Tsuki, Tsuruko. How's Minato City?",
+      "SpeakerIds": [
+        "56"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "245677",
+      "Text": "It must be stressful to be surrounded by Minato girls.",
+      "SpeakerIds": [
+        "56"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "245678",
+      "Text": "How did you know, Ms. Miu?! It was terrible!",
+      "SpeakerIds": [
+        "8"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "245679",
+      "Text": "We don't really blend in with the upper-class, and people look down on us...",
+      "SpeakerIds": [
+        "57"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "245680",
+      "Text": "Nonsense. I think you girls are passionate and charismatic!",
+      "SpeakerIds": [
+        "46"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "245681",
+      "Text": "Right. So don't be depressed. Or else the Minato girls will look down on you even more.",
+      "SpeakerIds": [
+        "56"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "245682",
+      "Text": "Walk with your head held high and puff your chest out. Show everyone your confidence.",
+      "SpeakerIds": [
+        "56"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "245683",
+      "Text": "I see...! So even if we don't feel like it, we can still act like it!",
+      "SpeakerIds": [
+        "57"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "245684",
+      "Text": "A piece of advice from the super cool Ms. Miu is definitely worth listening to!",
+      "SpeakerIds": [
+        "8"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "245685",
+      "Text": "I'll walk with my head held high from now on!",
+      "SpeakerIds": [
+        "8"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    }
+  ]
+}

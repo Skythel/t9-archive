@@ -101,7 +101,7 @@ const MobileTopBar = () => {
           </li>
           <li className={classes.topbarItem}>
             <Tooltip title="NINE">
-              <Link to="./">
+              <Link to="./chat">
                 <IconButton><img src={IconNINE} alt="NINE Button" height={defaultSize} /></IconButton>
               </Link>
             </Tooltip>

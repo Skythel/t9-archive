@@ -1,0 +1,969 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -4437644984782067869
+  },
+  "m_Name": "likabilityNINE_common_Tsuki_en",
+  "Speakers": [
+    {
+      "SpeakerId": "5",
+      "SpeakerName": "Yo Kuronaka"
+    },
+    {
+      "SpeakerId": "8",
+      "SpeakerName": "Tsuki Iroha"
+    },
+    {
+      "SpeakerId": "35",
+      "SpeakerName": "Kazuki Aoyama"
+    },
+    {
+      "SpeakerId": "44",
+      "SpeakerName": "Yutaka Gotanda"
+    },
+    {
+      "SpeakerId": "46",
+      "SpeakerName": "Minami Oi"
+    },
+    {
+      "SpeakerId": "48",
+      "SpeakerName": "Enoki Yukigaya"
+    },
+    {
+      "SpeakerId": "52",
+      "SpeakerName": "Eiji Todoroki"
+    },
+    {
+      "SpeakerId": "54",
+      "SpeakerName": "Koishi Kohinata"
+    },
+    {
+      "SpeakerId": "56",
+      "SpeakerName": "Miu Jujo"
+    },
+    {
+      "SpeakerId": "57",
+      "SpeakerName": "Tsuruko Semba"
+    },
+    {
+      "SpeakerId": "58",
+      "SpeakerName": "Hyakuichitaro Senju"
+    }
+  ],
+  "Contents": [
+    {
+      "TextId": "226796",
+      "Text": "Can someone help me? It hurts!",
+      "SpeakerIds": [
+        "8"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "226797",
+      "Text": "What's wrong? Are you injured?!",
+      "SpeakerIds": [
+        "5"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "226798",
+      "Text": "Tell me what happened! I'll tell you the proper way to treat it.",
+      "SpeakerIds": [
+        "54"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "226799",
+      "Text": "Listen, there are cracks!",
+      "SpeakerIds": [
+        "8"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "226800",
+      "Text": "On my lips!",
+      "SpeakerIds": [
+        "8"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "226801",
+      "Text": "Huh?",
+      "SpeakerIds": [
+        "5"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "226802",
+      "Text": "Your lips... cracked?",
+      "SpeakerIds": [
+        "54"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "226803",
+      "Text": "Alright. Dismissed.",
+      "SpeakerIds": [
+        "35"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "226804",
+      "Text": "You're terrible! It really hurts!",
+      "SpeakerIds": [
+        "8"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "226805",
+      "Text": "Well, it's been really dry recently.",
+      "SpeakerIds": [
+        "57"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "226806",
+      "Text": "Maybe you haven't been moisturizing your lips enough.",
+      "SpeakerIds": [
+        "57"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "226807",
+      "Text": "Ever since public security has deteriorated, the quality of cosmetics seems to have gone down as well.",
+      "SpeakerIds": [
+        "56"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "226808",
+      "Text": "I'll drop you some nice lip balm recommendations later.",
+      "SpeakerIds": [
+        "56"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "226809",
+      "Text": "Ah, before that, it's best to treat the wounds with a medical ointment.",
+      "SpeakerIds": [
+        "54"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "226810",
+      "Text": "I'll recommend an ointment that contains low-irritant ingredients for you to try.",
+      "SpeakerIds": [
+        "54"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "226811",
+      "Text": "Wow, thank you! I'm glad I told everyone!",
+      "SpeakerIds": [
+        "8"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "226812",
+      "Text": "It's good that the problem's solved. But, given our current situation, we need to be careful in how we communicate.",
+      "SpeakerIds": [
+        "35"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "226813",
+      "Text": "Yeah. I was a bit worried just now.",
+      "SpeakerIds": [
+        "5"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "226814",
+      "Text": "Eh?! You're right. I'm sorry!",
+      "SpeakerIds": [
+        "8"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "226815",
+      "Text": "I'll be more careful from now on! Thank you so much everyone—!",
+      "SpeakerIds": [
+        "8"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "231531",
+      "Text": "Um... I'd like to know what you guys usually have for lunch?",
+      "SpeakerIds": [
+        "8"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "231532",
+      "Text": "If I have a big meal, my body feels heavy and my head gets foggy.",
+      "SpeakerIds": [
+        "8"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "231533",
+      "Text": "Why is this happening? I thought we get more energy when we eat more!",
+      "SpeakerIds": [
+        "8"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "231534",
+      "Text": "Stop pretending you're asking for advice when you're just complaining.",
+      "SpeakerIds": [
+        "52"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "231535",
+      "Text": "I feel you. I always keep burping if I move around after eating.",
+      "SpeakerIds": [
+        "58"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "231536",
+      "Text": "...Well, I'm glad you can relate, but girls don't do rude things like that.",
+      "SpeakerIds": [
+        "8"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "231537",
+      "Text": "Rapid changes in your blood sugar after having a meal may lead to drowsiness and fatigue...",
+      "SpeakerIds": [
+        "54"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "231538",
+      "Text": "It's best to pay more attention to your diet, especially if you need to venture into dangerous areas.",
+      "SpeakerIds": [
+        "54"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "231539",
+      "Text": "I recommend simple but nutritionally balanced food for lunch.",
+      "SpeakerIds": [
+        "44"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "231540",
+      "Text": "You can get enough nutrition without feeling sleepy this way. It's common sense to eat something simple before important business meetings.",
+      "SpeakerIds": [
+        "44"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "231541",
+      "Text": "Eh? I thought eating as much as you can makes you the strongest...",
+      "SpeakerIds": [
+        "48"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "231542",
+      "Text": "I think you should first stop eating dessert after every meal, Tsuki.",
+      "SpeakerIds": [
+        "5"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "231543",
+      "Text": "Um...",
+      "SpeakerIds": [
+        "8"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "231544",
+      "Text": "After every meal...? Well, aside from feeling sleepy, it sounds like this could have negative effects on your health.",
+      "SpeakerIds": [
+        "46"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "231545",
+      "Text": "It's just a piece of chocolate or something! Yo was exaggerating!",
+      "SpeakerIds": [
+        "8"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "231546",
+      "Text": "You still need to control your sugar intake. Make sure you keep an eye on her, Mr. Kuronaka.",
+      "SpeakerIds": [
+        "54"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "231547",
+      "Text": "Ugh... I shouldn't have complained in the first place.",
+      "SpeakerIds": [
+        "8"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "231551",
+      "Text": "Am I the only one who keeps looking at it without knowing...?",
+      "SpeakerIds": [
+        "8"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "231552",
+      "Text": "Same here! I keep looking at it whenever I'm free.",
+      "SpeakerIds": [
+        "58"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "231553",
+      "Text": "It's like a unique existence that belongs to myself... And its endearing nature is also captivating.",
+      "SpeakerIds": [
+        "57"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "231554",
+      "Text": "When you spend time with it every day, you'd start feeling like it's your best friend.",
+      "SpeakerIds": [
+        "54"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "231555",
+      "Text": "Plus, it actually helps us during combat!",
+      "SpeakerIds": [
+        "58"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "231556",
+      "Text": "These little things are also important members of Trash Tribe!",
+      "SpeakerIds": [
+        "57"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "231557",
+      "Text": "Of course! My own special partner and companion... I'm so happy to have you by my side!",
+      "SpeakerIds": [
+        "8"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "232127",
+      "Text": "I got some gummies from a kid just now!",
+      "SpeakerIds": [
+        "8"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "232128",
+      "Text": "They are sweet and delicious! Let me know if anyone wants some.",
+      "SpeakerIds": [
+        "8"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "232129",
+      "Text": "Tsuki, I thought you said you had a toothache earlier?",
+      "SpeakerIds": [
+        "5"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "232130",
+      "Text": "It seems that gummies are more likely to cause tooth decay than snacks in general.",
+      "SpeakerIds": [
+        "5"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "232131",
+      "Text": "I'm fine! I was overthinking when I said my tooth hurt last time.",
+      "SpeakerIds": [
+        "8"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "232132",
+      "Text": "Plus, these gummies contain xylitol!",
+      "SpeakerIds": [
+        "8"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "232133",
+      "Text": "It's good for the teeth, right?!",
+      "SpeakerIds": [
+        "8"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "232134",
+      "Text": "Not necessarily... Anyway, please be more careful.",
+      "SpeakerIds": [
+        "5"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "232135",
+      "Text": "It's better to brush your teeth right after you finish eating.",
+      "SpeakerIds": [
+        "5"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "232136",
+      "Text": "Yes, sir!",
+      "SpeakerIds": [
+        "8"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "232137",
+      "Text": "The two of you are still as close as ever. It's wonderful to have childhood friends.",
+      "SpeakerIds": [
+        "57"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "232138",
+      "Text": "Uh...",
+      "SpeakerIds": [
+        "58"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "232139",
+      "Text": "Yo actually sounds more like a mom instead of a childhood friend...",
+      "SpeakerIds": [
+        "58"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "236865",
+      "Text": "I'm well aware that he's an enemy and I'm terrified of him.",
+      "SpeakerIds": [
+        "8"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "236866",
+      "Text": "But whenever I see mini Zero...",
+      "SpeakerIds": [
+        "8"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "236867",
+      "Text": "I can't help but feel he's adorable! Why do I have such thoughts?! It's so frustrating!",
+      "SpeakerIds": [
+        "8"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "236868",
+      "Text": "I understand how you feel. That white, squishy body, and the round, adorable figure...",
+      "SpeakerIds": [
+        "46"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "236869",
+      "Text": "He's the perfect mascot!",
+      "SpeakerIds": [
+        "46"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "236870",
+      "Text": "So I'm not the only one who thinks this way?! Phew!",
+      "SpeakerIds": [
+        "8"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "236871",
+      "Text": "Whenever the thought \"He's so adorable!\" pops up in my mind, I feel really guilty!",
+      "SpeakerIds": [
+        "8"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "236872",
+      "Text": "Using a cute appearance to lower one's guard is a common strategy used by villains.",
+      "SpeakerIds": [
+        "56"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "236873",
+      "Text": "It may be difficult, but please stay vigilant.",
+      "SpeakerIds": [
+        "56"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "236874",
+      "Text": "Ugh! You're right...!",
+      "SpeakerIds": [
+        "8"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "236875",
+      "Text": "I'll try my best to stay alert!",
+      "SpeakerIds": [
+        "8"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "236879",
+      "Text": "I had some isobeyaki just now and nearly choked! I was so scared!",
+      "SpeakerIds": [
+        "8"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "236880",
+      "Text": "It is indeed hard to figure out the right timing to swallow a mochi.",
+      "SpeakerIds": [
+        "56"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "236881",
+      "Text": "You can relate to this too, Ms. Miu? Actually, I was choked by a mochi before. Since then, I've always been on high alert when I put one in my mouth...",
+      "SpeakerIds": [
+        "8"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "236882",
+      "Text": "Same here.",
+      "SpeakerIds": [
+        "52"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "236883",
+      "Text": "You too, Mr. Todoroki?!",
+      "SpeakerIds": [
+        "8"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "236884",
+      "Text": "Even though I'm a big fan of mochi, I was also choked by one before. I've always been very careful eating them after that...",
+      "SpeakerIds": [
+        "52"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "236885",
+      "Text": "Oh...",
+      "SpeakerIds": [
+        "8"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "236886",
+      "Text": "What?",
+      "SpeakerIds": [
+        "52"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "236887",
+      "Text": "It's nothing. I just imagined Mr. Todoroki eating mochi. Something white and round eating another white and round thingy...",
+      "SpeakerIds": [
+        "8"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "236888",
+      "Text": "How dare you...",
+      "SpeakerIds": [
+        "52"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "236889",
+      "Text": "Just kidding! A-Anyway! I hope this fear will disappear soon!",
+      "SpeakerIds": [
+        "8"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "236890",
+      "Text": "With how this conversation is going, it's easy to misunderstand what you're implying about...",
+      "SpeakerIds": [
+        "52"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "236894",
+      "Text": "I mentioned I was afraid of eating mochi before. In order to overcome that fear, I bought some isobeyaki again.",
+      "SpeakerIds": [
+        "8"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "236895",
+      "Text": "I bit and chewed and munched on it so hard, it felt like the mochi was my nemesis...",
+      "SpeakerIds": [
+        "8"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "236896",
+      "Text": "I was chewing with the intention of shredding the mochi completely. And in the end, I didn't feel nervous when eating it anymore!",
+      "SpeakerIds": [
+        "8"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "236897",
+      "Text": "Am I the only one who feel assaulted?",
+      "SpeakerIds": [
+        "52"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "249920",
+      "Text": "It always makes my day to receive messages on NINE.",
+      "SpeakerIds": [
+        "8"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "249921",
+      "Text": "So, let's use NINE more!",
+      "SpeakerIds": [
+        "8"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "249922",
+      "Text": "Why did you bring that up out of the blue?",
+      "SpeakerIds": [
+        "52"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "249923",
+      "Text": "I mean we don't always move around together, right?",
+      "SpeakerIds": [
+        "8"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "249924",
+      "Text": "With NINE, we can stay connected even if we're not around each other...",
+      "SpeakerIds": [
+        "8"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "249925",
+      "Text": "That's why I hope we can make more use of it.",
+      "SpeakerIds": [
+        "8"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "249926",
+      "Text": "Whatever. I'll only speak when I feel like it.",
+      "SpeakerIds": [
+        "52"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "249927",
+      "Text": "Tsuki, are you the type of person who gets lonely when you are by yourself?",
+      "SpeakerIds": [
+        "35"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "249928",
+      "Text": "Hmm... I've never thought about it, but I guess I am?",
+      "SpeakerIds": [
+        "8"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "249929",
+      "Text": "Rather than staying by myself, I prefer talking to someone...",
+      "SpeakerIds": [
+        "8"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "249930",
+      "Text": "Wait, let's not talk about that now! Are you thinking what I'm thinking?",
+      "SpeakerIds": [
+        "8"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "249931",
+      "Text": "I think so? But I haven't seen any messages from him yet.",
+      "SpeakerIds": [
+        "35"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "249932",
+      "Text": "Sorry, Tsuki. I don't hate NINE... It's just that Jio pops up sometimes just to poke into other people's business. It's annoying.",
+      "SpeakerIds": [
+        "56"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "249933",
+      "Text": "Haha, he's indeed very persistent!",
+      "SpeakerIds": [
+        "8"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "249934",
+      "Text": "But Tsuki, I like your idea of staying connected with everyone...",
+      "SpeakerIds": [
+        "56"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "249935",
+      "Text": "Ms. Miu...! You're the best!",
+      "SpeakerIds": [
+        "8"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "249936",
+      "Text": "(Love Pudding sent)",
+      "SpeakerIds": [
+        "8"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    }
+  ]
+}

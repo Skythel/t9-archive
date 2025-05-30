@@ -1,0 +1,1337 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -4437644984782067869
+  },
+  "m_Name": "likabilityNINE_common_Hyakuichitaro_en",
+  "Speakers": [
+    {
+      "SpeakerId": "5",
+      "SpeakerName": "Yo Kuronaka"
+    },
+    {
+      "SpeakerId": "35",
+      "SpeakerName": "Kazuki Aoyama"
+    },
+    {
+      "SpeakerId": "42",
+      "SpeakerName": "Q"
+    },
+    {
+      "SpeakerId": "44",
+      "SpeakerName": "Yutaka Gotanda"
+    },
+    {
+      "SpeakerId": "46",
+      "SpeakerName": "Minami Oi"
+    },
+    {
+      "SpeakerId": "48",
+      "SpeakerName": "Enoki Yukigaya"
+    },
+    {
+      "SpeakerId": "50",
+      "SpeakerName": "Roku Saigo"
+    },
+    {
+      "SpeakerId": "52",
+      "SpeakerName": "Eiji Todoroki"
+    },
+    {
+      "SpeakerId": "54",
+      "SpeakerName": "Koishi Kohinata"
+    },
+    {
+      "SpeakerId": "55",
+      "SpeakerName": "Jio Takinogawa"
+    },
+    {
+      "SpeakerId": "56",
+      "SpeakerName": "Miu Jujo"
+    },
+    {
+      "SpeakerId": "57",
+      "SpeakerName": "Tsuruko Semba"
+    },
+    {
+      "SpeakerId": "58",
+      "SpeakerName": "Hyakuichitaro Senju"
+    }
+  ],
+  "Contents": [
+    {
+      "TextId": "227054",
+      "Text": "Are there any shops nearby that sell Adachi Fry?",
+      "SpeakerIds": [
+        "58"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "227055",
+      "Text": "I'm missing them.",
+      "SpeakerIds": [
+        "58"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "227056",
+      "Text": "What's that?",
+      "SpeakerIds": [
+        "54"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "227057",
+      "Text": "Never heard of that. Probably some kind of fodder for poor people.",
+      "SpeakerIds": [
+        "52"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "227058",
+      "Text": "Your words stink! Seriously, no one ever heard of it?",
+      "SpeakerIds": [
+        "58"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "227059",
+      "Text": "The fried sticks that you dip in sauce and eat.",
+      "SpeakerIds": [
+        "58"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "227060",
+      "Text": "I believe the Adachi Fry is some kind of local delicacy in Adachi City.",
+      "SpeakerIds": [
+        "57"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "227061",
+      "Text": "It's a delicacy made by shaping flour into small koban shapes, and then coating them in breadcrumbs and deep frying them, right?",
+      "SpeakerIds": [
+        "57"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "227062",
+      "Text": "I only saw it in books, but I heard that it's been a favorite local snack for a long time!",
+      "SpeakerIds": [
+        "57"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "227063",
+      "Text": "No wonder I don't see it here...",
+      "SpeakerIds": [
+        "58"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "227064",
+      "Text": "When we were young, Brother would always get me some whenever I was hungry.",
+      "SpeakerIds": [
+        "58"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "227065",
+      "Text": "Oh well, I will treat you guys to these snacks next time we visit Adachi City! And it's on me!",
+      "SpeakerIds": [
+        "58"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "232272",
+      "Text": "I've decided!",
+      "SpeakerIds": [
+        "58"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "232273",
+      "Text": "I'm going to save up to buy bike cleats!",
+      "SpeakerIds": [
+        "58"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "232274",
+      "Text": "Bike cleats...?",
+      "SpeakerIds": [
+        "5"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "232275",
+      "Text": "Yep! You know those huge bikes you can use in XB games?",
+      "SpeakerIds": [
+        "58"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "232276",
+      "Text": "They give off an awesome \"vroom\" when you're running bases. Cool, right?!",
+      "SpeakerIds": [
+        "58"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "232277",
+      "Text": "Such a barbaric and scummy playstyle. That's the Adachi specialty for you.",
+      "SpeakerIds": [
+        "52"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "232278",
+      "Text": "Zip it, moron!",
+      "SpeakerIds": [
+        "58"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "232279",
+      "Text": "Barbaric and scummy are legit traits for a man, alright?!",
+      "SpeakerIds": [
+        "58"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "232280",
+      "Text": "Yo, if you're interested, I can lend you my bike cleats magazine.",
+      "SpeakerIds": [
+        "58"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "232281",
+      "Text": "A magazine?",
+      "SpeakerIds": [
+        "5"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "232282",
+      "Text": "Well, it's more like a catalog filled with mesmerizing items!",
+      "SpeakerIds": [
+        "58"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "232283",
+      "Text": "The coolest handles are definitely the Ape Bars. Gotta save more money...",
+      "SpeakerIds": [
+        "58"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "232284",
+      "Text": "Money aside, you're not even tall enough to ride a bike.",
+      "SpeakerIds": [
+        "52"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "232285",
+      "Text": "Shuddap! Moron! I'm still growing, alright?!",
+      "SpeakerIds": [
+        "58"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "232289",
+      "Text": "I want to practice my swing, but the blister on my hand is keeping me from holding a bat.",
+      "SpeakerIds": [
+        "58"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "232290",
+      "Text": "Have you tried taping it up?",
+      "SpeakerIds": [
+        "42"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "232291",
+      "Text": "Put a band-aid on the blister first. Then, wrap it up with sports tape. You should feel less pain.",
+      "SpeakerIds": [
+        "42"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "232292",
+      "Text": "But before that, make sure to take care of the fluid within the blister.",
+      "SpeakerIds": [
+        "42"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "232293",
+      "Text": "If it popped, it's important to keep the wound dry.",
+      "SpeakerIds": [
+        "35"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "232294",
+      "Text": "And obviously, remember to keep it clean.",
+      "SpeakerIds": [
+        "35"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "232295",
+      "Text": "Got it! That should work!",
+      "SpeakerIds": [
+        "58"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "232296",
+      "Text": "Thanks, guys!",
+      "SpeakerIds": [
+        "58"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "237155",
+      "Text": "I need to find something to do!",
+      "SpeakerIds": [
+        "58"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "237156",
+      "Text": "Let's see who can come up with the funniest joke.",
+      "SpeakerIds": [
+        "58"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "237157",
+      "Text": "And the topic is?",
+      "SpeakerIds": [
+        "5"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "237158",
+      "Text": "Let's see...",
+      "SpeakerIds": [
+        "58"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "237159",
+      "Text": "\"A type of XB you don't wanna experience.\" How's that?",
+      "SpeakerIds": [
+        "58"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "237161",
+      "Text": "Heavy, heavy XB balls!",
+      "SpeakerIds": [
+        "48"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "237162",
+      "Text": "That's cute.",
+      "SpeakerIds": [
+        "56"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "237163",
+      "Text": "Boring! Next!",
+      "SpeakerIds": [
+        "58"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "237164",
+      "Text": "XB games with poor people as players.",
+      "SpeakerIds": [
+        "52"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "237165",
+      "Text": "Lame! Next!",
+      "SpeakerIds": [
+        "58"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "237166",
+      "Text": "XB without Miu.",
+      "SpeakerIds": [
+        "55"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "237167",
+      "Text": "Shut up! Next!",
+      "SpeakerIds": [
+        "58"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "237168",
+      "Text": "The ones with people doing baserunning on bikes.",
+      "SpeakerIds": [
+        "35"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "237169",
+      "Text": "Hey! Don't you dare make fun of the Adachi Tribe! Next!",
+      "SpeakerIds": [
+        "58"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "237171",
+      "Text": "Those which require players to be naked.",
+      "SpeakerIds": [
+        "42"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "237173",
+      "Text": "P.S. Loincloths are allowed.",
+      "SpeakerIds": [
+        "42"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "237175",
+      "Text": "That must be Kazuki's idea, right?",
+      "SpeakerIds": [
+        "58"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "237176",
+      "Text": "I didn't know you could joke like that. You caught me off guard, Q!",
+      "SpeakerIds": [
+        "58"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "237180",
+      "Text": "There are still people doing food delivery for a living.",
+      "SpeakerIds": [
+        "54"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "237181",
+      "Text": "Someone came up to me to ask for directions.",
+      "SpeakerIds": [
+        "54"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "237182",
+      "Text": "It was already popular before the governing rules were introduced.",
+      "SpeakerIds": [
+        "55"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "237183",
+      "Text": "Though the prices are slightly more expensive, restaurants can now cater to customers even if they are far away.",
+      "SpeakerIds": [
+        "55"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "237184",
+      "Text": "Hmm, I remember coming across some of them.",
+      "SpeakerIds": [
+        "5"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "237185",
+      "Text": "Is that considered as a part-time job?",
+      "SpeakerIds": [
+        "5"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "237186",
+      "Text": "No, they could be independent delivery food couriers.",
+      "SpeakerIds": [
+        "52"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "237187",
+      "Text": "How much they earn depends on how much effort they invest.",
+      "SpeakerIds": [
+        "52"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "237188",
+      "Text": "And of course, that amount usually does not concern me.",
+      "SpeakerIds": [
+        "52"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "237189",
+      "Text": "I see! This could be it...",
+      "SpeakerIds": [
+        "58"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "237190",
+      "Text": "Are you considering doing it, Mr. Hyakuichitaro?",
+      "SpeakerIds": [
+        "54"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "237191",
+      "Text": "I think you mentioned wanting to save money for some bike cleats, right?",
+      "SpeakerIds": [
+        "5"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "237192",
+      "Text": "Yeah! But I've still got a long way to go.",
+      "SpeakerIds": [
+        "58"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "237193",
+      "Text": "Independent food couriers? Ah, they all sound so complicated...",
+      "SpeakerIds": [
+        "58"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "237194",
+      "Text": "Brother used to deliver newspapers on his bicycle to earn some pocket money! So I thought that this could work for me!",
+      "SpeakerIds": [
+        "58"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "237195",
+      "Text": "Sounds great! Delivering food on a bicycle is also a means of physical training.",
+      "SpeakerIds": [
+        "55"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "237196",
+      "Text": "You should try it out when you are a bit older.",
+      "SpeakerIds": [
+        "55"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "237200",
+      "Text": "Hmm...",
+      "SpeakerIds": [
+        "58"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "237201",
+      "Text": "Let us go fight some more!",
+      "SpeakerIds": [
+        "58"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "237202",
+      "Text": "What's that about?",
+      "SpeakerIds": [
+        "55"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "237203",
+      "Text": "I was watching a clip about sharks.",
+      "SpeakerIds": [
+        "58"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "237204",
+      "Text": "And I thought about the enemy we fought earlier on. Now, my blood's boiling again!",
+      "SpeakerIds": [
+        "58"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "237205",
+      "Text": "You sound like a three-year-old child.",
+      "SpeakerIds": [
+        "35"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "237206",
+      "Text": "Huh?! What did you say?! I'm not a brat, okay?!",
+      "SpeakerIds": [
+        "58"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "237207",
+      "Text": "I actually think that it could be a great practice target, as well as a means to assess our current strength.",
+      "SpeakerIds": [
+        "42"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "237208",
+      "Text": "Heading back to AQUA Marine Park every once in a while could be beneficial.",
+      "SpeakerIds": [
+        "42"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "245210",
+      "Text": "I've heard that most geniuses are left-handed.",
+      "SpeakerIds": [
+        "58"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "245211",
+      "Text": "So, starting today, I'm going to be left-handed, too!",
+      "SpeakerIds": [
+        "58"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "245212",
+      "Text": "What you just said makes you sound like an idiot.",
+      "SpeakerIds": [
+        "52"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "245213",
+      "Text": "Shut up! I'll become a genius eventually!",
+      "SpeakerIds": [
+        "58"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "245214",
+      "Text": "Nobody's left-handed in our tribe, right? I'll become the best lefty XB player!",
+      "SpeakerIds": [
+        "58"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "245215",
+      "Text": "Come to think of it, Mr. Kazuki, Mr. Q, Mr. Jio, and Mr. Koishi are all left-handed.",
+      "SpeakerIds": [
+        "57"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "245216",
+      "Text": "Ugh... I think you're right. It's nothing special, then...",
+      "SpeakerIds": [
+        "58"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "245217",
+      "Text": "How about this?! I'll hone my ambidextrous skills! I'm sure we don't have switch-hitters in our tribe.",
+      "SpeakerIds": [
+        "58"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "245218",
+      "Text": "I'm not sure if it applies to XB, but Mr. Aoyama actually uses both hands quite well.",
+      "SpeakerIds": [
+        "46"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "245219",
+      "Text": "Are you serious?! Him?!",
+      "SpeakerIds": [
+        "58"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "245220",
+      "Text": "Yes. I remember his left arm was injured a few years ago.",
+      "SpeakerIds": [
+        "46"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "245221",
+      "Text": "But he was controlling the monitors smoothly with his right hand, as if he was born right-handed.",
+      "SpeakerIds": [
+        "46"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "245222",
+      "Text": "That's Mr. Kazuki for you!",
+      "SpeakerIds": [
+        "57"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "245223",
+      "Text": "I believe the word \"genius\" is fitting for someone like him.",
+      "SpeakerIds": [
+        "57"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "245224",
+      "Text": "Dammit! Why is everyone always ahead of me?!",
+      "SpeakerIds": [
+        "58"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "245225",
+      "Text": "I'll definitely find something that makes me stand out!",
+      "SpeakerIds": [
+        "58"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "245229",
+      "Text": "This may sound out of the blue...",
+      "SpeakerIds": [
+        "5"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "245230",
+      "Text": "But whenever Hyakuichitaro's in a group chat, he makes the conversations more lively.",
+      "SpeakerIds": [
+        "5"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "245231",
+      "Text": "Huh? Why the sudden compliment?",
+      "SpeakerIds": [
+        "58"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "245232",
+      "Text": "You seem to always lift my spirits, that's all.",
+      "SpeakerIds": [
+        "5"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "245233",
+      "Text": "Thanks.",
+      "SpeakerIds": [
+        "5"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "245234",
+      "Text": "Hey, stop it. It sounds like you're leaving or something.",
+      "SpeakerIds": [
+        "58"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "245235",
+      "Text": "Mr. Hyakuichitaro's positivity is indeed a great comfort when we are facing dire situations.",
+      "SpeakerIds": [
+        "44"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "245236",
+      "Text": "The mood maker plays an important role in every organization.",
+      "SpeakerIds": [
+        "46"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "245237",
+      "Text": "Stop praising me! This is making me embarrassed...",
+      "SpeakerIds": [
+        "58"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "245239",
+      "Text": "I think I've started to look forward to Hyakuichitaro's messages every now and then.",
+      "SpeakerIds": [
+        "50"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "245240",
+      "Text": "Thank you for bringing us so much joy.",
+      "SpeakerIds": [
+        "56"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "245241",
+      "Text": "I'm really grateful, too! Thank you for always being so bright and cheerful.",
+      "SpeakerIds": [
+        "54"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "245243",
+      "Text": "O-Oh...",
+      "SpeakerIds": [
+        "58"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "245244",
+      "Text": "Umm... Well...",
+      "SpeakerIds": [
+        "58"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "245245",
+      "Text": "Thanks, guys!",
+      "SpeakerIds": [
+        "58"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "249851",
+      "Text": "Everyone, hear me!",
+      "SpeakerIds": [
+        "58"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "249852",
+      "Text": "I showed my sukajan to Tsuruko just now, and she claimed that it was also made by an artisan!",
+      "SpeakerIds": [
+        "58"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "249853",
+      "Text": "Good for you.",
+      "SpeakerIds": [
+        "56"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "249855",
+      "Text": "Um... hello? Am I mistaken or only Miu responded to me?",
+      "SpeakerIds": [
+        "58"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "249857",
+      "Text": "Nice.",
+      "SpeakerIds": [
+        "42"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "249859",
+      "Text": "Take good care of it.",
+      "SpeakerIds": [
+        "50"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "249861",
+      "Text": "Are you kidding me?! You guys were so fired up when talking about Miu's sukajan.",
+      "SpeakerIds": [
+        "58"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "264583",
+      "Text": "Things have not been going well for me lately.",
+      "SpeakerIds": [
+        "58"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "264584",
+      "Text": "Can someone please praise me so I can get motivated?",
+      "SpeakerIds": [
+        "58"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "264585",
+      "Text": "I want to touch your curly hair!",
+      "SpeakerIds": [
+        "48"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "264586",
+      "Text": "Ugh... Is that even a compliment?",
+      "SpeakerIds": [
+        "58"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "264587",
+      "Text": "You're so short and cute!",
+      "SpeakerIds": [
+        "48"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "264588",
+      "Text": "Hey! Do you even know what \"praise\" means?!",
+      "SpeakerIds": [
+        "58"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "264589",
+      "Text": "You care about your allies more than anyone else.",
+      "SpeakerIds": [
+        "42"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "264590",
+      "Text": "Even though your tone is harsh sometimes and easily misunderstood... I think that's what makes you special.",
+      "SpeakerIds": [
+        "42"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "264591",
+      "Text": "Way to go, Q! That's what I want to hear!",
+      "SpeakerIds": [
+        "58"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "264592",
+      "Text": "Anything else? Please, I need more of this.",
+      "SpeakerIds": [
+        "58"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "264593",
+      "Text": "You are very proactive.",
+      "SpeakerIds": [
+        "42"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "264594",
+      "Text": "People tend to anticipate the worst and hesitate. Sometimes we need courage to take that first step.",
+      "SpeakerIds": [
+        "42"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "264595",
+      "Text": "Your courage and actions impacted and helped us a lot.",
+      "SpeakerIds": [
+        "42"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "264596",
+      "Text": "Really?",
+      "SpeakerIds": [
+        "58"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "264597",
+      "Text": "I didn't know you were watching me so closely...",
+      "SpeakerIds": [
+        "58"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "264598",
+      "Text": "During a fight, you always have our back, allowing us to battle freely.",
+      "SpeakerIds": [
+        "42"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "264599",
+      "Text": "You've helped me many times. And you're also good at observing the battlefield, which is something I should learn from you.",
+      "SpeakerIds": [
+        "42"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "264600",
+      "Text": "And...",
+      "SpeakerIds": [
+        "42"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "264601",
+      "Text": "S-Stop! That's more than enough!",
+      "SpeakerIds": [
+        "58"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "264602",
+      "Text": "You sure?",
+      "SpeakerIds": [
+        "42"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "264603",
+      "Text": "Yes! I feel much better and more motivated than ever!",
+      "SpeakerIds": [
+        "58"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "264604",
+      "Text": "You're blushing, aren't you, Hyakuichitaro—",
+      "SpeakerIds": [
+        "48"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "264605",
+      "Text": "What?! Are you mocking me?!",
+      "SpeakerIds": [
+        "58"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "264606",
+      "Text": "Nope!",
+      "SpeakerIds": [
+        "48"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "264607",
+      "Text": "I like that you are so easy to read!",
+      "SpeakerIds": [
+        "48"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    }
+  ]
+}

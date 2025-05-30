@@ -1,0 +1,2039 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -4437644984782067869
+  },
+  "m_Name": "likabilityNINE_common_Koishi_en",
+  "Speakers": [
+    {
+      "SpeakerId": "5",
+      "SpeakerName": "Yo Kuronaka"
+    },
+    {
+      "SpeakerId": "8",
+      "SpeakerName": "Tsuki Iroha"
+    },
+    {
+      "SpeakerId": "35",
+      "SpeakerName": "Kazuki Aoyama"
+    },
+    {
+      "SpeakerId": "42",
+      "SpeakerName": "Q"
+    },
+    {
+      "SpeakerId": "44",
+      "SpeakerName": "Yutaka Gotanda"
+    },
+    {
+      "SpeakerId": "48",
+      "SpeakerName": "Enoki Yukigaya"
+    },
+    {
+      "SpeakerId": "50",
+      "SpeakerName": "Roku Saigo"
+    },
+    {
+      "SpeakerId": "52",
+      "SpeakerName": "Eiji Todoroki"
+    },
+    {
+      "SpeakerId": "54",
+      "SpeakerName": "Koishi Kohinata"
+    },
+    {
+      "SpeakerId": "55",
+      "SpeakerName": "Jio Takinogawa"
+    },
+    {
+      "SpeakerId": "56",
+      "SpeakerName": "Miu Jujo"
+    },
+    {
+      "SpeakerId": "57",
+      "SpeakerName": "Tsuruko Semba"
+    },
+    {
+      "SpeakerId": "58",
+      "SpeakerName": "Hyakuichitaro Senju"
+    }
+  ],
+  "Contents": [
+    {
+      "TextId": "227303",
+      "Text": "Koishi! I wanna try out some free-to-download games.",
+      "SpeakerIds": [
+        "55"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "227304",
+      "Text": "\"Dragon Fist\", \"Brawl Master Chronicles\", \"Cruel 1 - 2\", \"Battle Ashura\"",
+      "SpeakerIds": [
+        "54"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "227305",
+      "Text": "Woah, that's quick!",
+      "SpeakerIds": [
+        "55"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "227307",
+      "Text": "You can try all four, but \"Dragon Fist\" is my personal pick.",
+      "SpeakerIds": [
+        "54"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "227308",
+      "Text": "I recommend the controller I usually use — you will be able to deliver combos even more easily! I actually was the top in Neo Tokyo!",
+      "SpeakerIds": [
+        "54"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "227309",
+      "Text": "You were the top of Neo Tokyo?",
+      "SpeakerIds": [
+        "42"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "227310",
+      "Text": "I came in first a couple of times in the Fighting Games Competitions.",
+      "SpeakerIds": [
+        "54"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "227311",
+      "Text": "What's a fighting game?",
+      "SpeakerIds": [
+        "50"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "227312",
+      "Text": "It's a genre that revolves around brawling. Players have to use their characters to fight and win.",
+      "SpeakerIds": [
+        "55"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "227313",
+      "Text": "I may even beat Mr. Saigo in the game, you know!",
+      "SpeakerIds": [
+        "54"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "227315",
+      "Text": "Don't be silly.",
+      "SpeakerIds": [
+        "50"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "227316",
+      "Text": "That's possible. Even if it's a game, every detail such as skills and battle simulations makes it difficult to beat a veteran without sufficient practice.",
+      "SpeakerIds": [
+        "55"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "227317",
+      "Text": "There are even hardcore players who would go to the extent to practice real martial arts to hone their reflexes!",
+      "SpeakerIds": [
+        "54"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "227318",
+      "Text": "They are indeed professional...",
+      "SpeakerIds": [
+        "42"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "227319",
+      "Text": "To us, it's a matter of life and death!",
+      "SpeakerIds": [
+        "54"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "227320",
+      "Text": "Koishi, you're really charming when getting so pumped up! It's just motivating to see you found your way to express yourself through games while getting stronger every second.",
+      "SpeakerIds": [
+        "55"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "227321",
+      "Text": "Tenacity is what makes one strong...",
+      "SpeakerIds": [
+        "42"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "227322",
+      "Text": "Teach me how to play next time.",
+      "SpeakerIds": [
+        "55"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "227323",
+      "Text": "Sure! Oh, why don't we have a Fighting Games Competition ourselves?",
+      "SpeakerIds": [
+        "54"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "227324",
+      "Text": "I've never played games before...",
+      "SpeakerIds": [
+        "42"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "227325",
+      "Text": "That's not an issue! With your expertise in the battlefield, I believe Mr. Q, Mr. Takinogawa and Mr. Saigo will get a hang of it real fast!",
+      "SpeakerIds": [
+        "54"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "227327",
+      "Text": "Well, the expert said so!",
+      "SpeakerIds": [
+        "55"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "227328",
+      "Text": "I'm in.",
+      "SpeakerIds": [
+        "42"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "227329",
+      "Text": "I never lose in battles.",
+      "SpeakerIds": [
+        "50"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "227330",
+      "Text": "I will not lose, too! This is a real battle between men.",
+      "SpeakerIds": [
+        "54"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "227336",
+      "Text": "Sneezing could be caused by many factors, such as flu, allergy, and nonallergic rhinitis, which can be understood as runny nose caused by temperature.",
+      "SpeakerIds": [
+        "54"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "227337",
+      "Text": "Koishi?",
+      "SpeakerIds": [
+        "8"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "227338",
+      "Text": "What's that for out of a sudden?",
+      "SpeakerIds": [
+        "58"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "227339",
+      "Text": "Sneezing once means that someone is gossiping about you; twice means that someone is making fun of you. Thrice would hint that someone is in love with you, while a fourth time would mean you may be catching a cold...",
+      "SpeakerIds": [
+        "54"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "227340",
+      "Text": "These are some common beliefs, but if you want to stop sneezing, you have to find the right way to cure it.",
+      "SpeakerIds": [
+        "54"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "227341",
+      "Text": "Keeping warm, removing allergens such as dust or pollen, wearing glasses and facemasks, and so on. These are some ways to improve the situation.",
+      "SpeakerIds": [
+        "54"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "227342",
+      "Text": "But if you are looking for the most efficient method...!",
+      "SpeakerIds": [
+        "54"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "227343",
+      "Text": "Here it comes!",
+      "SpeakerIds": [
+        "48"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "227344",
+      "Text": "I'm all ears!",
+      "SpeakerIds": [
+        "58"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "227345",
+      "Text": "Press and apply pressure on the vertical groove between your nose and your lips.",
+      "SpeakerIds": [
+        "54"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "227346",
+      "Text": "Oh? Lemme see.",
+      "SpeakerIds": [
+        "48"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "227347",
+      "Text": "Ouch! That actually hurts.",
+      "SpeakerIds": [
+        "8"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "227348",
+      "Text": "It's a pressure point called the philtrum. It is said that aside from sneezing, applying pressure to it can also alleviate nasal congestion, toothache and lower back pain to a certain extent.",
+      "SpeakerIds": [
+        "54"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "227349",
+      "Text": "Ah, I remember hearing Brother saying that this is the weak spot of humans. Giving it a good punch may choke them out of breath.",
+      "SpeakerIds": [
+        "58"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "227350",
+      "Text": "So the runny nose is cured because of being unable to breathe?",
+      "SpeakerIds": [
+        "8"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "227351",
+      "Text": "P-Probably? I'm not sure if the same theory applies...",
+      "SpeakerIds": [
+        "54"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "227352",
+      "Text": "Anyway, your brain will be stimulated when applying pressure to this pressure point, easing the pain and other conditions. Feel free to try it out next time!",
+      "SpeakerIds": [
+        "54"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "227353",
+      "Text": "Thank you for your advice, Koishi!",
+      "SpeakerIds": [
+        "48"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "227354",
+      "Text": "But why are we talking about sneezing suddenly?",
+      "SpeakerIds": [
+        "58"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "227355",
+      "Text": "I was thinking that now that we can use the group chat function, I'd like to share some useful knowledge.",
+      "SpeakerIds": [
+        "54"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "227356",
+      "Text": "Woah, Koishi!",
+      "SpeakerIds": [
+        "8"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "227357",
+      "Text": "You're such a nice dude.",
+      "SpeakerIds": [
+        "58"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "227358",
+      "Text": "Learn from him.",
+      "SpeakerIds": [
+        "52"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "227359",
+      "Text": "YOU learn from him!",
+      "SpeakerIds": [
+        "58"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "227360",
+      "Text": "Easy for you to say!",
+      "SpeakerIds": [
+        "8"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "227361",
+      "Text": "Todoroki doesn't know how to read the air.",
+      "SpeakerIds": [
+        "48"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "227362",
+      "Text": "You're not fit enough to criticize me!",
+      "SpeakerIds": [
+        "52"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "227363",
+      "Text": "Well, I will be sharing some fun facts every now and then. I hope I won't cause you too much trouble!",
+      "SpeakerIds": [
+        "54"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "227364",
+      "Text": "Mr. Koishi's medical workshops! I'm up for them anytime!",
+      "SpeakerIds": [
+        "58"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "227369",
+      "Text": "I need to see you, Koishi.",
+      "SpeakerIds": [
+        "48"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "227370",
+      "Text": "Huh...?",
+      "SpeakerIds": [
+        "54"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "227371",
+      "Text": "I wasn't aware that you guys were that close?",
+      "SpeakerIds": [
+        "55"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "227372",
+      "Text": "Hush, pretend you saw nothing.",
+      "SpeakerIds": [
+        "56"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "227373",
+      "Text": "You're so considerate, Miu...!",
+      "SpeakerIds": [
+        "55"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "227374",
+      "Text": "Miu's right. I'm sorry for being impolite.",
+      "SpeakerIds": [
+        "55"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "227375",
+      "Text": "Wait! It's a misunderstanding! We're not...",
+      "SpeakerIds": [
+        "54"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "227376",
+      "Text": "I mean, I don't know what's going on either...",
+      "SpeakerIds": [
+        "54"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "227377",
+      "Text": "Sorry. I was telling Enoki that Kohinata has got exceptional healing skills.",
+      "SpeakerIds": [
+        "50"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "227378",
+      "Text": "Yes! I heard that if Koishi bandages your wound, it heals faster.",
+      "SpeakerIds": [
+        "48"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "227379",
+      "Text": "That's why I need to see you. To have you by my side.",
+      "SpeakerIds": [
+        "48"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "227380",
+      "Text": "Oh, so that's what she meant...",
+      "SpeakerIds": [
+        "56"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "227381",
+      "Text": "What a pity, I thought it was something romantic.",
+      "SpeakerIds": [
+        "55"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "227382",
+      "Text": "Almost scared me to death...",
+      "SpeakerIds": [
+        "54"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "227383",
+      "Text": "That said, I'm really honored to receive such a compliment.",
+      "SpeakerIds": [
+        "54"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "227384",
+      "Text": "I really hope that I can be a great asset to everyone.",
+      "SpeakerIds": [
+        "54"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "227385",
+      "Text": "Don't take yourself lightly. I feel safe having you by my side.",
+      "SpeakerIds": [
+        "56"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "227386",
+      "Text": "And I believe everyone else thinks the same.",
+      "SpeakerIds": [
+        "56"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "227387",
+      "Text": "Thank you so much, Ms. Jujo!",
+      "SpeakerIds": [
+        "54"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "227388",
+      "Text": "I will continue to do my best and contribute more the next time we meet!",
+      "SpeakerIds": [
+        "54"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "231591",
+      "Text": "I have a question... When do we get to use this sticker?",
+      "SpeakerIds": [
+        "54"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "231592",
+      "Text": "(Universe Nekomaru sent)",
+      "SpeakerIds": [
+        "54"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "231593",
+      "Text": "A Universe Kitty sticker! The weird expression is so cute!",
+      "SpeakerIds": [
+        "8"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "231594",
+      "Text": "But I don't know when we should use it, either...",
+      "SpeakerIds": [
+        "8"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "231595",
+      "Text": "(Bunny Agreed sent)",
+      "SpeakerIds": [
+        "8"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "231596",
+      "Text": "This one can be used anytime.",
+      "SpeakerIds": [
+        "8"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "231597",
+      "Text": "The Universe Kitty series has become a meme.",
+      "SpeakerIds": [
+        "57"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "231598",
+      "Text": "People seemed to use the stickers when they found something hard to understand and gave up thinking. They were used on forums everywhere.",
+      "SpeakerIds": [
+        "57"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "231599",
+      "Text": "I see...",
+      "SpeakerIds": [
+        "54"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "231600",
+      "Text": "As to why the series are a combination of the cosmos and kitties, there are various explanations.",
+      "SpeakerIds": [
+        "57"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "231601",
+      "Text": "The stickers were intriguing, interesting, and could be used in many scenarios. They weren't only popular on forums, but also on all social media platforms. There were even fan works and all kinds of merchandise and clothing featuring them.",
+      "SpeakerIds": [
+        "57"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "231602",
+      "Text": "Oh! And speaking of memes, allow me to explain the origins of the word!",
+      "SpeakerIds": [
+        "57"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "231603",
+      "Text": "I need to make some preparations. Please wait a moment.",
+      "SpeakerIds": [
+        "57"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "231604",
+      "Text": "...And there you go. Did you get that, Koishi?",
+      "SpeakerIds": [
+        "8"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "231606",
+      "Text": "(Universe Nekomaru sent)",
+      "SpeakerIds": [
+        "54"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "232367",
+      "Text": "Hi, everyone. This is Dr. Koishi from Trash Tribe.",
+      "SpeakerIds": [
+        "54"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "232368",
+      "Text": "Oh! It's the 2nd medical workshop!",
+      "SpeakerIds": [
+        "58"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "232369",
+      "Text": "The topic this time is cold constitution, huh? Sounds irrelevant to me.",
+      "SpeakerIds": [
+        "8"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "232370",
+      "Text": "For most people with a cold constitution, their main issue is having cold limbs.",
+      "SpeakerIds": [
+        "54"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "232371",
+      "Text": "Here! It's been bothering me for 3 years, Doctor.",
+      "SpeakerIds": [
+        "56"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "232372",
+      "Text": "What?! You have a cold constitution, Miu?!",
+      "SpeakerIds": [
+        "55"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "232373",
+      "Text": "There are many reasons for people to have a cold constitution, such as too much stress or a certain lifestyle. But the main factor is not having a good blood circulation, resulting in one's blood not being able to reach their limbs efficiently.",
+      "SpeakerIds": [
+        "54"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "232374",
+      "Text": "I see.",
+      "SpeakerIds": [
+        "56"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "232375",
+      "Text": "I didn't know Miu has a cold constitution... It must be because I didn't keep her warm enough!",
+      "SpeakerIds": [
+        "55"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "232376",
+      "Text": "In fact, I didn't have a good blood circulation due to being addicted to video games and lacking exercise.",
+      "SpeakerIds": [
+        "54"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "232377",
+      "Text": "But if you're able to keep your neck, wrists, and ankles warm, and exercise often, it would really help. Also, focus on keeping your whole body warm instead of only the limbs.",
+      "SpeakerIds": [
+        "54"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "232378",
+      "Text": "To sum it up, I need to maintain a good blood circulation. Will hot baths do?",
+      "SpeakerIds": [
+        "56"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "232379",
+      "Text": "Yes, they will! You can also add some bath oil to help relax your body and mind. It makes the hot baths more effective if you're feeling stressed.",
+      "SpeakerIds": [
+        "54"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "232380",
+      "Text": "Bath oil?! I haven't used it in a while.",
+      "SpeakerIds": [
+        "56"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "232381",
+      "Text": "I can't believe Miu has a cold constitution...",
+      "SpeakerIds": [
+        "55"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "232382",
+      "Text": "It is said that if your body temperature drops by 1 degree, your immunity will drop by 30%. In addition to that, poor circulation can slow down your metabolism, leading to rough skin.",
+      "SpeakerIds": [
+        "54"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "232383",
+      "Text": "That certainly won't do... Thank you, Doctor. I'll go get some bath oil right away.",
+      "SpeakerIds": [
+        "56"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "232384",
+      "Text": "Be careful when you head out!",
+      "SpeakerIds": [
+        "54"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "232385",
+      "Text": "Miu...",
+      "SpeakerIds": [
+        "55"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "232386",
+      "Text": "You okay, Mr. Takinogawa?",
+      "SpeakerIds": [
+        "54"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "232387",
+      "Text": "Doctor...",
+      "SpeakerIds": [
+        "55"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "232388",
+      "Text": "Yes?",
+      "SpeakerIds": [
+        "54"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "232389",
+      "Text": "How can you cure a cold heart?",
+      "SpeakerIds": [
+        "55"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "232390",
+      "Text": "...Sorry, you're on your own.",
+      "SpeakerIds": [
+        "54"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "232394",
+      "Text": "That pink creature in D2 Clinic... The bear...?",
+      "SpeakerIds": [
+        "56"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "232395",
+      "Text": "It's kind of weird, isn't it?",
+      "SpeakerIds": [
+        "56"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "232396",
+      "Text": "Are you referring to Ms. Hoimi?",
+      "SpeakerIds": [
+        "44"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "232397",
+      "Text": "She does look kind of strange with her dim eyes...",
+      "SpeakerIds": [
+        "44"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "232398",
+      "Text": "But her medical techniques really do the trick!",
+      "SpeakerIds": [
+        "44"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "232399",
+      "Text": "I can vouch for that! I always learn something new after receiving treatment from her.",
+      "SpeakerIds": [
+        "54"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "232400",
+      "Text": "She also motivates me to improve my own skills!",
+      "SpeakerIds": [
+        "54"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "232401",
+      "Text": "Koishi... You get motivated by that bear?",
+      "SpeakerIds": [
+        "56"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "232402",
+      "Text": "That is quite interesting, heh.",
+      "SpeakerIds": [
+        "44"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "232403",
+      "Text": "Seeking to improve one's skills is always a good thing.",
+      "SpeakerIds": [
+        "44"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "232407",
+      "Text": "I've heard that there's a four-dimensional space inside Koishi's kit! Anything can fit in there!",
+      "SpeakerIds": [
+        "48"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "232408",
+      "Text": "Really? That's awesome!",
+      "SpeakerIds": [
+        "5"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "232409",
+      "Text": "Right? We can give all our luggage to Koishi next time!",
+      "SpeakerIds": [
+        "48"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "232410",
+      "Text": "Wait, wait, wait. That's not how it works!",
+      "SpeakerIds": [
+        "54"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "232411",
+      "Text": "I can buy it from you. How much do you want?",
+      "SpeakerIds": [
+        "52"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "232412",
+      "Text": "I'm not selling it!",
+      "SpeakerIds": [
+        "54"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "232413",
+      "Text": "I have no idea where this rumor came from...",
+      "SpeakerIds": [
+        "54"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "232414",
+      "Text": "Every time I wanted something, you were able to take it out from your kit!",
+      "SpeakerIds": [
+        "48"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "232415",
+      "Text": "So there must be an infinite space in there.",
+      "SpeakerIds": [
+        "48"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "232416",
+      "Text": "Pardon?",
+      "SpeakerIds": [
+        "54"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "232417",
+      "Text": "That's because I always tidy my things up in order to bring more stuff with me...",
+      "SpeakerIds": [
+        "54"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "232418",
+      "Text": "Is that so? Hmm... How boring...",
+      "SpeakerIds": [
+        "48"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "232419",
+      "Text": "...So it was just a bluff. What a waste of time.",
+      "SpeakerIds": [
+        "52"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "232420",
+      "Text": "Well, a four-dimensional kit doesn't seem realistic at all.",
+      "SpeakerIds": [
+        "5"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "232421",
+      "Text": "Umm...",
+      "SpeakerIds": [
+        "54"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "232422",
+      "Text": "Sorry to disappoint you all...",
+      "SpeakerIds": [
+        "54"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "237248",
+      "Text": "Mr. Saigo! I can do 30 push-ups now!",
+      "SpeakerIds": [
+        "54"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "237249",
+      "Text": "What's going on?",
+      "SpeakerIds": [
+        "58"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "237251",
+      "Text": "Are you doing workouts, Koishi?",
+      "SpeakerIds": [
+        "55"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "237252",
+      "Text": "I told Mr. Saigo I wanted to become strong like him, so he designed a training regimen for me.",
+      "SpeakerIds": [
+        "54"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "237253",
+      "Text": "It's quite unlikely for me to do 1,000 push-ups and sit-ups every day, though.",
+      "SpeakerIds": [
+        "54"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "237254",
+      "Text": "That's insane...",
+      "SpeakerIds": [
+        "58"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "237255",
+      "Text": "Which means that's the training Saigo does every day...",
+      "SpeakerIds": [
+        "55"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "237256",
+      "Text": "Didn't I tell you that the moment you give up is the moment you fail?",
+      "SpeakerIds": [
+        "50"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "237257",
+      "Text": "Ahh! I'm very sorry!",
+      "SpeakerIds": [
+        "54"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "237258",
+      "Text": "A spartan trainer?!",
+      "SpeakerIds": [
+        "58"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "237259",
+      "Text": "Don't give up! It will cost you your life!",
+      "SpeakerIds": [
+        "50"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "237260",
+      "Text": "More like an Ota trainer.",
+      "SpeakerIds": [
+        "55"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "237262",
+      "Text": "It makes me nervous to see him typing right now...",
+      "SpeakerIds": [
+        "58"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "237263",
+      "Text": "I will design another regimen that suits your level for you to follow. You need to aim for the top.",
+      "SpeakerIds": [
+        "50"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "237264",
+      "Text": "Thank you very much!",
+      "SpeakerIds": [
+        "54"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "237266",
+      "Text": "And also...",
+      "SpeakerIds": [
+        "50"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "237268",
+      "Text": "Good work on doing the 30 push-ups.",
+      "SpeakerIds": [
+        "50"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "237269",
+      "Text": "Thank you for your acknowledgement!",
+      "SpeakerIds": [
+        "54"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "237270",
+      "Text": "You guys...",
+      "SpeakerIds": [
+        "58"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "237271",
+      "Text": "They make a good team, don't they?",
+      "SpeakerIds": [
+        "55"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "237275",
+      "Text": "I'm making good progress in collecting Zero Sensei's Full Marks Stickers!",
+      "SpeakerIds": [
+        "54"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "237276",
+      "Text": "Which challenge should I go for next?",
+      "SpeakerIds": [
+        "54"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "237277",
+      "Text": "You seem to be enjoying yourself, Koishi.",
+      "SpeakerIds": [
+        "5"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "237278",
+      "Text": "Don't you think it's disturbing to collect stickers and stamps made by Zero...?",
+      "SpeakerIds": [
+        "57"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "237279",
+      "Text": "S-Sorry. I just can't help myself.",
+      "SpeakerIds": [
+        "54"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "237280",
+      "Text": "Whenever I come across these kinds of things, I have the urge to collect them all...",
+      "SpeakerIds": [
+        "54"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "237284",
+      "Text": "Koishi! Miu seems to be having a headache!",
+      "SpeakerIds": [
+        "55"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "237285",
+      "Text": "It might be because of the unstable weather... Is there anything I can do for her?",
+      "SpeakerIds": [
+        "55"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "237286",
+      "Text": "The weather? I've heard about it quite often, but do people really get headaches just because the weather changed?",
+      "SpeakerIds": [
+        "52"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "237287",
+      "Text": "Aren't you weak lower-class people just exaggerating?",
+      "SpeakerIds": [
+        "52"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "237288",
+      "Text": "Of course the weather can affect a person's health conditions! And different people may be affected in different ways.",
+      "SpeakerIds": [
+        "54"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "237289",
+      "Text": "For some people, a change in weather may cause headaches, arthralgia, dizziness, weariness, or even depression...",
+      "SpeakerIds": [
+        "54"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "237290",
+      "Text": "And many more other symptoms.",
+      "SpeakerIds": [
+        "54"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "237291",
+      "Text": "Has she taken painkillers yet? If not, ask her to take some immediately. They'll be more effective if taken sooner.",
+      "SpeakerIds": [
+        "54"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "237292",
+      "Text": "She can also try massaging her ears, neck, or shoulders to help improve blood circulation.",
+      "SpeakerIds": [
+        "54"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "237293",
+      "Text": "I also recommend taking a hot bath to warm up the body!",
+      "SpeakerIds": [
+        "54"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "237294",
+      "Text": "Thank you, Koishi. Jio was just causing a fuss. I'm alright. It's nothing serious.",
+      "SpeakerIds": [
+        "56"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "237295",
+      "Text": "But...",
+      "SpeakerIds": [
+        "56"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "237296",
+      "Text": "Could you guys please stay quiet for a while? The notifications keep coming in.",
+      "SpeakerIds": [
+        "56"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "237297",
+      "Text": "What have I done?! I'm sorry, Miu. And apologies to Koishi, too.",
+      "SpeakerIds": [
+        "55"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "237298",
+      "Text": "Never mind me. Sorry, Ms. Jujo. Please get some rest.",
+      "SpeakerIds": [
+        "54"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "237299",
+      "Text": "(Love Pudding sent)",
+      "SpeakerIds": [
+        "56"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "242182",
+      "Text": "What should I do?! I forgot to log in yesterday!",
+      "SpeakerIds": [
+        "54"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "242183",
+      "Text": "I've never forgotten to log in since the game was released...!",
+      "SpeakerIds": [
+        "54"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "242184",
+      "Text": "I can't do this anymore... I just can't...",
+      "SpeakerIds": [
+        "54"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "242185",
+      "Text": "Koishi sounds really depressed...",
+      "SpeakerIds": [
+        "56"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "242186",
+      "Text": "I've heard that consecutive login bonuses are very important for gamers. I feel you, Koishi...",
+      "SpeakerIds": [
+        "55"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "242188",
+      "Text": "I don't know what just happened. But at a time like this, you should raise your weapon.",
+      "SpeakerIds": [
+        "50"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "242190",
+      "Text": "Make use of your emotions and fight!",
+      "SpeakerIds": [
+        "50"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "242191",
+      "Text": "Yep! When you're feeling angry, just let it all out on the enemies!",
+      "SpeakerIds": [
+        "48"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "242192",
+      "Text": "I see...! Thank you!",
+      "SpeakerIds": [
+        "54"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "242193",
+      "Text": "I'll give it a shot!",
+      "SpeakerIds": [
+        "54"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "242194",
+      "Text": "Hmm...? Does this mean he's pulled himself together?",
+      "SpeakerIds": [
+        "55"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "242195",
+      "Text": "It's good to be back on your feet, but don't push yourself too hard.",
+      "SpeakerIds": [
+        "56"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "247987",
+      "Text": "May I ask how everyone finds the \"courage\" to do something?",
+      "SpeakerIds": [
+        "54"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "247988",
+      "Text": "What's wrong?",
+      "SpeakerIds": [
+        "55"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "247990",
+      "Text": "I think you do possess courage.",
+      "SpeakerIds": [
+        "50"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "247991",
+      "Text": "Really?! I'm glad to hear you say that!",
+      "SpeakerIds": [
+        "54"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "247992",
+      "Text": "Thank you, Mr. Saigo. But what I meant was...",
+      "SpeakerIds": [
+        "54"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "247993",
+      "Text": "The kind of \"courage\" one musters up in an instance to grab an opportunity that has appeared...",
+      "SpeakerIds": [
+        "54"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "247994",
+      "Text": "Can you be more specific?",
+      "SpeakerIds": [
+        "42"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "247995",
+      "Text": "Well, I have a small figure compared to most people...",
+      "SpeakerIds": [
+        "54"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "247996",
+      "Text": "When facing an opponent in an XB game, agility is important for smaller players to gain the upper hand...",
+      "SpeakerIds": [
+        "54"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "247997",
+      "Text": "But, I don't think I'm brave enough to charge towards my opponents immediately... Like how Ms. Iroha and Mr. Hyakuichitaro do...",
+      "SpeakerIds": [
+        "54"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "247998",
+      "Text": "I see. So you want to know how to face the enemy boldly...",
+      "SpeakerIds": [
+        "42"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "247999",
+      "Text": "It is common for players with smaller figures to close in on their enemies to make up for their disadvantage in power and arm length.",
+      "SpeakerIds": [
+        "35"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "248000",
+      "Text": "The two you just mentioned are indeed the type to charge towards big enemies without hesitation.",
+      "SpeakerIds": [
+        "35"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "248002",
+      "Text": "Being timid is similar to being cautious, so I don't think it's a bad thing.",
+      "SpeakerIds": [
+        "50"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "248004",
+      "Text": "However, you might face more trouble when you hesitate.",
+      "SpeakerIds": [
+        "50"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "248005",
+      "Text": "Right. Koishi, I think you're afraid to charge towards the enemy because you're afraid of getting hurt or losing...",
+      "SpeakerIds": [
+        "56"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "248006",
+      "Text": "But in fact, you'll get hurt or lose the battle more easily if you keep your distance.",
+      "SpeakerIds": [
+        "56"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "248007",
+      "Text": "I-Is that so? I've never thought about that!",
+      "SpeakerIds": [
+        "54"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "248008",
+      "Text": "So it might be even more dangerous to stay at the same spot?",
+      "SpeakerIds": [
+        "54"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "248009",
+      "Text": "Yes. Thinking from another point of view is quite important. But even if our brains knew this, our bodies wouldn't be able to adjust so quickly.",
+      "SpeakerIds": [
+        "56"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "248010",
+      "Text": "It's like a habit. I'd suggest you can ask Saigo or Q to help you practice and get used to these kinds of situations.",
+      "SpeakerIds": [
+        "56"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "248011",
+      "Text": "Don't worry. I'm sure the agility you possess will become a weapon one day after some training.",
+      "SpeakerIds": [
+        "56"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "248012",
+      "Text": "What an absolute gentle and perfect piece of advice! I'm so in awe of you, Miu!",
+      "SpeakerIds": [
+        "55"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "248013",
+      "Text": "For someone like Koishi, it might be more helpful giving him advice like this instead of telling him to stay strong and follow his guts.",
+      "SpeakerIds": [
+        "35"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "248014",
+      "Text": "Thank you so much, Ms. Jujo! I think I'm able to keep moving forward now!",
+      "SpeakerIds": [
+        "54"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    },
+    {
+      "TextId": "248015",
+      "Text": "And thanks everyone for all your help! I'll train hard and make everyone proud!",
+      "SpeakerIds": [
+        "54"
+      ],
+      "SpeakerNameOverride": "",
+      "VoiceId": ""
+    }
+  ]
+}

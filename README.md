@@ -6,9 +6,27 @@ Code by Remileth (@skythel)
 Assets from Tribe Nine and spriters-resource  
 Content:  
 * Character card info: Tribe Nine Forever archive
-* Tension card text: Tribe Nine Forever archive, AninaWalksleeper, Lucifer, Donna-sor, PixelVixi, Raptor, Toast, Hitamitu, ryansinbela, HuangET
+* Tension card text: Tribe Nine Forever archive, AninaWalksleeper, Lucifer, Donna-sor, PixelVixi, Raptor, Toast, Hitamitu, ryansinbela, HuangET, AHSMB
+NINE Chat bubble styling: HuangET
+
+## Upcoming Updates
+* Characters
+  * Character basic info
+* NINE Chat
+  * More chats
+  * More dynamic typing and multiple people typing
+  * Better-scaling styling
+* Pachimon
+
+## Known Issues
+* NINE Chat
+  * "All messsages have been confirmed" doesn't animate properly
 
 ## Changelog
+### v0.0.3 - 31/5/2025
+* Added NINE Chat with some chats
+* Further mobile styling fixes for tension cards
+* All tension card info has been completed
 ### v0.0.2 - 27/5/2025
 * Reduced size of mobile font and icons
 * Added tension cards

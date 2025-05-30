@@ -3,11 +3,14 @@ import { createTheme, ThemeProvider } from '@mui/material/styles';
 import { Container } from "@mui/system";
 import MobileCharacter from "./MobileCharacter";
 import MobileTensionCards from "./MobileTensionCards";
+import { chatList } from "../content/ChatList";
 import {
   Route,
   Routes,
   Link,
 } from "react-router-dom";
+import MobileNineChat from "./MobileNineChat";
+import MobileChatMessage from "./MobileChatMessage";
 
 const theme = createTheme();
 const useStyles = makeStyles((theme) => ({
@@ -45,6 +48,17 @@ const MobileContent = () => {
             path="/tension-cards"
             element={<MobileTensionCards />}
           />
+          <Route
+            path="/chat"
+            element={<MobileNineChat />}
+          >
+            {chatList.map((c, i) => (
+              <Route
+                path={`/chat/${i + 1}`}
+                element={<MobileChatMessage title={c.title} chatLog={c.Contents} />}
+              />
+            ))}
+          </Route>
         </Routes>
       </Container>
     </ThemeProvider>

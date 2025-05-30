@@ -93,7 +93,7 @@ const useStyles = makeStyles((theme) => ({
   tensionType: {
     position: "absolute",
     bottom: "27px",
-    left: "10px",
+    left: "8px",
     backgroundColor: "black",
     height: "30px",
     width: "30px",

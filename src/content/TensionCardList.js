@@ -9,7 +9,8 @@ const Minato = require('../assets/tension_misc/ui_tension_card_synergy_icon_mina
 const None = require('../assets/tension_misc/ui_tension_card_synergy_icon_none.png');
 const Ota = require('../assets/tension_misc/ui_tension_card_synergy_icon_ota.png');
 const Setagaya = require('../assets/tension_misc/ui_tension_card_synergy_icon_setagaya.png');
-const Shinagawa = require('../assets/tension_misc/ui_tension_card_synergy_icon_shinagawa.png'); const Shinagawa2 = require('../assets/tension_misc/ui_tension_card_synergy_icon_shinagawa_2.png');
+const Shinagawa = require('../assets/tension_misc/ui_tension_card_synergy_icon_shinagawa.png');
+const Shinagawa2 = require('../assets/tension_misc/ui_tension_card_synergy_icon_shinagawa_2.png');
 const Shinjuku = require('../assets/tension_misc/ui_tension_card_synergy_icon_shinjuku.png');
 const Taito = require('../assets/tension_misc/ui_tension_card_synergy_icon_taito.png');
 const Toshima = require('../assets/tension_misc/ui_tension_card_synergy_icon_toshima.png');
@@ -4110,7 +4111,7 @@ export const tensionCardList = [
   },
   {
     name: "Elated!",
-    title: "Choo Choo R",
+    title: "Scheeze (Rare)",
     rarity: 2,
     tensionPhase: 3,
     effectTarget: "Met",
@@ -4121,8 +4122,8 @@ export const tensionCardList = [
     type: Setagaya,
     icon: require('../assets/tension_card_icons/ui_tension_card_icon_5251106.png'),
     art: require('../assets/tension_card_art/tc_fullscreen_5251106.jpg'),
-    tagline: "",
-    descrip: "",
+    tagline: "Is it a golden rat or a sneaker?",
+    descrip: "The legend of the rat, a shining urban legend. Will it bring you good or bad luck?",
     info: [
       "\"It was definitely around here!\"",
       "\"Are you sure...?\"",
@@ -4288,7 +4289,7 @@ export const tensionCardList = [
   },
   {
     name: "Journey to Death",
-    title: "Yakumo Comet",
+    title: "Sui Yakumo",
     rarity: 2,
     tensionPhase: 3,
     effectTarget: "Met",
@@ -4299,8 +4300,8 @@ export const tensionCardList = [
     type: BeyondDeath,
     icon: require('../assets/tension_card_icons/ui_tension_card_icon_5101606.png'),
     art: require('../assets/tension_card_art/tc_fullscreen_5101606.jpg'),
-    tagline: "",
-    descrip: "",
+    tagline: "I'll kill you, or you'll kill me...",
+    descrip: "An old friend tainted black. What lies in the depths of that darkness?",
     info: [
       "Slowly, everything was overtaken by darkness.",
       "The remaining small fraction of feelings he had towards his friends, and the few bright memories he had left...",
@@ -4353,8 +4354,8 @@ export const tensionCardList = [
     type: Chiyoda,
     icon: require('../assets/tension_card_icons/ui_tension_card_icon_5102903.png'),
     art: require('../assets/tension_card_art/tc_fullscreen_5102903.jpg'),
-    tagline: "",
-    descrip: "",
+    tagline: "A true ninja serves their master... until death!",
+    descrip: "The eldest of the Akiba siblings, he once served the Otori family.",
     info: [
       "This happened on a certain afternoon.",
       "Ichinosuke Akiba and Hinagiku Akiba found themselves standing face-to-face at a quaint cafe with a pink motif and cutesy interior.",
@@ -4959,7 +4960,7 @@ export const tensionCardList = [
   },
   {
     name: "Reverse Therapy",
-    title: "",
+    title: "Heartful Care",
     rarity: 3,
     tensionPhase: 3,
     effectTarget: "Special",
@@ -4969,8 +4970,8 @@ export const tensionCardList = [
     type: None,
     icon: require('../assets/tension_card_icons/ui_tension_card_icon_5100505.png'),
     art: require('../assets/tension_card_art/tc_fullscreen_5100505.jpg'),
-    tagline: "",
-    descrip: "",
+    tagline: "I'll definitely help you. I know I can.",
+    descrip: "If I could share the pain with someone, I could heal them.",
     info: [
       "I studied medicine because I desperately wanted to save others.",
       "Then, I ran around the city desperately trying to save people's lives.",
@@ -5398,7 +5399,7 @@ export const tensionCardList = [
   },
   {
     name: "Rise And Fall of Glory",
-    title: "",
+    title: "Ascension of the New King",
     rarity: 3,
     tensionPhase: 0,
     effectTarget: "Special",
@@ -5409,8 +5410,8 @@ export const tensionCardList = [
     type: None,
     icon: require('../assets/tension_card_icons/ui_tension_card_icon_5104505.png'),
     art: require('../assets/tension_card_art/tc_fullscreen_5104505.jpg'),
-    tagline: "",
-    descrip: "",
+    tagline: "Victory is everything. Nothing else matters.",
+    descrip: "The new king seeks true power. A new era of strife and battles has begun.",
     info: [
       "\"We should announce our new king to the nation at once.\"",
       "",
@@ -5466,7 +5467,7 @@ export const tensionCardList = [
   },
   {
     name: "Rebuke",
-    title: "",
+    title: "Branding",
     rarity: 3,
     tensionPhase: 1,
     effectTarget: "Special",
@@ -5477,8 +5478,8 @@ export const tensionCardList = [
     type: None,
     icon: require('../assets/tension_card_icons/ui_tension_card_icon_5101305.png'),
     art: require('../assets/tension_card_art/tc_fullscreen_5101305.jpg'),
-    tagline: "",
-    descrip: "",
+    tagline: "All I can do is keep fighting.",
+    descrip: "The sin that never disappears also fuels redemption.",
     info: [
       "Droplets of water falling from the shower triggered a resonance of thoughts that rippled through Q's mind.",
       "",
@@ -5658,7 +5659,7 @@ export const tensionCardList = [
   },
   {
     name: "Risk Management",
-    title: "",
+    title: "The Most Splendid Shot",
     rarity: 3,
     tensionPhase: 2,
     effectTarget: "Met",
@@ -5669,8 +5670,8 @@ export const tensionCardList = [
     type: None,
     icon: require('../assets/tension_card_icons/ui_tension_card_icon_5101204.png'),
     art: require('../assets/tension_card_art/tc_fullscreen_5101204.jpg'),
-    tagline: "",
-    descrip: "",
+    tagline: "Let's light up Shinagawa with the bright future of our company!",
+    descrip: "It's you who has made the best of me. To our unfaltering companionship.",
     info: [
       "\"I hope we can capture a photo that fully depicts Mr. Gotanda's charisma.\"",
       "",
@@ -5970,7 +5971,7 @@ export const tensionCardList = [
   },
   {
     name: "Endless Serving",
-    title: "",
+    title: "Full Course Love",
     rarity: 3,
     tensionPhase: 3,
     effectTarget: "All",
@@ -5982,8 +5983,8 @@ export const tensionCardList = [
     type: Kita2,
     icon: require('../assets/tension_card_icons/ui_tension_card_icon_5100304.png'),
     art: require('../assets/tension_card_art/tc_fullscreen_5100304.jpg'),
-    tagline: "",
-    descrip: "",
+    tagline: "Enjoy your meal, made with all my love!",
+    descrip: "Jio serves Miu a home-cooked meal. With an overflowing amount of love...",
     info: [
       "\"This is a full course of love prepared by me. Enjoy your meal!\"",
       "",

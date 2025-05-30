@@ -3,11 +3,14 @@ import { createTheme, ThemeProvider } from '@mui/material/styles';
 import { Container } from "@mui/system";
 import Character from "./Character";
 import TensionCards from "./TensionCards";
+import { chatList } from "../content/ChatList";
 import {
   Route,
   Routes,
   Link,
 } from "react-router-dom";
+import NineChat from "./NineChat";
+import ChatMessage from "./ChatMessage";
 
 const theme = createTheme();
 const useStyles = makeStyles((theme) => ({
@@ -45,6 +48,17 @@ const Content = () => {
             path="/tension-cards"
             element={<TensionCards />}
           />
+          <Route
+            path="/chat"
+            element={<NineChat />}
+          >
+            {chatList.map((c, i) => (
+              <Route
+                path={`/chat/${i + 1}`}
+                element={<ChatMessage title={c.title} chatLog={c.Contents} />}
+              />
+            ))}
+          </Route>
         </Routes>
         {/* {currentPage === "Character" && <Character />}
         {currentPage === "Cards" && <TensionCards />} */}
