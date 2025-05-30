@@ -21,6 +21,7 @@ NINE Chat bubble styling: HuangET
 ## Known Issues
 * NINE Chat
   * "All messsages have been confirmed" doesn't animate properly
+  * Unable to break autoscroll while a chat is playing
 
 ## Changelog
 ### v0.0.3 - 31/5/2025

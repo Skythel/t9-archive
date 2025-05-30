@@ -8,6 +8,7 @@ import { IconButton } from "@mui/material";
 import { Link } from "react-router-dom";
 import { keyframes } from "@mui/system";
 import { speakerList } from "../content/ChatList";
+import TypingIndicator from "./TypingIndicator";
 
 const expandLeft = keyframes`
     from { width: 0; }
@@ -140,44 +141,6 @@ const useStyles = makeStyles((theme) => ({
 const typingSpeed = 1.5; // placeholder for now
 const endMsg = "All messages have been confirmed";
 
-const TypingIndicator = () => {
-  const colors = ["#555", "#999", "#bbb", "#999", "#555"];
-  return (
-    <div
-      style={{
-        display: "flex",
-        alignItems: "center",
-        padding: "8px 12px",
-        borderRadius: "18px",
-        width: "fit-content",
-      }}
-    >
-      {[0, 1, 2].map((index) => (
-        <motion.div
-          key={`dots${index}`}
-          style={{
-            width: "8px",
-            height: "8px",
-            backgroundColor: "#888",
-            borderRadius: "50%",
-            margin: "0 2px",
-          }}
-          animate={{
-            backgroundColor: colors,
-          }}
-          transition={{
-            duration: 1.5,
-            repeat: Infinity,
-            repeatDelay: 0.5,
-            delay: index * 0.3,
-            ease: "linear",
-          }}
-        />
-      ))}
-    </div>
-  );
-};
-
 const ChatMessage = ({ title, chatLog }) => {
   const classes = useStyles();
   const [messages, setMessages] = useState([]);
@@ -191,7 +154,7 @@ const ChatMessage = ({ title, chatLog }) => {
   //   const speaker = speakers.find((s) => s.name.split(" ").includes(matches[1]));
   //   return { ...speaker, msg: matches[2], typingSpeed: typingSpeed * 1000 };
   // });
-  const processChatLog = chatLog.map((m) => {
+  const processChatLog = chatLog.filter((c) => c.Text !== "" && c.SpeakerIds.length > 0).map((m) => {
     // find the speaker object
     const speaker = speakerList.find(
       (s) => s.index === Number(m.SpeakerIds[0])
@@ -199,15 +162,9 @@ const ChatMessage = ({ title, chatLog }) => {
     return { ...speaker, msg: m.Text, typingSpeed: typingSpeed * 1000 };
   });
   const speakers = [...new Set(chatLog.map((m) => m.SpeakerIds[0]))];
-  const speaker1 = speakerList.find(
-    (s) => s.index === Number(speakers[0])
-  );
-  const speaker2 = speakerList.find(
-    (s) => s.index === Number(speakers[1])
-  );
-  const speaker3 = speakerList.find(
-    (s) => s.index === Number(speakers[2])
-  );
+  const speaker1 = speakerList.find((s) => s.index === Number(speakers[0]));
+  const speaker2 = speakerList.find((s) => s.index === Number(speakers[1]));
+  const speaker3 = speakerList.find((s) => s.index === Number(speakers[2]));
 
   useEffect(() => {
     if (currentIndex >= processChatLog.length) {
@@ -256,7 +213,9 @@ const ChatMessage = ({ title, chatLog }) => {
           </Link>
         </Box>
         <Box textAlign="left">
-          <Box className={classes.chatTitle}>{title === "" ? "Group Chat" : title}</Box>
+          <Box className={classes.chatTitle}>
+            {title === "" ? "Group Chat" : title}
+          </Box>
           <Box className={classes.chatSubtitle}>For casual chat.</Box>
         </Box>
         <Box className={classes.chatHeadContainer}>
