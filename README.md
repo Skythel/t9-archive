@@ -7,7 +7,7 @@ Assets from Tribe Nine and spriters-resource
 Content:  
 * Character card info: Tribe Nine Forever archive
 * Tension card text: Tribe Nine Forever archive, AninaWalksleeper, Lucifer, Donna-sor, PixelVixi, Raptor, Toast, Hitamitu, ryansinbela, HuangET, AHSMB
-NINE Chat bubble styling: HuangET
+* NINE Chat bubble styling: HuangET
 
 ## Upcoming Updates
 * Characters
