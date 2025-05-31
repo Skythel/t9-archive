@@ -1,0 +1,391 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 8183613365264685828
+  },
+  "m_Name": "likabilityNINE_Main3_Saigo_04",
+  "_speakTranslationAssetAddress": "Translation/SpeakTranslationData/ActionSequence/LikabilityNINE/Main3/likabilityNINE_Main3_Saigo",
+  "AreaBehaviourBlackoutStart": 1,
+  "AreaBehaviourMuteBgmStart": 0,
+  "CommandData": [
+    {
+      "Enabled": 1,
+      "Guid": "4b0be7d66241a49a08637e3e33538045",
+      "Memo": "",
+      "Command": "NineInitialize",
+      "ParameterNames": [],
+      "ParameterValues": []
+    },
+    {
+      "Enabled": 1,
+      "Guid": "9943fde1747755b42bb9edf46f717f47",
+      "Memo": "トラッシュメンバー",
+      "Command": "SectionBegin",
+      "ParameterNames": [],
+      "ParameterValues": []
+    },
+    {
+      "Enabled": 1,
+      "Guid": "bbe276d6bd55e6744b1e190eaef6e864",
+      "Memo": "ジオウ",
+      "Command": "NineAddUser",
+      "ParameterNames": [
+        "SpeakerId",
+        "OverrideSpeakerName",
+        "OverrideIconAssetPath"
+      ],
+      "ParameterValues": [
+        "1003",
+        "",
+        ""
+      ]
+    },
+    {
+      "Enabled": 1,
+      "Guid": "706c33a38e849244e9a31381cbc0fae4",
+      "Memo": "大井",
+      "Command": "NineAddUser",
+      "ParameterNames": [
+        "SpeakerId",
+        "OverrideSpeakerName",
+        "OverrideIconAssetPath"
+      ],
+      "ParameterValues": [
+        "1006",
+        "",
+        ""
+      ]
+    },
+    {
+      "Enabled": 1,
+      "Guid": "69a75ca44dadde74bbfab457725b8df5",
+      "Memo": "西郷",
+      "Command": "NineAddUser",
+      "ParameterNames": [
+        "SpeakerId",
+        "OverrideSpeakerName",
+        "OverrideIconAssetPath"
+      ],
+      "ParameterValues": [
+        "1010",
+        "",
+        ""
+      ]
+    },
+    {
+      "Enabled": 1,
+      "Guid": "6c4615b28d7dcdd49a299ad382de1941",
+      "Memo": "えのき",
+      "Command": "NineAddUser",
+      "ParameterNames": [
+        "SpeakerId",
+        "OverrideSpeakerName",
+        "OverrideIconAssetPath"
+      ],
+      "ParameterValues": [
+        "1011",
+        "",
+        ""
+      ]
+    },
+    {
+      "Enabled": 1,
+      "Guid": "bee6c912054b572499d8c90629c9f9dd",
+      "Memo": "",
+      "Command": "SectionEnd",
+      "ParameterNames": [],
+      "ParameterValues": []
+    },
+    {
+      "Enabled": 1,
+      "Guid": "6a1512e5af0611043b3a621eef6c6f2c",
+      "Memo": "",
+      "Command": "NineMessage",
+      "ParameterNames": [
+        "WaitForTrigger",
+        "WaitTriggerName",
+        "InvokeTrigger",
+        "InvokeTriggerName",
+        "DelayMode",
+        "DelaySec",
+        "EnableTypingDurationOverride",
+        "OverrideTypingDuration",
+        "SpeakerId",
+        "TextId",
+        "Text",
+        "MessageId",
+        "HasAutoDelay",
+        "TriggerMessageId"
+      ],
+      "ParameterValues": [
+        "False",
+        "",
+        "False",
+        "",
+        "Auto",
+        "0",
+        "True",
+        "2.4",
+        "1010",
+        "245884",
+        "",
+        "0",
+        "True",
+        "0"
+      ]
+    },
+    {
+      "Enabled": 1,
+      "Guid": "c4ad60f3508a5814d98dc1da602876b2",
+      "Memo": "",
+      "Command": "NineMessage",
+      "ParameterNames": [
+        "WaitForTrigger",
+        "WaitTriggerName",
+        "InvokeTrigger",
+        "InvokeTriggerName",
+        "DelayMode",
+        "DelaySec",
+        "EnableTypingDurationOverride",
+        "OverrideTypingDuration",
+        "SpeakerId",
+        "TextId",
+        "Text",
+        "MessageId",
+        "HasAutoDelay",
+        "TriggerMessageId"
+      ],
+      "ParameterValues": [
+        "False",
+        "",
+        "False",
+        "",
+        "Manual",
+        "0.5",
+        "True",
+        "1.5",
+        "1010",
+        "245885",
+        "",
+        "0",
+        "True",
+        "0"
+      ]
+    },
+    {
+      "Enabled": 1,
+      "Guid": "ffa1ed9c1569d944bb11b2f146f26b74",
+      "Memo": "",
+      "Command": "NineMessage",
+      "ParameterNames": [
+        "WaitForTrigger",
+        "WaitTriggerName",
+        "InvokeTrigger",
+        "InvokeTriggerName",
+        "DelayMode",
+        "DelaySec",
+        "EnableTypingDurationOverride",
+        "OverrideTypingDuration",
+        "SpeakerId",
+        "TextId",
+        "Text",
+        "MessageId",
+        "HasAutoDelay",
+        "TriggerMessageId"
+      ],
+      "ParameterValues": [
+        "False",
+        "",
+        "False",
+        "",
+        "Manual",
+        "0.2",
+        "True",
+        "0.7",
+        "1011",
+        "245886",
+        "",
+        "0",
+        "True",
+        "0"
+      ]
+    },
+    {
+      "Enabled": 1,
+      "Guid": "3f355a238668a1f43ab73f743809f9ef",
+      "Memo": "",
+      "Command": "NineMessage",
+      "ParameterNames": [
+        "WaitForTrigger",
+        "WaitTriggerName",
+        "InvokeTrigger",
+        "InvokeTriggerName",
+        "DelayMode",
+        "DelaySec",
+        "EnableTypingDurationOverride",
+        "OverrideTypingDuration",
+        "SpeakerId",
+        "TextId",
+        "Text",
+        "MessageId",
+        "HasAutoDelay",
+        "TriggerMessageId"
+      ],
+      "ParameterValues": [
+        "False",
+        "",
+        "False",
+        "",
+        "Manual",
+        "1",
+        "True",
+        "1.2",
+        "1003",
+        "245887",
+        "",
+        "0",
+        "True",
+        "0"
+      ]
+    },
+    {
+      "Enabled": 1,
+      "Guid": "31d94defbb0e7a04fae1e3933dc04ff3",
+      "Memo": "",
+      "Command": "NineMessage",
+      "ParameterNames": [
+        "WaitForTrigger",
+        "WaitTriggerName",
+        "InvokeTrigger",
+        "InvokeTriggerName",
+        "DelayMode",
+        "DelaySec",
+        "EnableTypingDurationOverride",
+        "OverrideTypingDuration",
+        "SpeakerId",
+        "TextId",
+        "Text",
+        "MessageId",
+        "HasAutoDelay",
+        "TriggerMessageId"
+      ],
+      "ParameterValues": [
+        "False",
+        "",
+        "False",
+        "",
+        "Manual",
+        "0.3",
+        "True",
+        "1.6",
+        "1006",
+        "245888",
+        "",
+        "0",
+        "True",
+        "0"
+      ]
+    },
+    {
+      "Enabled": 1,
+      "Guid": "2107197f3a05e5f4c88ecd88f0e8ee07",
+      "Memo": "",
+      "Command": "NineMessage",
+      "ParameterNames": [
+        "WaitForTrigger",
+        "WaitTriggerName",
+        "InvokeTrigger",
+        "InvokeTriggerName",
+        "DelayMode",
+        "DelaySec",
+        "EnableTypingDurationOverride",
+        "OverrideTypingDuration",
+        "SpeakerId",
+        "TextId",
+        "Text",
+        "MessageId",
+        "HasAutoDelay",
+        "TriggerMessageId"
+      ],
+      "ParameterValues": [
+        "False",
+        "",
+        "False",
+        "",
+        "Manual",
+        "0.4",
+        "True",
+        "2.5",
+        "1010",
+        "245890",
+        "",
+        "0",
+        "True",
+        "0"
+      ]
+    },
+    {
+      "Enabled": 1,
+      "Guid": "70f8921a8af5b0f4195576a001697f90",
+      "Memo": "",
+      "Command": "NineMessage",
+      "ParameterNames": [
+        "WaitForTrigger",
+        "WaitTriggerName",
+        "InvokeTrigger",
+        "InvokeTriggerName",
+        "DelayMode",
+        "DelaySec",
+        "EnableTypingDurationOverride",
+        "OverrideTypingDuration",
+        "SpeakerId",
+        "TextId",
+        "Text",
+        "MessageId",
+        "HasAutoDelay",
+        "TriggerMessageId"
+      ],
+      "ParameterValues": [
+        "False",
+        "",
+        "False",
+        "",
+        "Manual",
+        "0.3",
+        "True",
+        "0.7",
+        "1011",
+        "245891",
+        "",
+        "0",
+        "True",
+        "0"
+      ]
+    },
+    {
+      "Enabled": 1,
+      "Guid": "49f415ed3bedd31478dce7fa7b4b4a9e",
+      "Memo": "",
+      "Command": "Wait",
+      "ParameterNames": [
+        "DurationSec"
+      ],
+      "ParameterValues": [
+        "2"
+      ]
+    },
+    {
+      "Enabled": 1,
+      "Guid": "a4fd0231034883d4cbb3e45f76752b64",
+      "Memo": "",
+      "Command": "NineComplete",
+      "ParameterNames": [],
+      "ParameterValues": []
+    }
+  ]
+}

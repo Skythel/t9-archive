@@ -1,0 +1,4115 @@
+[
+  {
+    "id": 500001,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 500001,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main1/likabilityNINE_Main1_Begin_01",
+    "sequence_request_ids": [],
+    "type": 1
+  },
+  {
+    "id": 500002,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 500002,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main1/likabilityNINE_Main1_Begin_02",
+    "sequence_request_ids": [],
+    "type": 1
+  },
+  {
+    "id": 500003,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 500003,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main3/likabilityNINE_Main3_Trash_01",
+    "sequence_request_ids": [],
+    "type": 1
+  },
+  {
+    "id": 500004,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 500004,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main3/likabilityNINE_Main3_Trash_02",
+    "sequence_request_ids": [],
+    "type": 1
+  },
+  {
+    "id": 501001,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 501001,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main1/likabilityNINE_Main1_Yo_01",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 501002,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 501002,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main1/likabilityNINE_Main1_Yo_02",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 501003,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 501003,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main1/likabilityNINE_Main1_Yo_03",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 501004,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 501004,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main1/likabilityNINE_Main1_Yo_04",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 501005,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 501005,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main1/likabilityNINE_Main1_Yo_05",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 501006,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 501006,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main1/likabilityNINE_Main1_Yo_07",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 501007,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 501007,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main1/likabilityNINE_Main1_Yo_08",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 501008,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 501008,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main1/likabilityNINE_Main1_Yo_09",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 501009,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 501009,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main1/likabilityNINE_Main1_Yo_10",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 501010,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 501010,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main1/likabilityNINE_Main1_Yo_11",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 501011,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 501011,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/common/likabilityNINE_common_Yo_01",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 501012,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 501012,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/common/likabilityNINE_common_Yo_02",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 501013,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 501013,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/common/likabilityNINE_common_Yo_03",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 501014,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 501014,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/common/likabilityNINE_common_Yo_04",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 501015,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 501015,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main2/likabilityNINE_Main2_Yo_01",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 501016,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 501016,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main2/likabilityNINE_Main2_Yo_02",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 501017,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 501017,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main2/likabilityNINE_Main2_Yo_03",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 501018,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 501018,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main2/likabilityNINE_Main2_Yo_04",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 501019,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 501019,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main2/likabilityNINE_Main2_Yo_05",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 501020,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 501020,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main2/likabilityNINE_Main2_Yo_06",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 501021,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 501021,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main2/likabilityNINE_Main2_Yo_07",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 501022,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 501022,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main2/likabilityNINE_Main2_Yo_08",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 501023,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 501023,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main2/likabilityNINE_Main2_Yo_09",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 501024,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 501024,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/common/likabilityNINE_C_common_Yo_01",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 501025,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 501025,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/common/likabilityNINE_C_common_Yo_02",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 501026,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 501026,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main3/likabilityNINE_Main3_Yo_01",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 502001,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 502001,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main1/likabilityNINE_Main1_Tsuki_01",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 502002,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 502002,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main1/likabilityNINE_Main1_Tsuki_02",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 502003,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 502003,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main1/likabilityNINE_Main1_Tsuki_03",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 502004,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 502004,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main1/likabilityNINE_Main1_Tsuki_04",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 502005,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 502005,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/common/likabilityNINE_common_Tsuki_01",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 502006,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 502006,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/common/likabilityNINE_common_Tsuki_02",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 502007,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 502007,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/common/likabilityNINE_common_Tsuki_03",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 502008,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 502008,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/common/likabilityNINE_common_Tsuki_04",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 502009,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 502009,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/common/likabilityNINE_common_Tsuki_05",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 502010,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 502010,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/common/likabilityNINE_common_Tsuki_06",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 502011,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 502011,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/common/likabilityNINE_common_Tsuki_07",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 502012,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 502012,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/common/likabilityNINE_common_Tsuki_08",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 502013,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 502013,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main2/likabilityNINE_Main2_Tsuki_01",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 502014,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 502014,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main2/likabilityNINE_Main2_Tsuki_02",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 502015,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 502015,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main2/likabilityNINE_Main2_Tsuki_03",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 502016,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 502016,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main2/likabilityNINE_Main2_Tsuki_04",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 502017,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 502017,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main2/likabilityNINE_Main2_Tsuki_05",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 502018,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 502018,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main2/likabilityNINE_Main2_Tsuki_06",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 502019,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 502019,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/common/likabilityNINE_C_common_Tsuki_01",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 502020,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 502020,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main1/likabilityNINE_C_Main1_Tsuki_01",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 502021,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 502021,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main3/likabilityNINE_Main3_Tsuki_01",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 503001,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 503001,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main1/likabilityNINE_Main1_Jio_01",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 503002,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 503002,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main1/likabilityNINE_Main1_Jio_02",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 503003,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 503003,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main1/likabilityNINE_Main1_Jio_03",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 503004,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 503004,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main1/likabilityNINE_Main1_Jio_04",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 503005,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 503005,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/common/likabilityNINE_common_Jio_01",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 503006,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 503006,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/common/likabilityNINE_common_Jio_02",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 503007,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 503007,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/common/likabilityNINE_common_Jio_03",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 503008,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 503008,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/common/likabilityNINE_common_Jio_04",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 503009,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 503009,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/common/likabilityNINE_common_Jio_05",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 503010,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 503010,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/common/likabilityNINE_common_Jio_06",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 503011,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 503011,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/common/likabilityNINE_common_Jio_07",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 503012,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 503012,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/common/likabilityNINE_common_Jio_08",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 503013,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 503013,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/common/likabilityNINE_common_Jio_09",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 503014,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 503014,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/common/likabilityNINE_common_Jio_10",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 503015,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 503015,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/common/likabilityNINE_common_Jio_11",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 503016,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 503016,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/common/likabilityNINE_common_Jio_12",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 503017,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 503017,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/common/likabilityNINE_C_common_Jio_01",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 503018,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 503018,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main3/likabilityNINE_Main3_Jio_01",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 503019,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 503019,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main3/likabilityNINE_Main3_Jio_02",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 503020,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 503020,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main3/likabilityNINE_Main3_Jio_03",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 504001,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 504001,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main1/likabilityNINE_Main1_Miu_01",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 504002,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 504002,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main1/likabilityNINE_Main1_Miu_02",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 504003,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 504003,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main1/likabilityNINE_Main1_Miu_03",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 504004,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 504004,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main1/likabilityNINE_Main1_Miu_04",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 504005,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 504005,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main1/likabilityNINE_Main1_Miu_05",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 504006,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 504006,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/common/likabilityNINE_common_Miu_01",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 504007,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 504007,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/common/likabilityNINE_common_Miu_02",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 504008,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 504008,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/common/likabilityNINE_common_Miu_03",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 504009,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 504009,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/common/likabilityNINE_common_Miu_05",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 504010,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 504010,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/common/likabilityNINE_common_Miu_06",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 504011,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 504011,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/common/likabilityNINE_common_Miu_07",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 504012,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 504012,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/common/likabilityNINE_common_Miu_08",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 504013,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 504013,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/common/likabilityNINE_common_Miu_09",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 504014,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 504014,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/common/likabilityNINE_common_Miu_10",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 504015,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 504015,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/common/likabilityNINE_common_Miu_11",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 504017,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 504017,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main2/likabilityNINE_Main2_Miu_02",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 504018,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 504018,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main2/likabilityNINE_Main2_Miu_03",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 504019,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 504019,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/common/likabilityNINE_C_common_Miu_01",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 504020,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 504020,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main3/likabilityNINE_Main3_Miu_01",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 504021,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 504021,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main3/likabilityNINE_Main3_Miu_02",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 505001,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 505001,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main1/likabilityNINE_Main1_Koishi_01",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 505002,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 505002,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/common/likabilityNINE_common_Koishi_01",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 505003,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 505003,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/common/likabilityNINE_common_Koishi_02",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 505004,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 505004,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/common/likabilityNINE_common_Koishi_03",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 505005,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 505005,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/common/likabilityNINE_common_Koishi_04",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 505006,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 505006,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/common/likabilityNINE_common_Koishi_05",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 505007,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 505007,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/common/likabilityNINE_common_Koishi_06",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 505008,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 505008,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/common/likabilityNINE_common_Koishi_07",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 505009,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 505009,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/common/likabilityNINE_common_Koishi_08",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 505010,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 505010,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/common/likabilityNINE_common_Koishi_09",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 505011,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 505011,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/common/likabilityNINE_common_Koishi_10",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 505012,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 505012,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/common/likabilityNINE_common_Koishi_11",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 505013,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 505013,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/common/likabilityNINE_common_Koishi_12",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 505014,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 505014,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main2/likabilityNINE_Main2_Koishi_01",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 505015,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 505015,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main2/likabilityNINE_Main2_Koishi_02",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 505016,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 505016,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main2/likabilityNINE_Main2_Koishi_03",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 505017,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 505017,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main2/likabilityNINE_Main2_Koishi_04",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 505018,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 505018,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main2/likabilityNINE_Main2_Koishi_05",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 505019,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 505019,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main2/likabilityNINE_Main2_Koishi_06",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 505020,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 505020,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main2/likabilityNINE_Main2_Koishi_07",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 505021,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 505021,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main2/likabilityNINE_Main2_Koishi_08",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 505022,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 505022,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/common/likabilityNINE_C_common_Koishi_01",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 505023,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 505023,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/common/likabilityNINE_C_common_Koishi_02",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 506001,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 506001,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main1/likabilityNINE_Main1_Oi_01",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 506002,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 506002,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main1/likabilityNINE_Main1_Oi_02",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 506003,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 506003,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main1/likabilityNINE_Main1_Oi_03",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 506004,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 506004,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main1/likabilityNINE_Main1_Oi_04",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 506005,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 506005,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main1/likabilityNINE_Main1_Oi_05",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 506006,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 506006,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/common/likabilityNINE_common_Oi_01",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 506007,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 506007,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/common/likabilityNINE_common_Oi_02",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 506008,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 506008,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/common/likabilityNINE_common_Oi_03",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 506009,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 506009,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/common/likabilityNINE_common_Oi_04",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 506010,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 506010,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/common/likabilityNINE_common_Oi_05",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 506011,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 506011,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/common/likabilityNINE_common_Oi_06",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 506012,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 506012,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/common/likabilityNINE_common_Oi_07",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 506013,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 506013,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/common/likabilityNINE_common_Oi_08",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 506014,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 506014,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/common/likabilityNINE_common_Oi_09",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 506015,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 506015,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/common/likabilityNINE_common_Oi_10",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 506016,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 506016,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/common/likabilityNINE_common_Oi_11",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 506017,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 506017,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/common/likabilityNINE_common_Oi_12",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 506018,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 506018,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main2/likabilityNINE_Main2_Oi_01",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 506019,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 506019,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main2/likabilityNINE_Main2_Oi_02",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 506020,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 506020,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main2/likabilityNINE_Main2_Oi_03",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 506021,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 506021,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main2/likabilityNINE_Main2_Oi_04",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 506022,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 506022,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/common/likabilityNINE_C_common_Oi_01",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 506023,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 506023,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main3/likabilityNINE_Main3_Oi_01",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 507001,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 507001,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main1/likabilityNINE_Main1_Hyakuichitaro_01",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 507002,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 507002,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main1/likabilityNINE_Main1_Hyakuichitaro_02",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 507003,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 507003,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main1/likabilityNINE_Main1_Hyakuichitaro_03",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 507004,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 507004,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main1/likabilityNINE_Main1_Hyakuichitaro_04",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 507005,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 507005,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main1/likabilityNINE_Main1_Hyakuichitaro_05",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 507006,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 507006,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main1/likabilityNINE_Main1_Hyakuichitaro_06",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 507007,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 507007,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/common/likabilityNINE_common_Hyakuichitaro_01",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 507008,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 507008,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/common/likabilityNINE_common_Hyakuichitaro_02",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 507009,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 507009,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/common/likabilityNINE_common_Hyakuichitaro_03",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 507010,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 507010,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/common/likabilityNINE_common_Hyakuichitaro_04",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 507011,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 507011,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/common/likabilityNINE_common_Hyakuichitaro_05",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 507012,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 507012,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/common/likabilityNINE_common_Hyakuichitaro_06",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 507013,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 507013,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/common/likabilityNINE_common_Hyakuichitaro_07",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 507014,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 507014,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/common/likabilityNINE_common_Hyakuichitaro_08",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 507015,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 507015,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/common/likabilityNINE_common_Hyakuichitaro_09",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 507016,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 507016,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/common/likabilityNINE_common_Hyakuichitaro_10",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 507017,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 507017,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main2/likabilityNINE_Main2_Hyakuichitaro_01",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 507018,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 507018,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main2/likabilityNINE_Main2_Hyakuichitaro_02",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 507019,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 507019,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/common/likabilityNINE_C_common_Hyakuichitaro_01",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 507020,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 507020,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/common/likabilityNINE_C_common_Hyakuichitaro_02",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 507021,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 507021,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main3/likabilityNINE_Main3_Hyakuichitaro_01",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 508001,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 508001,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main1/likabilityNINE_Main1_Tsuruko_01",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 508002,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 508002,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main1/likabilityNINE_Main1_Tsuruko_02",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 508003,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 508003,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main1/likabilityNINE_Main1_Tsuruko_03",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 508004,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 508004,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main1/likabilityNINE_Main1_Tsuruko_04",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 508005,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 508005,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main1/likabilityNINE_Main1_Tsuruko_05",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 508006,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 508006,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main1/likabilityNINE_Main1_Tsuruko_06",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 508007,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 508007,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main1/likabilityNINE_Main1_Tsuruko_07",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 508008,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 508008,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main1/likabilityNINE_Main1_Tsuruko_08",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 508009,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 508009,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main1/likabilityNINE_Main1_Tsuruko_09",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 508010,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 508010,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/common/likabilityNINE_common_Tsuruko_01",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 508011,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 508011,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/common/likabilityNINE_common_Tsuruko_02",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 508012,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 508012,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/common/likabilityNINE_common_Tsuruko_03",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 508013,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 508013,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/common/likabilityNINE_common_Tsuruko_04",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 508014,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 508014,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/common/likabilityNINE_common_Tsuruko_05",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 508015,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 508015,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/common/likabilityNINE_common_Tsuruko_06",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 508016,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 508016,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/common/likabilityNINE_common_Tsuruko_07",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 508017,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 508017,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main2/likabilityNINE_Main2_Tsuruko_01",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 508018,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 508018,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main2/likabilityNINE_Main2_Tsuruko_02",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 508019,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 508019,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main2/likabilityNINE_Main2_Tsuruko_04",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 508020,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 508020,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main2/likabilityNINE_Main2_Tsuruko_05",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 508021,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 508021,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main2/likabilityNINE_Main2_Tsuruko_06",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 508022,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 508022,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/common/likabilityNINE_C_common_Tsuruko_01",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 508023,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 508023,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/common/likabilityNINE_C_common_Tsuruko_02",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 508024,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 508024,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/common/likabilityNINE_C_common_Tsuruko_03",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 508025,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 508025,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main3/likabilityNINE_Main3_Tsuruko_01",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 509001,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 509001,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main1/likabilityNINE_Main1_Todoroki_01",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 509003,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 509003,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main1/likabilityNINE_Main1_Todoroki_03",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 509004,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 509004,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main1/likabilityNINE_Main1_Todoroki_04",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 509005,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 509005,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main1/likabilityNINE_Main1_Todoroki_05",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 509006,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 509006,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main1/likabilityNINE_Main1_Todoroki_06",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 509007,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 509007,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main1/likabilityNINE_Main1_Todoroki_07",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 509008,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 509008,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main1/likabilityNINE_Main1_Todoroki_08",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 509009,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 509009,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main1/likabilityNINE_Main1_Todoroki_09",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 509010,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 509010,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main1/likabilityNINE_Main1_Todoroki_10",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 509011,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 509011,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main1/likabilityNINE_Main1_Todoroki_11",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 509012,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 509012,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/common/likabilityNINE_common_Todoroki_01",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 509013,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 509013,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/common/likabilityNINE_common_Todoroki_02",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 509014,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 509014,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/common/likabilityNINE_common_Todoroki_03",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 509015,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 509015,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/common/likabilityNINE_common_Todoroki_04",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 509016,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 509016,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/common/likabilityNINE_common_Todoroki_05",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 509017,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 509017,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/common/likabilityNINE_common_Todoroki_06",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 509018,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 509018,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/common/likabilityNINE_common_Todoroki_07",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 509019,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 509019,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/common/likabilityNINE_common_Todoroki_08",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 509020,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 509020,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main2/likabilityNINE_Main2_Todoroki_01",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 509021,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 509021,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main2/likabilityNINE_Main2_Todoroki_02",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 509022,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 509022,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main2/likabilityNINE_Main2_Todoroki_03",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 509023,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 509023,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/common/likabilityNINE_C_common_Todoroki_01",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 509024,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 509024,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/common/likabilityNINE_C_common_Todoroki_02",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 509025,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 509025,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/common/likabilityNINE_C_common_Todoroki_03",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 509026,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 509026,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/common/likabilityNINE_C_common_Todoroki_04",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 509027,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 509027,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main3/likabilityNINE_Main3_Todoroki_01",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 509028,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 509028,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main3/likabilityNINE_Main3_Todoroki_02",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 509029,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 509029,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main3/likabilityNINE_Main3_Todoroki_03",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 510001,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 510001,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main1/likabilityNINE_Main1_Saigo_01",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 510002,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 510002,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main1/likabilityNINE_Main1_Saigo_02",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 510003,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 510003,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main1/likabilityNINE_Main1_Saigo_03",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 510004,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 510004,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main1/likabilityNINE_Main1_Saigo_04",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 510005,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 510005,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main1/likabilityNINE_Main1_Saigo_05",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 510006,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 510006,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/common/likabilityNINE_common_Saigo_01",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 510007,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 510007,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/common/likabilityNINE_common_Saigo_02",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 510008,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 510008,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/common/likabilityNINE_common_Saigo_03",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 510009,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 510009,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/common/likabilityNINE_common_Saigo_04",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 510010,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 510010,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/common/likabilityNINE_common_Saigo_05",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 510011,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 510011,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/common/likabilityNINE_common_Saigo_06",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 510012,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 510012,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/common/likabilityNINE_common_Saigo_07",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 510013,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 510013,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/common/likabilityNINE_common_Saigo_08",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 510014,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 510014,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/common/likabilityNINE_common_Saigo_09",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 510015,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 510015,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/common/likabilityNINE_common_Saigo_10",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 510016,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 510016,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/common/likabilityNINE_common_Saigo_11",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 510017,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 510017,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/common/likabilityNINE_common_Saigo_12",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 510018,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 510018,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/common/likabilityNINE_common_Saigo_13",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 510019,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 510019,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/common/likabilityNINE_common_Saigo_14",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 510020,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 510020,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/common/likabilityNINE_common_Saigo_15",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 510021,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 510021,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main2/likabilityNINE_Main2_Saigo_01",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 510022,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 510022,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main2/likabilityNINE_Main2_Saigo_02",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 510023,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 510023,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main1/likabilityNINE_C_Main1_Saigo_01",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 510024,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 510024,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main1/likabilityNINE_C_Main1_Saigo_02",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 510025,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 510025,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main3/likabilityNINE_Main3_Saigo_01",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 510026,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 510026,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main3/likabilityNINE_Main3_Saigo_02",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 510027,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 510027,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main3/likabilityNINE_Main3_Saigo_04",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 510028,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 510028,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main3/likabilityNINE_Main3_Saigo_05",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 510029,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 510029,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main3/likabilityNINE_Main3_Saigo_06",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 511001,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 511001,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main1/likabilityNINE_Main1_Enoki_02",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 511002,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 511002,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main1/likabilityNINE_Main1_Enoki_01",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 511003,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 511003,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main1/likabilityNINE_Main1_Enoki_03",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 511004,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 511004,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main1/likabilityNINE_Main1_Enoki_04",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 511005,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 511005,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/common/likabilityNINE_common_Enoki_01",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 511006,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 511006,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/common/likabilityNINE_common_Enoki_03",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 511007,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 511007,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/common/likabilityNINE_common_Enoki_04",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 511008,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 511008,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/common/likabilityNINE_common_Enoki_05",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 511009,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 511009,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/common/likabilityNINE_common_Enoki_06",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 511010,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 511010,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/common/likabilityNINE_common_Enoki_07",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 511011,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 511011,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/common/likabilityNINE_common_Enoki_08",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 511012,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 511012,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/common/likabilityNINE_common_Enoki_09",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 511013,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 511013,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/common/likabilityNINE_common_Enoki_10",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 511014,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 511014,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/common/likabilityNINE_common_Enoki_11",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 511015,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 511015,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main2/likabilityNINE_Main2_Enoki_01",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 511016,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 511016,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main3/likabilityNINE_Main3_Enoki_01",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 511017,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 511017,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main3/likabilityNINE_Main3_Enoki_02",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 511018,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 511018,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main3/likabilityNINE_Main3_Enoki_03",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 511019,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 511019,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main3/likabilityNINE_Main3_Enoki_04",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 511020,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 511020,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main3/likabilityNINE_Main3_Enoki_05",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 511021,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 511021,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main3/likabilityNINE_Main3_Enoki_06",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 511022,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 511022,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main3/likabilityNINE_Main3_Enoki_07",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 512001,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 512001,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main1/likabilityNINE_Main1_Gotanda_01",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 512002,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 512002,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main1/likabilityNINE_Main1_Gotanda_02",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 512003,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 512003,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main1/likabilityNINE_Main1_Gotanda_03",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 512004,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 512004,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main1/likabilityNINE_Main1_Gotanda_04",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 512005,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 512005,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main1/likabilityNINE_Main1_Gotanda_05",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 512006,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 512006,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main1/likabilityNINE_Main1_Gotanda_06",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 512007,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 512007,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main1/likabilityNINE_Main1_Gotanda_07",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 512008,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 512008,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main1/likabilityNINE_Main1_Gotanda_08",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 512009,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 512009,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/common/likabilityNINE_common_Gotanda_01",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 512010,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 512010,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/common/likabilityNINE_common_Gotanda_02",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 512011,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 512011,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/common/likabilityNINE_common_Gotanda_03",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 512012,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 512012,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/common/likabilityNINE_common_Gotanda_04",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 512013,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 512013,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main2/likabilityNINE_Main2_Gotanda_01",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 512014,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 512014,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main2/likabilityNINE_Main2_Gotanda_02",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 512015,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 512015,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main2/likabilityNINE_Main2_Gotanda_03",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 512016,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 512016,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main2/likabilityNINE_Main2_Gotanda_04",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 512017,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 512017,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main2/likabilityNINE_Main2_Gotanda_05",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 512018,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 512018,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main2/likabilityNINE_Main2_Gotanda_06",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 512019,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 512019,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main2/likabilityNINE_Main2_Gotanda_07",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 512020,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 512020,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main2/likabilityNINE_Main2_Gotanda_08",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 512021,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 512021,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main2/likabilityNINE_Main2_Gotanda_09",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 512022,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 512022,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/common/likabilityNINE_C_common_Gotanda_01",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 512023,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 512023,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main1/likabilityNINE_C_Main1_Gotanda_01",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 512024,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 512024,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main3/likabilityNINE_Main3_Gotanda_01",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 512025,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 512025,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main3/likabilityNINE_Main3_Gotanda_02",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 513001,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 513001,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main1/likabilityNINE_Main1_Q_01",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 513002,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 513002,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main1/likabilityNINE_Main1_Q_02",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 513003,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 513003,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main1/likabilityNINE_Main1_Q_03",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 513004,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 513004,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main1/likabilityNINE_Main1_Q_04",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 513005,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 513005,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main1/likabilityNINE_Main1_Q_05",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 513006,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 513006,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main1/likabilityNINE_Main1_Q_06",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 513007,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 513007,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main1/likabilityNINE_Main1_Q_07",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 513008,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 513008,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main1/likabilityNINE_Main1_Q_08",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 513009,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 513009,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/common/likabilityNINE_common_Q_01",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 513010,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 513010,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/common/likabilityNINE_common_Q_02",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 513011,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 513011,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/common/likabilityNINE_common_Q_03",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 513012,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 513012,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/common/likabilityNINE_common_Q_04",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 513013,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 513013,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/common/likabilityNINE_common_Q_05",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 513014,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 513014,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/common/likabilityNINE_common_Q_06",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 513015,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 513015,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main2/likabilityNINE_Main2_Q_01",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 513016,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 513016,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main2/likabilityNINE_Main2_Q_02",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 513017,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 513017,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main2/likabilityNINE_Main2_Q_03",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 513018,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 513018,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main2/likabilityNINE_Main2_Q_04",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 513019,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 513019,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main2/likabilityNINE_Main2_Q_05",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 513020,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 513020,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main2/likabilityNINE_Main2_Q_06",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 513021,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 513021,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/common/likabilityNINE_C_common_Q_01",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 513022,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 513022,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/common/likabilityNINE_C_common_Q_02",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 514001,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 514001,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main1/likabilityNINE_Main1_Kazuki_01",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 514002,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 514002,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main1/likabilityNINE_Main1_Kazuki_02",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 514003,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 514003,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main1/likabilityNINE_Main1_Kazuki_03",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 514004,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 514004,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/common/likabilityNINE_common_Kazuki_01",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 514005,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 514005,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/common/likabilityNINE_common_Kazuki_02",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 514006,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 514006,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/common/likabilityNINE_common_Kazuki_03",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 514007,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 514007,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/common/likabilityNINE_common_Kazuki_04",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 514008,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 514008,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/common/likabilityNINE_common_Kazuki_05",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 514009,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 514009,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/common/likabilityNINE_common_Kazuki_06",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 514010,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 514010,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/common/likabilityNINE_common_Kazuki_07",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 514011,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 514011,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main2/likabilityNINE_Main2_Kazuki_01",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 514012,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 514012,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main2/likabilityNINE_Main2_Kazuki_02",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 514013,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 514013,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main2/likabilityNINE_Main2_Kazuki_03",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 514014,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 514014,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main2/likabilityNINE_Main2_Kazuki_04",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 514015,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 514015,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main2/likabilityNINE_Main2_Kazuki_05",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 514018,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 514018,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/common/likabilityNINE_C_common_Kazuki_01",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 514019,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 514019,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/common/likabilityNINE_C_common_Kazuki_02",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 514020,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 514020,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/common/likabilityNINE_C_common_Kazuki_03",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 514021,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 514021,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main3/likabilityNINE_Main3_Kazuki_01",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 515001,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 515001,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main3/likabilityNINE_Main3_Mita_01",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 515002,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 515002,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main3/likabilityNINE_Main3_Mita_02",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 515003,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 515003,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main3/likabilityNINE_Main3_Mita_03",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 515004,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 515004,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main3/likabilityNINE_Main3_Mita_04",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 515005,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 515005,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main3/likabilityNINE_Main3_Mita_05",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 515006,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 515006,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main3/likabilityNINE_Main3_Mita_06",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 515007,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 515007,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main3/likabilityNINE_Main3_Mita_07",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 515008,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 515008,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main3/likabilityNINE_Main3_Mita_08",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 515009,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 515009,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main3/likabilityNINE_Main3_Mita_09",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 515010,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 515010,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main3/likabilityNINE_Main3_Mita_10",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 515011,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 515011,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main3/likabilityNINE_Main3_Mita_11",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 515012,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 515012,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main3/likabilityNINE_Main3_Mita_12",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 515013,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 515013,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main3/likabilityNINE_Main3_Mita_13",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 529001,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 529001,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main3/likabilityNINE_Main3_Ichinosuke_01",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 529002,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 529002,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main3/likabilityNINE_Main3_Ichinosuke_02",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 529003,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 529003,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main3/likabilityNINE_Main3_Ichinosuke_03",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 530001,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 530001,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main3/likabilityNINE_Main3_Hinagiku_01",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 530002,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 530002,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main3/likabilityNINE_Main3_Hinagiku_02",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 530003,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 530003,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main3/likabilityNINE_Main3_Hinagiku_03",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 531001,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 531001,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main3/likabilityNINE_Main3_Saizo_01",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 531002,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 531002,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main3/likabilityNINE_Main3_Saizo_02",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 531003,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 531003,
+    "scriptable_object_path": "Adventure/ActionSequence/LikabilityNINE/Main3/likabilityNINE_Main3_Saizo_03",
+    "sequence_request_ids": [],
+    "type": 2
+  },
+  {
+    "id": 10000000,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 95001,
+    "scriptable_object_path": "Adventure/ActionSequence/City30/Main/skit_NINE_4-2",
+    "sequence_request_ids": [],
+    "type": 1
+  },
+  {
+    "id": 10000001,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 10006,
+    "scriptable_object_path": "Adventure/ActionSequence/City10/Main/skit_NINE_2-1",
+    "sequence_request_ids": [],
+    "type": 1
+  },
+  {
+    "id": 10000002,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 10006,
+    "scriptable_object_path": "Adventure/ActionSequence/City10/Main/skit_NINE_4-0",
+    "sequence_request_ids": [],
+    "type": 1
+  },
+  {
+    "id": 10000003,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 10006,
+    "scriptable_object_path": "Adventure/ActionSequence/City10/Main/skit_NINE_5-0",
+    "sequence_request_ids": [],
+    "type": 1
+  },
+  {
+    "id": 10000004,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 10006,
+    "scriptable_object_path": "Adventure/ActionSequence/City10/Main/skit_NINE_3-2",
+    "sequence_request_ids": [],
+    "type": 1
+  },
+  {
+    "id": 10001002,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 95001,
+    "scriptable_object_path": "Adventure/ActionSequence/City30/Main/skit_NINE_5-1",
+    "sequence_request_ids": [],
+    "type": 1
+  },
+  {
+    "id": 10001003,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 10006,
+    "scriptable_object_path": "Adventure/ActionSequence/City10/Main/skit_NINE_8-2",
+    "sequence_request_ids": [],
+    "type": 1
+  },
+  {
+    "id": 10001005,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 10006,
+    "scriptable_object_path": "Adventure/ActionSequence/City10/Main/skit_NINE_19-1",
+    "sequence_request_ids": [],
+    "type": 1
+  },
+  {
+    "id": 10001006,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 10006,
+    "scriptable_object_path": "Adventure/ActionSequence/City10/Main/skit_NINE_12-2",
+    "sequence_request_ids": [],
+    "type": 1
+  },
+  {
+    "id": 10001007,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 10006,
+    "scriptable_object_path": "Adventure/ActionSequence/City13/Main/skit_NINE_0",
+    "sequence_request_ids": [],
+    "type": 1
+  },
+  {
+    "id": 10001008,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 10006,
+    "scriptable_object_path": "Adventure/ActionSequence/City13/Main/skit_NINE_1-1-1",
+    "sequence_request_ids": [],
+    "type": 1
+  },
+  {
+    "id": 10001009,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 10006,
+    "scriptable_object_path": "Adventure/ActionSequence/City13/Main/skit_NINE_1-1-2",
+    "sequence_request_ids": [],
+    "type": 1
+  },
+  {
+    "id": 10001010,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 10006,
+    "scriptable_object_path": "Adventure/ActionSequence/City13/Main/skit_NINE_5-1",
+    "sequence_request_ids": [],
+    "type": 1
+  },
+  {
+    "id": 10001011,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 10006,
+    "scriptable_object_path": "Adventure/ActionSequence/City13/Main/skit_NINE_12-1",
+    "sequence_request_ids": [],
+    "type": 1
+  },
+  {
+    "id": 10001012,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 10006,
+    "scriptable_object_path": "Adventure/ActionSequence/City13/Main/skit_NINE_13b-4",
+    "sequence_request_ids": [],
+    "type": 1
+  },
+  {
+    "id": 10001013,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 10006,
+    "scriptable_object_path": "Adventure/ActionSequence/City13/Main/skit_NINE_14a-1",
+    "sequence_request_ids": [],
+    "type": 1
+  },
+  {
+    "id": 10001014,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 10006,
+    "scriptable_object_path": "Adventure/ActionSequence/City13/Main/skit_NINE_14b-2",
+    "sequence_request_ids": [],
+    "type": 1
+  },
+  {
+    "id": 10001015,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 10006,
+    "scriptable_object_path": "Adventure/ActionSequence/City13/Main/10001015",
+    "sequence_request_ids": [],
+    "type": 1
+  },
+  {
+    "id": 10001016,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 10006,
+    "scriptable_object_path": "Adventure/ActionSequence/City13/Main/10001016",
+    "sequence_request_ids": [],
+    "type": 1
+  },
+  {
+    "id": 10001017,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 10006,
+    "scriptable_object_path": "Adventure/ActionSequence/City14/Main/skit_NINE_0",
+    "sequence_request_ids": [],
+    "type": 1
+  },
+  {
+    "id": 10001018,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 10006,
+    "scriptable_object_path": "Adventure/ActionSequence/City14/Main/skit_NINE_9d-1",
+    "sequence_request_ids": [],
+    "type": 1
+  },
+  {
+    "id": 10001019,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 10006,
+    "scriptable_object_path": "Adventure/ActionSequence/City14/Main/skit_NINE_10-1",
+    "sequence_request_ids": [],
+    "type": 1
+  },
+  {
+    "id": 10001020,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 10006,
+    "scriptable_object_path": "Adventure/ActionSequence/City14/Main/skit_NINE_14-1",
+    "sequence_request_ids": [],
+    "type": 1
+  },
+  {
+    "id": 10002705,
+    "is_daily": false,
+    "is_in_history": true,
+    "nine_list_item_id": 1001421,
+    "scriptable_object_path": "Adventure/ActionSequence/City10/NINE/10002705",
+    "sequence_request_ids": [],
+    "type": 1
+  },
+  {
+    "id": 10002708,
+    "is_daily": false,
+    "is_in_history": true,
+    "nine_list_item_id": 1001431,
+    "scriptable_object_path": "Adventure/ActionSequence/City10/NINE/10002708",
+    "sequence_request_ids": [],
+    "type": 1
+  },
+  {
+    "id": 10005003,
+    "is_daily": false,
+    "is_in_history": true,
+    "nine_list_item_id": 1001711,
+    "scriptable_object_path": "Adventure/ActionSequence/City10/NINE/10005003",
+    "sequence_request_ids": [],
+    "type": 1
+  },
+  {
+    "id": 10005005,
+    "is_daily": false,
+    "is_in_history": true,
+    "nine_list_item_id": 1001721,
+    "scriptable_object_path": "Adventure/ActionSequence/City10/NINE/10005005",
+    "sequence_request_ids": [],
+    "type": 1
+  },
+  {
+    "id": 10005009,
+    "is_daily": false,
+    "is_in_history": true,
+    "nine_list_item_id": 1001731,
+    "scriptable_object_path": "Adventure/ActionSequence/City10/NINE/10005009",
+    "sequence_request_ids": [],
+    "type": 1
+  },
+  {
+    "id": 10009301,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 1060111,
+    "scriptable_object_path": "Adventure/ActionSequence/City10/NINE/10009301",
+    "sequence_request_ids": [],
+    "type": 1
+  },
+  {
+    "id": 10015211,
+    "is_daily": false,
+    "is_in_history": true,
+    "nine_list_item_id": 1001521,
+    "scriptable_object_path": "Adventure/ActionSequence/City10/NINE/10015211",
+    "sequence_request_ids": [],
+    "type": 1
+  },
+  {
+    "id": 10015311,
+    "is_daily": false,
+    "is_in_history": true,
+    "nine_list_item_id": 1001531,
+    "scriptable_object_path": "Adventure/ActionSequence/City10/NINE/10015311",
+    "sequence_request_ids": [],
+    "type": 1
+  },
+  {
+    "id": 10016003,
+    "is_daily": false,
+    "is_in_history": true,
+    "nine_list_item_id": 1041211,
+    "scriptable_object_path": "Adventure/ActionSequence/City10/NINE/10016003",
+    "sequence_request_ids": [],
+    "type": 1
+  },
+  {
+    "id": 10017311,
+    "is_daily": false,
+    "is_in_history": true,
+    "nine_list_item_id": 1001731,
+    "scriptable_object_path": "Adventure/ActionSequence/City10/NINE/10017311",
+    "sequence_request_ids": [],
+    "type": 1
+  },
+  {
+    "id": 10018111,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 1001811,
+    "scriptable_object_path": "Adventure/ActionSequence/City10/NINE/10018111",
+    "sequence_request_ids": [],
+    "type": 1
+  },
+  {
+    "id": 10018211,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 1001821,
+    "scriptable_object_path": "Adventure/ActionSequence/City10/NINE/10018211",
+    "sequence_request_ids": [],
+    "type": 1
+  },
+  {
+    "id": 10020211,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 1002021,
+    "scriptable_object_path": "Adventure/ActionSequence/City10/NINE/10020211",
+    "sequence_request_ids": [],
+    "type": 1
+  },
+  {
+    "id": 10021211,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 1002121,
+    "scriptable_object_path": "Adventure/ActionSequence/City10/NINE/10021211",
+    "sequence_request_ids": [],
+    "type": 1
+  },
+  {
+    "id": 10022211,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 1002221,
+    "scriptable_object_path": "Adventure/ActionSequence/City10/NINE/10022211",
+    "sequence_request_ids": [],
+    "type": 1
+  },
+  {
+    "id": 10301010,
+    "is_daily": false,
+    "is_in_history": true,
+    "nine_list_item_id": 1030100,
+    "scriptable_object_path": "Adventure/ActionSequence/City10/NINE/10301010",
+    "sequence_request_ids": [],
+    "type": 1
+  },
+  {
+    "id": 10301011,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 1030101,
+    "scriptable_object_path": "Adventure/ActionSequence/City10/NINE/10301011",
+    "sequence_request_ids": [],
+    "type": 1
+  },
+  {
+    "id": 10301012,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 1030101,
+    "scriptable_object_path": "Adventure/ActionSequence/City10/NINE/10301012",
+    "sequence_request_ids": [],
+    "type": 1
+  },
+  {
+    "id": 10301013,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 1030101,
+    "scriptable_object_path": "Adventure/ActionSequence/City10/NINE/10301013",
+    "sequence_request_ids": [],
+    "type": 1
+  },
+  {
+    "id": 13000211,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 1300021,
+    "scriptable_object_path": "Adventure/ActionSequence/City13/NINE/13000211",
+    "sequence_request_ids": [],
+    "type": 1
+  },
+  {
+    "id": 13001211,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 1300121,
+    "scriptable_object_path": "Adventure/ActionSequence/City13/NINE/13001211",
+    "sequence_request_ids": [],
+    "type": 1
+  },
+  {
+    "id": 13002211,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 1300221,
+    "scriptable_object_path": "Adventure/ActionSequence/City13/NINE/13002211",
+    "sequence_request_ids": [],
+    "type": 1
+  },
+  {
+    "id": 13004111,
+    "is_daily": false,
+    "is_in_history": true,
+    "nine_list_item_id": 1300411,
+    "scriptable_object_path": "Adventure/ActionSequence/City13/NINE/13004111",
+    "sequence_request_ids": [],
+    "type": 1
+  },
+  {
+    "id": 13005111,
+    "is_daily": false,
+    "is_in_history": true,
+    "nine_list_item_id": 1300511,
+    "scriptable_object_path": "Adventure/ActionSequence/City13/NINE/13005111",
+    "sequence_request_ids": [],
+    "type": 1
+  },
+  {
+    "id": 13009601,
+    "is_daily": false,
+    "is_in_history": true,
+    "nine_list_item_id": 1300961,
+    "scriptable_object_path": "Adventure/ActionSequence/City13/NINE/13009601",
+    "sequence_request_ids": [],
+    "type": 1
+  },
+  {
+    "id": 13009801,
+    "is_daily": false,
+    "is_in_history": true,
+    "nine_list_item_id": 1300981,
+    "scriptable_object_path": "Adventure/ActionSequence/City13/NINE/13009801",
+    "sequence_request_ids": [],
+    "type": 1
+  },
+  {
+    "id": 13010101,
+    "is_daily": false,
+    "is_in_history": true,
+    "nine_list_item_id": 1301711,
+    "scriptable_object_path": "Adventure/ActionSequence/City13/NINE/13010101",
+    "sequence_request_ids": [],
+    "type": 1
+  },
+  {
+    "id": 13010201,
+    "is_daily": false,
+    "is_in_history": true,
+    "nine_list_item_id": 1301811,
+    "scriptable_object_path": "Adventure/ActionSequence/City13/NINE/13010201",
+    "sequence_request_ids": [],
+    "type": 1
+  },
+  {
+    "id": 13010401,
+    "is_daily": false,
+    "is_in_history": true,
+    "nine_list_item_id": 1301911,
+    "scriptable_object_path": "Adventure/ActionSequence/City13/NINE/13010401",
+    "sequence_request_ids": [],
+    "type": 1
+  },
+  {
+    "id": 13011702,
+    "is_daily": false,
+    "is_in_history": true,
+    "nine_list_item_id": 1302311,
+    "scriptable_object_path": "Adventure/ActionSequence/City13/NINE/13011702",
+    "sequence_request_ids": [],
+    "type": 1
+  },
+  {
+    "id": 13011703,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 1303111,
+    "scriptable_object_path": "Adventure/ActionSequence/City13/Challenge/EventScenario_LegendMinato_NINE_1",
+    "sequence_request_ids": [],
+    "type": 1
+  },
+  {
+    "id": 13011704,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 1303111,
+    "scriptable_object_path": "Adventure/ActionSequence/City13/Challenge/EventScenario_LegendMinato_NINE_2",
+    "sequence_request_ids": [],
+    "type": 1
+  },
+  {
+    "id": 13011705,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 1303111,
+    "scriptable_object_path": "Adventure/ActionSequence/City13/Challenge/EventScenario_LegendMinato_NINE_3",
+    "sequence_request_ids": [],
+    "type": 1
+  },
+  {
+    "id": 13011706,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 1303111,
+    "scriptable_object_path": "Adventure/ActionSequence/City13/Challenge/EventScenario_LegendMinato_NINE_4",
+    "sequence_request_ids": [],
+    "type": 1
+  },
+  {
+    "id": 13011707,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 1303111,
+    "scriptable_object_path": "Adventure/ActionSequence/City13/Challenge/EventScenario_LegendMinato_NINE_5",
+    "sequence_request_ids": [],
+    "type": 1
+  },
+  {
+    "id": 13012103,
+    "is_daily": false,
+    "is_in_history": true,
+    "nine_list_item_id": 1302411,
+    "scriptable_object_path": "Adventure/ActionSequence/City13/NINE/13012103",
+    "sequence_request_ids": [],
+    "type": 1
+  },
+  {
+    "id": 13012111,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 1301211,
+    "scriptable_object_path": "Adventure/ActionSequence/City13/NINE/13012111",
+    "sequence_request_ids": [],
+    "type": 1
+  },
+  {
+    "id": 13012201,
+    "is_daily": false,
+    "is_in_history": true,
+    "nine_list_item_id": 1302511,
+    "scriptable_object_path": "Adventure/ActionSequence/City13/NINE/13012201",
+    "sequence_request_ids": [],
+    "type": 1
+  },
+  {
+    "id": 13012401,
+    "is_daily": false,
+    "is_in_history": true,
+    "nine_list_item_id": 1302611,
+    "scriptable_object_path": "Adventure/ActionSequence/City13/NINE/13012401",
+    "sequence_request_ids": [],
+    "type": 1
+  },
+  {
+    "id": 13012601,
+    "is_daily": false,
+    "is_in_history": true,
+    "nine_list_item_id": 1302711,
+    "scriptable_object_path": "Adventure/ActionSequence/City13/NINE/13012601",
+    "sequence_request_ids": [],
+    "type": 1
+  },
+  {
+    "id": 13013111,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 1301311,
+    "scriptable_object_path": "Adventure/ActionSequence/City13/NINE/13013111",
+    "sequence_request_ids": [],
+    "type": 1
+  },
+  {
+    "id": 13019111,
+    "is_daily": false,
+    "is_in_history": true,
+    "nine_list_item_id": 1301911,
+    "scriptable_object_path": "Adventure/ActionSequence/City13/NINE/13019111",
+    "sequence_request_ids": [],
+    "type": 1
+  },
+  {
+    "id": 13028111,
+    "is_daily": false,
+    "is_in_history": true,
+    "nine_list_item_id": 95002,
+    "scriptable_object_path": "Adventure/ActionSequence/City13/NINE/13028111",
+    "sequence_request_ids": [],
+    "type": 1
+  },
+  {
+    "id": 13029111,
+    "is_daily": false,
+    "is_in_history": true,
+    "nine_list_item_id": 95003,
+    "scriptable_object_path": "Adventure/ActionSequence/City13/NINE/13029111",
+    "sequence_request_ids": [],
+    "type": 1
+  },
+  {
+    "id": 13030111,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 1303011,
+    "scriptable_object_path": "Adventure/ActionSequence/City13/NINE/13030111",
+    "sequence_request_ids": [],
+    "type": 1
+  },
+  {
+    "id": 13301010,
+    "is_daily": false,
+    "is_in_history": true,
+    "nine_list_item_id": 1330100,
+    "scriptable_object_path": "Adventure/ActionSequence/City13/NINE/13301010",
+    "sequence_request_ids": [],
+    "type": 1
+  },
+  {
+    "id": 13301011,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 1330101,
+    "scriptable_object_path": "Adventure/ActionSequence/City13/NINE/13301011",
+    "sequence_request_ids": [],
+    "type": 1
+  },
+  {
+    "id": 13301012,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 1330101,
+    "scriptable_object_path": "Adventure/ActionSequence/City13/NINE/13301012",
+    "sequence_request_ids": [],
+    "type": 1
+  },
+  {
+    "id": 13301013,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 1330101,
+    "scriptable_object_path": "Adventure/ActionSequence/City13/NINE/13301013",
+    "sequence_request_ids": [],
+    "type": 1
+  },
+  {
+    "id": 14003401,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 1400411,
+    "scriptable_object_path": "Adventure/ActionSequence/City14/NINE/14003401",
+    "sequence_request_ids": [],
+    "type": 1
+  },
+  {
+    "id": 14011903,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 1403511,
+    "scriptable_object_path": "Adventure/ActionSequence/City14/NINE/14011903",
+    "sequence_request_ids": [],
+    "type": 1
+  },
+  {
+    "id": 14015111,
+    "is_daily": false,
+    "is_in_history": true,
+    "nine_list_item_id": 1401511,
+    "scriptable_object_path": "Adventure/ActionSequence/City14/NINE/14015111",
+    "sequence_request_ids": [],
+    "type": 1
+  },
+  {
+    "id": 14016111,
+    "is_daily": false,
+    "is_in_history": true,
+    "nine_list_item_id": 1401611,
+    "scriptable_object_path": "Adventure/ActionSequence/City14/NINE/14016111",
+    "sequence_request_ids": [],
+    "type": 1
+  },
+  {
+    "id": 14021111,
+    "is_daily": false,
+    "is_in_history": true,
+    "nine_list_item_id": 1402111,
+    "scriptable_object_path": "Adventure/ActionSequence/City14/NINE/14021111",
+    "sequence_request_ids": [],
+    "type": 1
+  },
+  {
+    "id": 14022111,
+    "is_daily": false,
+    "is_in_history": true,
+    "nine_list_item_id": 1402211,
+    "scriptable_object_path": "Adventure/ActionSequence/City14/NINE/14022111",
+    "sequence_request_ids": [],
+    "type": 1
+  },
+  {
+    "id": 14026111,
+    "is_daily": false,
+    "is_in_history": true,
+    "nine_list_item_id": 1402611,
+    "scriptable_object_path": "Adventure/ActionSequence/City14/NINE/14026111",
+    "sequence_request_ids": [],
+    "type": 1
+  },
+  {
+    "id": 14027111,
+    "is_daily": false,
+    "is_in_history": true,
+    "nine_list_item_id": 1402711,
+    "scriptable_object_path": "Adventure/ActionSequence/City14/NINE/14027111",
+    "sequence_request_ids": [],
+    "type": 1
+  },
+  {
+    "id": 14031111,
+    "is_daily": false,
+    "is_in_history": true,
+    "nine_list_item_id": 1403111,
+    "scriptable_object_path": "Adventure/ActionSequence/City14/NINE/14031111",
+    "sequence_request_ids": [],
+    "type": 1
+  },
+  {
+    "id": 14037111,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 1403711,
+    "scriptable_object_path": "Adventure/ActionSequence/City14/NINE/14037111",
+    "sequence_request_ids": [],
+    "type": 1
+  },
+  {
+    "id": 14038111,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 1403811,
+    "scriptable_object_path": "Adventure/ActionSequence/City14/NINE/14038111",
+    "sequence_request_ids": [],
+    "type": 1
+  },
+  {
+    "id": 14039111,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 1403911,
+    "scriptable_object_path": "Adventure/ActionSequence/City14/NINE/14039111",
+    "sequence_request_ids": [],
+    "type": 1
+  },
+  {
+    "id": 14040110,
+    "is_daily": false,
+    "is_in_history": true,
+    "nine_list_item_id": 1404010,
+    "scriptable_object_path": "Adventure/ActionSequence/City14/NINE/14040110",
+    "sequence_request_ids": [],
+    "type": 1
+  },
+  {
+    "id": 14040111,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 1404011,
+    "scriptable_object_path": "Adventure/ActionSequence/City14/NINE/14040111",
+    "sequence_request_ids": [],
+    "type": 1
+  },
+  {
+    "id": 14040112,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 1404011,
+    "scriptable_object_path": "Adventure/ActionSequence/City14/NINE/14040112",
+    "sequence_request_ids": [],
+    "type": 1
+  },
+  {
+    "id": 14040113,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 1404011,
+    "scriptable_object_path": "Adventure/ActionSequence/City14/NINE/14040113",
+    "sequence_request_ids": [],
+    "type": 1
+  },
+  {
+    "id": 20001001,
+    "is_daily": false,
+    "is_in_history": false,
+    "nine_list_item_id": 20001,
+    "scriptable_object_path": "Adventure/ActionSequence/City13/NINE/13030200",
+    "sequence_request_ids": [],
+    "type": 1
+  },
+  {
+    "id": 95001001,
+    "is_daily": false,
+    "is_in_history": true,
+    "nine_list_item_id": 95001,
+    "scriptable_object_path": "Adventure/ActionSequence/TutorialNINE/95001001",
+    "sequence_request_ids": [],
+    "type": 1
+  },
+  {
+    "id": 95002001,
+    "is_daily": false,
+    "is_in_history": true,
+    "nine_list_item_id": 95002,
+    "scriptable_object_path": "Adventure/ActionSequence/TutorialNINE/95002001",
+    "sequence_request_ids": [],
+    "type": 1
+  },
+  {
+    "id": 95003001,
+    "is_daily": false,
+    "is_in_history": true,
+    "nine_list_item_id": 95002,
+    "scriptable_object_path": "Adventure/ActionSequence/TutorialNINE/95003001",
+    "sequence_request_ids": [],
+    "type": 1
+  },
+  {
+    "id": 95004001,
+    "is_daily": false,
+    "is_in_history": true,
+    "nine_list_item_id": 95002,
+    "scriptable_object_path": "Adventure/ActionSequence/TutorialNINE/95004001",
+    "sequence_request_ids": [],
+    "type": 1
+  },
+  {
+    "id": 95006001,
+    "is_daily": false,
+    "is_in_history": true,
+    "nine_list_item_id": 95003,
+    "scriptable_object_path": "Adventure/ActionSequence/TutorialNINE/95006001",
+    "sequence_request_ids": [],
+    "type": 1
+  },
+  {
+    "id": 95007001,
+    "is_daily": false,
+    "is_in_history": true,
+    "nine_list_item_id": 95002,
+    "scriptable_object_path": "Adventure/ActionSequence/TutorialNINE/95007001",
+    "sequence_request_ids": [],
+    "type": 1
+  },
+  {
+    "id": 95008001,
+    "is_daily": false,
+    "is_in_history": true,
+    "nine_list_item_id": 95002,
+    "scriptable_object_path": "Adventure/ActionSequence/TutorialNINE/95008001",
+    "sequence_request_ids": [],
+    "type": 1
+  },
+  {
+    "id": 95011001,
+    "is_daily": false,
+    "is_in_history": true,
+    "nine_list_item_id": 95003,
+    "scriptable_object_path": "Adventure/ActionSequence/TutorialNINE/95011001",
+    "sequence_request_ids": [],
+    "type": 1
+  },
+  {
+    "id": 95013001,
+    "is_daily": false,
+    "is_in_history": true,
+    "nine_list_item_id": 95001,
+    "scriptable_object_path": "Adventure/ActionSequence/City30/Main/NINE_7-1",
+    "sequence_request_ids": [],
+    "type": 1
+  },
+  {
+    "id": 95015001,
+    "is_daily": false,
+    "is_in_history": true,
+    "nine_list_item_id": 95002,
+    "scriptable_object_path": "Adventure/ActionSequence/TutorialNINE/95015001",
+    "sequence_request_ids": [],
+    "type": 1
+  },
+  {
+    "id": 95016001,
+    "is_daily": false,
+    "is_in_history": true,
+    "nine_list_item_id": 95002,
+    "scriptable_object_path": "Adventure/ActionSequence/TutorialNINE/95016001",
+    "sequence_request_ids": [],
+    "type": 1
+  },
+  {
+    "id": 95020001,
+    "is_daily": false,
+    "is_in_history": true,
+    "nine_list_item_id": 95005,
+    "scriptable_object_path": "Adventure/ActionSequence/TutorialNINE/95020001",
+    "sequence_request_ids": [],
+    "type": 1
+  },
+  {
+    "id": 95021001,
+    "is_daily": false,
+    "is_in_history": true,
+    "nine_list_item_id": 95005,
+    "scriptable_object_path": "Adventure/ActionSequence/TutorialNINE/95021001",
+    "sequence_request_ids": [],
+    "type": 1
+  },
+  {
+    "id": 95022001,
+    "is_daily": false,
+    "is_in_history": true,
+    "nine_list_item_id": 95005,
+    "scriptable_object_path": "Adventure/ActionSequence/TutorialNINE/95022001",
+    "sequence_request_ids": [],
+    "type": 1
+  },
+  {
+    "id": 95023001,
+    "is_daily": false,
+    "is_in_history": true,
+    "nine_list_item_id": 95005,
+    "scriptable_object_path": "Adventure/ActionSequence/TutorialNINE/95023001",
+    "sequence_request_ids": [],
+    "type": 1
+  },
+  {
+    "id": 95024001,
+    "is_daily": false,
+    "is_in_history": true,
+    "nine_list_item_id": 95005,
+    "scriptable_object_path": "Adventure/ActionSequence/TutorialNINE/95024001",
+    "sequence_request_ids": [],
+    "type": 1
+  },
+  {
+    "id": 95025001,
+    "is_daily": false,
+    "is_in_history": true,
+    "nine_list_item_id": 95003,
+    "scriptable_object_path": "Adventure/ActionSequence/TutorialNINE/95025001",
+    "sequence_request_ids": [],
+    "type": 1
+  },
+  {
+    "id": 95026001,
+    "is_daily": false,
+    "is_in_history": true,
+    "nine_list_item_id": 95005,
+    "scriptable_object_path": "Adventure/ActionSequence/TutorialNINE/95026001",
+    "sequence_request_ids": [],
+    "type": 1
+  }
+]

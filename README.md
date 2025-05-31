@@ -4,18 +4,20 @@ A compilation of archived assets and content from the Tribe Nine game. More will
 ## Credits
 Code by Remileth (@skythel)  
 Assets from Tribe Nine and spriters-resource  
-Content:  
+Content:
 * Character card info: Tribe Nine Forever archive
 * Tension card text: Tribe Nine Forever archive, AninaWalksleeper, Lucifer, Donna-sor, PixelVixi, Raptor, Toast, Hitamitu, ryansinbela, HuangET, AHSMB
 * NINE Chat bubble styling: HuangET
+* NINE Chat content: Milky Shakester
 
 ## Upcoming Updates
 * Characters
   * Character basic info
 * NINE Chat
-  * More chats
+  * Addition of story chats
   * More dynamic typing and multiple people typing
   * Better-scaling styling
+  * Search filter
 * Pachimon
 
 ## Known Issues
@@ -24,6 +26,11 @@ Content:
   * Unable to break autoscroll while a chat is playing
 
 ## Changelog
+### v0.0.3a - 1/6/2025
+* Added stickers to NINE chat
+* Added more casual chats
+* Backend restructuring to split up casual chats
+* Minor restyling for chats
 ### v0.0.3 - 31/5/2025
 * Added NINE Chat with some chats
 * Further mobile styling fixes for tension cards

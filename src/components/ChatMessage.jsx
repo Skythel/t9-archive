@@ -7,8 +7,9 @@ import { backButton } from "../vars/Icons";
 import { IconButton } from "@mui/material";
 import { Link } from "react-router-dom";
 import { keyframes } from "@mui/system";
-import { speakerList } from "../content/ChatList";
+import { speakerList } from "../content/ChatSpeakers";
 import TypingIndicator from "./TypingIndicator";
+import { stampReplace } from "../content/ChatStamps";
 
 const expandLeft = keyframes`
     from { width: 0; }
@@ -41,7 +42,7 @@ const useStyles = makeStyles((theme) => ({
   },
   messageItem: {
     display: "grid",
-    gridTemplateColumns: "2fr 10fr",
+    gridTemplateColumns: "130px 10fr",
     textAlign: "left",
   },
   messagesConfirmed: {
@@ -68,7 +69,7 @@ const useStyles = makeStyles((theme) => ({
     background: "white",
     borderRadius: "15px",
     boxShadow: "4px 4px 0 #cbd1da",
-    padding: "25px",
+    padding: "20px",
     width: "fit-content",
     fontSize: "22px",
     fontWeight: 400,
@@ -133,7 +134,7 @@ const useStyles = makeStyles((theme) => ({
     textAlign: "left",
     alignItems: "center",
     display: "grid",
-    gridTemplateColumns: "1fr 10fr",
+    gridTemplateColumns: "70px 10fr",
     color: "#404040",
   },
 }));
@@ -154,13 +155,15 @@ const ChatMessage = ({ title, chatLog }) => {
   //   const speaker = speakers.find((s) => s.name.split(" ").includes(matches[1]));
   //   return { ...speaker, msg: matches[2], typingSpeed: typingSpeed * 1000 };
   // });
-  const processChatLog = chatLog.filter((c) => c.Text !== "" && c.SpeakerIds.length > 0).map((m) => {
-    // find the speaker object
-    const speaker = speakerList.find(
-      (s) => s.index === Number(m.SpeakerIds[0])
-    );
-    return { ...speaker, msg: m.Text, typingSpeed: typingSpeed * 1000 };
-  });
+  const processChatLog = chatLog
+    .filter((c) => c.Text !== "" && c.SpeakerIds.length > 0)
+    .map((m) => {
+      // find the speaker object
+      const speaker = speakerList.find(
+        (s) => s.index === Number(m.SpeakerIds[0])
+      );
+      return { ...speaker, msg: m.Text, typingSpeed: typingSpeed * 1000 };
+    });
   const speakers = [...new Set(chatLog.map((m) => m.SpeakerIds[0]))];
   const speaker1 = speakerList.find((s) => s.index === Number(speakers[0]));
   const speaker2 = speakerList.find((s) => s.index === Number(speakers[1]));
@@ -219,7 +222,7 @@ const ChatMessage = ({ title, chatLog }) => {
           <Box className={classes.chatSubtitle}>For casual chat.</Box>
         </Box>
         <Box className={classes.chatHeadContainer}>
-          <span style={{ paddingLeft: "15px" }}>+{speakers.length - 3}</span>
+          <span style={{ paddingLeft: "15px" }}>{speakers.length > 3 && `+${speakers.length - 3}`}</span>
           <img
             src={speaker3.avatar}
             alt={`${speaker3.name}'s Avatar`}
@@ -265,7 +268,13 @@ const ChatMessage = ({ title, chatLog }) => {
                 {(i === 0 || messages[i - 1].name !== msg.name) && (
                   <Box className={classes.speakerName}>{msg.name}</Box>
                 )}
-                <Box className={classes.chatBubble}>{msg.msg}</Box>
+                {typeof stampReplace(msg.msg) === "string" ? (
+                  <Box className={classes.chatBubble}>
+                    {stampReplace(msg.msg)}
+                  </Box>
+                ) : (
+                  stampReplace(msg.msg)
+                )}
               </Box>
             </motion.div>
           ))}

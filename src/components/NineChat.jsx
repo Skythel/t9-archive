@@ -1,16 +1,14 @@
 import { makeStyles } from "@mui/styles";
-import { createTheme, ThemeProvider } from '@mui/material/styles';
+import { createTheme, ThemeProvider } from "@mui/material/styles";
 import { Box } from "@mui/system";
-import { chatList, speakerList } from "../content/ChatList";
-import {
-  Link,
-  useOutlet,
-} from "react-router-dom";
+import { chatList } from "../content/ChatList";
+import { speakerList } from "../content/ChatSpeakers";
+import { Link, useOutlet } from "react-router-dom";
 import { IconButton } from "@mui/material";
 
-const IconNINE = require('../assets/topbar/ui_common_icon_header_tips_navigation.png');
-const IconCasual = require('../assets/nine_groups/nine_group_7002.png');
-const IconClose = require('../assets/ui/ui_common_button_detailmenu_close.png');
+const IconNINE = require("../assets/topbar/ui_common_icon_header_tips_navigation.png");
+const IconCasual = require("../assets/nine_groups/nine_group_7002.png");
+const IconClose = require("../assets/ui/ui_common_button_detailmenu_close.png");
 
 const theme = createTheme();
 const useStyles = makeStyles((theme) => ({
@@ -24,7 +22,7 @@ const useStyles = makeStyles((theme) => ({
     overflow: "auto",
   },
   nineChatHeader: {
-    backgroundImage: `url(${require('../assets/bg/ui_common_bg_nine_title.png')})`,
+    backgroundImage: `url(${require("../assets/bg/ui_common_bg_nine_title.png")})`,
     backgroundColor: "black",
     color: "white",
     padding: "15px",
@@ -67,15 +65,28 @@ const useStyles = makeStyles((theme) => ({
 
 const NineChatList = () => {
   const classes = useStyles();
+  console.log(chatList.filter((c) => c.Contents.length < 1));
   return (
     <>
       <Box className={classes.nineChatHeader}>
-        <Box style={{ marginLeft: "auto" }}><img src={IconNINE} alt="NINE Icon" height={36} style={{ verticalAlign: "middle" }} /></Box>
+        <Box style={{ marginLeft: "auto" }}>
+          <img
+            src={IconNINE}
+            alt="NINE Icon"
+            height={36}
+            style={{ verticalAlign: "middle" }}
+          />
+        </Box>
         <Box>Message</Box>
         <Box style={{ marginLeft: "auto", paddingRight: "5px" }}>
           <Link to={`/`}>
             <IconButton>
-              <img src={IconClose} alt="Close NINE" height={40} className={classes.chatBack} />
+              <img
+                src={IconClose}
+                alt="Close NINE"
+                height={40}
+                className={classes.chatBack}
+              />
             </IconButton>
           </Link>
         </Box>
@@ -85,7 +96,12 @@ const NineChatList = () => {
           <Link to={`/chat/${i + 1}`} className={classes.nineChatListLink}>
             <Box className={classes.nineChatListItem}>
               <Box>
-                <img src={IconCasual} alt={c.title === "" ? "Group Chat" : c.title} height={100} className={classes.groupIcon} />
+                <img
+                  src={IconCasual}
+                  alt={c.title === "" ? "Group Chat" : c.title}
+                  height={100}
+                  className={classes.groupIcon}
+                />
               </Box>
               <Box textAlign="left">
                 <Box className={classes.chatTitle}>
@@ -93,7 +109,11 @@ const NineChatList = () => {
                 </Box>
                 <Box style={{ display: "flex", alignItems: "center" }}>
                   <img
-                    src={speakerList.find((s) => s.index === Number(c.Contents[0].SpeakerIds[0])).avatar}
+                    src={
+                      speakerList.find(
+                        (s) => s.index === Number(c.Contents[0].SpeakerIds[0])
+                      ).avatar
+                    }
                     alt="Avatar"
                     height={48}
                     className={classes.avatar}
@@ -118,6 +138,6 @@ const NineChat = () => {
         {outlet || <NineChatList />}
       </Box>
     </ThemeProvider>
-  )
+  );
 };
 export default NineChat;

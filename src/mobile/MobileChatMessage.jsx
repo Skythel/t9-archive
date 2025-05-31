@@ -7,8 +7,9 @@ import { backButton } from "../vars/Icons";
 import { IconButton } from "@mui/material";
 import { Link } from "react-router-dom";
 import { keyframes } from "@mui/system";
-import { speakerList } from "../content/ChatList";
+import { speakerList } from "../content/ChatSpeakers";
 import TypingIndicator from "../components/TypingIndicator";
+import { stampReplace } from "../content/ChatStamps";
 
 const expandLeft = keyframes`
     from { width: 0; }
@@ -41,7 +42,7 @@ const useStyles = makeStyles((theme) => ({
   },
   messageItem: {
     display: "grid",
-    gridTemplateColumns: "2fr 10fr",
+    gridTemplateColumns: "60px 10fr",
     textAlign: "left",
   },
   messagesConfirmed: {
@@ -71,10 +72,10 @@ const useStyles = makeStyles((theme) => ({
     boxShadow: "4px 4px 0 #cbd1da",
     padding: "15px",
     width: "fit-content",
-    fontSize: "16px",
+    fontSize: "1rem",
     fontWeight: 400,
     marginBottom: "15px",
-    textStroke: "1px #444",
+    textStroke: "0.5px #444",
     "&::after": {
       content: '""',
       position: "absolute",
@@ -110,11 +111,13 @@ const useStyles = makeStyles((theme) => ({
     verticalAlign: "text-bottom",
   },
   chatTitle: {
-    fontSize: "14px",
+    fontSize: "1rem",
     fontStyle: "italic",
+    textWrap: "nowrap",
   },
   chatSubtitle: {
-    fontSize: "12px",
+    fontSize: "0.9rem",
+    textWrap: "nowrap",
   },
   endLineLeft: {
     height: "5px",
@@ -134,7 +137,7 @@ const useStyles = makeStyles((theme) => ({
     textAlign: "left",
     alignItems: "center",
     display: "grid",
-    gridTemplateColumns: "1fr 10fr",
+    gridTemplateColumns: "60px 10fr",
     color: "#404040",
     fontSize: "12px",
   },
@@ -156,13 +159,15 @@ const MobileChatMessage = ({ title, chatLog }) => {
   //   const speaker = speakers.find((s) => s.name.split(" ").includes(matches[1]));
   //   return { ...speaker, msg: matches[2], typingSpeed: typingSpeed * 1000 };
   // });
-  const processChatLog = chatLog.filter((c) => c.Text !== "" && c.SpeakerIds.length > 0).map((m) => {
-    // find the speaker object
-    const speaker = speakerList.find(
-      (s) => s.index === Number(m.SpeakerIds[0])
-    );
-    return { ...speaker, msg: m.Text, typingSpeed: typingSpeed * 1000 };
-  });
+  const processChatLog = chatLog
+    .filter((c) => c.Text !== "" && c.SpeakerIds.length > 0)
+    .map((m) => {
+      // find the speaker object
+      const speaker = speakerList.find(
+        (s) => s.index === Number(m.SpeakerIds[0])
+      );
+      return { ...speaker, msg: m.Text, typingSpeed: typingSpeed * 1000 };
+    });
   const speakers = [...new Set(chatLog.map((m) => m.SpeakerIds[0]))];
   const speaker1 = speakerList.find((s) => s.index === Number(speakers[0]));
   const speaker2 = speakerList.find((s) => s.index === Number(speakers[1]));
@@ -208,7 +213,7 @@ const MobileChatMessage = ({ title, chatLog }) => {
               <img
                 src={backButton}
                 alt="Back to Chats"
-                height={30}
+                height={24}
                 className={classes.chatBack}
               />
             </IconButton>
@@ -221,7 +226,7 @@ const MobileChatMessage = ({ title, chatLog }) => {
           <Box className={classes.chatSubtitle}>For casual chat.</Box>
         </Box>
         <Box className={classes.chatHeadContainer}>
-          <span style={{ paddingLeft: "15px" }}>+{speakers.length - 3}</span>
+          <span style={{ paddingLeft: "15px" }}>{speakers.length > 3 && `+${speakers.length - 3}`}</span>
           <img
             src={speaker3.avatar}
             alt={`${speaker3.name}'s Avatar`}
@@ -267,7 +272,18 @@ const MobileChatMessage = ({ title, chatLog }) => {
                 {(i === 0 || messages[i - 1].name !== msg.name) && (
                   <Box className={classes.speakerName}>{msg.name}</Box>
                 )}
-                <Box className={classes.chatBubble}>{msg.msg}</Box>
+                <Box>
+                  {(i === 0 || messages[i - 1].name !== msg.name) && (
+                    <Box className={classes.speakerName}>{msg.name}</Box>
+                  )}
+                  {typeof stampReplace(msg.msg) === "string" ? (
+                    <Box className={classes.chatBubble}>
+                      {stampReplace(msg.msg)}
+                    </Box>
+                  ) : (
+                    stampReplace(msg.msg)
+                  )}
+                </Box>
               </Box>
             </motion.div>
           ))}
