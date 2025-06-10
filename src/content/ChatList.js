@@ -1,5 +1,6 @@
 import { chatFiles } from "./ChatFiles";
 import { chatSequences } from "./ChatSequences";
+import { speakerList } from "./ChatSpeakers";
 
 const nineList = require("./nine_en/nine_list_item.json");
 const nineSequence = require("./nine_en/nine_sequence.json");
@@ -45,7 +46,10 @@ export const chatList = chatSequences
         continue;
       }
       const commandList = sequenceItem.CommandData.filter(
-        (it) => it.Command === "NineMessage" || it.Command === "NinePicture"
+        (it) =>
+          it.Command === "NineMessage" ||
+          it.Command === "NinePicture" ||
+          it.Command === "NineTypingAnimation"
       );
 
       tempArr.push({
@@ -57,14 +61,52 @@ export const chatList = chatSequences
               (f) => f.TextId === com.ParameterValues[9]
             );
             return {
+              Guid: com.Guid,
               Text: messageItem.Text,
-              SpeakerIds: messageItem.SpeakerIds,
+              SpeakerId: com.ParameterValues[8],
+              SpeakerData: speakerList.find(
+                (s) => s.speakerId === Number(com.ParameterValues[8])
+              ),
+              WaitTriggerName: com.ParameterValues[1],
+              InvokeTriggerName: com.ParameterValues[3],
+              DelaySec: com.ParameterValues[5],
+              TypingDuration: com.ParameterValues[6]
+                ? com.ParameterValues[7]
+                : 1.5,
+              Type: "Message",
+            };
+          } else if (com.Command === "NinePicture") {
+            return {
+              Guid: com.Guid,
+              Text: com.ParameterValues[10],
+              SpeakerId: com.ParameterValues[8],
+              SpeakerData: speakerList.find(
+                (s) => s.speakerId === Number(com.ParameterValues[8])
+              ),
+              WaitTriggerName: com.ParameterValues[1],
+              InvokeTriggerName: com.ParameterValues[3],
+              DelaySec: com.ParameterValues[5],
+              TypingDuration: com.ParameterValues[6]
+                ? com.ParameterValues[7]
+                : 1.5,
+              Type: "Sticker",
+            };
+          } else if (com.Command === "NineTypingAnimation") {
+            return {
+              Guid: com.Guid,
+              Text: "",
+              SpeakerId: com.ParameterValues[4],
+              SpeakerData: speakerList.find(
+                (s) => s.speakerId === Number(com.ParameterValues[4])
+              ),
+              WaitTriggerName: com.ParameterValues[1],
+              InvokeTriggerName: "",
+              DelaySec: com.ParameterValues[3],
+              TypingDuration: com.ParameterValues[6],
+              Type: "Typing",
             };
           } else {
-            return {
-              Text: com.ParameterValues[10],
-              SpeakerIds: [com.ParameterValues[9]],
-            };
+            return {};
           }
         }),
         title: listItem?.name.en ?? "Group Chat",

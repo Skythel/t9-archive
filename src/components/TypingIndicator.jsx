@@ -1,6 +1,5 @@
-
 import { motion } from "motion/react";
-const TypingIndicator = () => {
+const TypingIndicator = ({ typers }) => {
   const colors = ["#555", "#999", "#bbb", "#999", "#555"];
   return (
     <div
@@ -34,6 +33,15 @@ const TypingIndicator = () => {
           }}
         />
       ))}
+      &nbsp;
+      <span style={{ color: "#404040", textAlign: "left" }}>
+        {typers.map((t, index) => {
+          if (index === 0) return t;
+          return index === typers.length - 1 ? ` and ${t}` : `, ${t}`;
+        })}
+        {typers.length > 1 ? " are " : " is "}
+        typing...
+      </span>
     </div>
   );
 };

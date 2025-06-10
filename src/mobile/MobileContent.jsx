@@ -56,7 +56,7 @@ const MobileContent = () => {
             {chatList.map((c, i) => (
               <Route
                 path={`/chat/${i + 1}`}
-                element={<MobileChatMessage title={c.title} chatLog={c.Contents} />}
+                element={<MobileChatMessage title={c.title} speakers={c.Speakers} chatLog={c.Contents} />}
               />
             ))}
           </Route>

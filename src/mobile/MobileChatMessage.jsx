@@ -133,70 +133,75 @@ const useStyles = makeStyles((theme) => ({
     animationDelay: "0.2s",
     animation: `${expandRight} 0.5s ease-out forwards`,
   },
-  typing: {
-    textAlign: "left",
-    alignItems: "center",
-    display: "grid",
-    gridTemplateColumns: "60px 10fr",
-    color: "#404040",
-    fontSize: "12px",
-  },
 }));
 
-const typingSpeed = 1.5; // placeholder for now
 const endMsg = "All messages have been confirmed";
 
-const MobileChatMessage = ({ title, chatLog }) => {
+const MobileChatMessage = ({ title, speakers, chatLog }) => {
   const classes = useStyles();
   const [messages, setMessages] = useState([]);
   const [showEndMsg, setShowEndMsg] = useState(false);
   const [currentIndex, setCurrentIndex] = useState(0);
-  const [isTyping, setIsTyping] = useState(true);
+  const [isTyping, setIsTyping] = useState(
+    Object.assign({}, ...speakers.map((s) => ({ [s.SpeakerName]: false })))
+  );
+  const [triggerActivated, setTriggerActivated] = useState("");
   const messagesEndRef = useRef(null);
-  // const processChatLog = chatLog.split("\n").map((m) => {
-  //   const matches = m.trimStart().match(/(.+): (.+)/); // 1: speaker, 2: message
-  //   // find the speaker object
-  //   const speaker = speakers.find((s) => s.name.split(" ").includes(matches[1]));
-  //   return { ...speaker, msg: matches[2], typingSpeed: typingSpeed * 1000 };
-  // });
-  const processChatLog = chatLog
-    .filter((c) => c.Text !== "" && c.SpeakerIds.length > 0)
-    .map((m) => {
-      // find the speaker object
-      const speaker = speakerList.find(
-        (s) => s.index === Number(m.SpeakerIds[0])
-      );
-      return { ...speaker, msg: m.Text, typingSpeed: typingSpeed * 1000 };
-    });
-  const speakers = [...new Set(chatLog.map((m) => m.SpeakerIds[0]))];
-  const speaker1 = speakerList.find((s) => s.index === Number(speakers[0]));
-  const speaker2 = speakerList.find((s) => s.index === Number(speakers[1]));
-  const speaker3 = speakerList.find((s) => s.index === Number(speakers[2]));
+
+  const speaker1 = speakerList.find(
+    (s) => s.index === Number(speakers[0].SpeakerId)
+  );
+  const speaker2 = speakerList.find(
+    (s) => s.index === Number(speakers[1].SpeakerId)
+  );
+  const speaker3 = speakerList.find(
+    (s) => s.index === Number(speakers[2].SpeakerId)
+  );
 
   useEffect(() => {
-    if (currentIndex >= processChatLog.length) {
+    if (currentIndex >= chatLog.length) {
       setTimeout(() => {
         setShowEndMsg(true);
-      }, 1000);
+      }, chatLog[chatLog.length - 1].DelaySec * 1000);
       return;
     }
 
-    setIsTyping(true);
-    const typingTimer = setTimeout(() => {
-      setIsTyping(false);
+    // Only sequence messages with the current trigger activated
+    if (
+      [triggerActivated, ""].includes(chatLog[currentIndex].WaitTriggerName)
+    ) {
+      if (currentIndex === chatLog.length) {
+        setIsTyping({});
+      } else if (!isTyping[chatLog[currentIndex].SpeakerData.name]) {
+        setIsTyping((prev) => ({
+          ...prev,
+          [chatLog[currentIndex].SpeakerData.name]: true,
+        }));
+        setTimeout(() => {
+          setIsTyping((prev) => ({
+            ...prev,
+            [chatLog[currentIndex].SpeakerData.name]: false,
+          }));
+        }, chatLog[currentIndex].TypingDuration * 1000);
+      }
 
       const messageTimer = setTimeout(() => {
-        setMessages((prev) => [...prev, processChatLog[currentIndex]]);
+        setMessages((prev) => [...prev, chatLog[currentIndex]]);
+
+        // Check if current message triggers anything down in the log
+        if (chatLog[currentIndex].InvokeTriggerName !== "") {
+          // Change the trigger activation - TBD? Not sure if may cause errors with certain chats
+          setTriggerActivated(chatLog[currentIndex].InvokeTriggerName);
+        }
+
+        // Pause before the next person typing
         const cooldownTimer = setTimeout(() => {
           setCurrentIndex((prev) => prev + 1);
         }, 1000);
         return () => clearTimeout(cooldownTimer);
-      }, 200);
-
+      }, chatLog[currentIndex].DelaySec * 1000);
       return () => clearTimeout(messageTimer);
-    }, processChatLog[currentIndex].typingSpeed);
-
-    return () => clearTimeout(typingTimer);
+    }
     // eslint-disable-next-line
   }, [currentIndex]);
 
@@ -226,7 +231,9 @@ const MobileChatMessage = ({ title, chatLog }) => {
           <Box className={classes.chatSubtitle}>For casual chat.</Box>
         </Box>
         <Box className={classes.chatHeadContainer}>
-          <span style={{ paddingLeft: "15px" }}>{speakers.length > 3 && `+${speakers.length - 3}`}</span>
+          <span style={{ paddingLeft: "15px" }}>
+            {speakers.length > 3 && `+${speakers.length - 3}`}
+          </span>
           <img
             src={speaker3.avatar}
             alt={`${speaker3.name}'s Avatar`}
@@ -249,44 +256,40 @@ const MobileChatMessage = ({ title, chatLog }) => {
       </Box>
       <Box className={classes.nineChatList}>
         <AnimatePresence initial={false}>
-          {messages.map((msg, i) => (
-            <motion.div
-              key={`chat${i}`}
-              initial={{ opacity: 0, y: 10 }}
-              animate={{ opacity: 1, y: 0 }}
-              // exit={{ opacity: 0, y: -10 }}
-              transition={{ duration: 0.3 }}
-              className={classes.messageItem}
-            >
-              <Box className={classes.avatarColumn}>
-                {(i === 0 || messages[i - 1].name !== msg.name) && (
-                  <img
-                    className={classes.avatar}
-                    src={msg.avatar}
-                    alt={`${msg.name}'s Avatar`}
-                    height={50}
-                  />
-                )}
-              </Box>
-              <Box>
-                {(i === 0 || messages[i - 1].name !== msg.name) && (
-                  <Box className={classes.speakerName}>{msg.name}</Box>
-                )}
-                <Box>
-                  {(i === 0 || messages[i - 1].name !== msg.name) && (
-                    <Box className={classes.speakerName}>{msg.name}</Box>
-                  )}
-                  {typeof stampReplace(msg.msg) === "string" ? (
-                    <Box className={classes.chatBubble}>
-                      {stampReplace(msg.msg)}
-                    </Box>
-                  ) : (
-                    stampReplace(msg.msg)
+          {messages.map((msg, i) =>
+            msg.Type === "Typing" ? null : (
+              <motion.div
+                key={msg.Guid}
+                initial={{ opacity: 0, y: 10 }}
+                animate={{ opacity: 1, y: 0 }}
+                // exit={{ opacity: 0, y: -10 }}
+                transition={{ duration: 0.3 }}
+                className={classes.messageItem}
+              >
+                <Box className={classes.avatarColumn}>
+                  {(i === 0 || messages[i - 1].SpeakerId !== msg.SpeakerId) && (
+                    <img
+                      className={classes.avatar}
+                      src={msg.SpeakerData.avatar}
+                      alt={`${msg.SpeakerData.name}'s Avatar`}
+                      height={50}
+                    />
                   )}
                 </Box>
-              </Box>
-            </motion.div>
-          ))}
+                <Box>
+                  {(i === 0 || messages[i - 1].SpeakerId !== msg.SpeakerId) && (
+                    <Box className={classes.speakerName}>
+                      {msg.SpeakerData.name}
+                    </Box>
+                  )}
+                  {msg.Type === "Message" && (
+                    <Box className={classes.chatBubble}>{msg.Text}</Box>
+                  )}
+                  {msg.Type === "Sticker" && stampReplace(msg.Text)}
+                </Box>
+              </motion.div>
+            )
+          )}
           {showEndMsg && (
             <motion.div
               key="endMsg"
@@ -301,16 +304,16 @@ const MobileChatMessage = ({ title, chatLog }) => {
               <div className={classes.endLineRight} />
             </motion.div>
           )}
-          {isTyping && (
-            <div className={classes.typing}>
-              <AnimatePresence>
-                <TypingIndicator />
-              </AnimatePresence>
-              <Box>{processChatLog[currentIndex].name} is typing...</Box>
-            </div>
-          )}
-          <div ref={messagesEndRef} style={{ paddingBottom: "10px" }} />
         </AnimatePresence>
+        <div ref={messagesEndRef}>
+          {Object.values(isTyping).some((x) => x) && (
+            <AnimatePresence>
+              <TypingIndicator
+                typers={Object.keys(isTyping).filter((k) => isTyping[k])}
+              />
+            </AnimatePresence>
+          )}
+        </div>
       </Box>
     </ThemeProvider>
   );

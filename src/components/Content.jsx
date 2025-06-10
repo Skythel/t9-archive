@@ -56,7 +56,7 @@ const Content = () => {
             {chatList.map((c, i) => (
               <Route
                 path={`/chat/${i + 1}`}
-                element={<ChatMessage title={c.title} chatLog={c.Contents} />}
+                element={<ChatMessage title={c.title} speakers={c.Speakers} chatLog={c.Contents} />}
               />
             ))}
           </Route>

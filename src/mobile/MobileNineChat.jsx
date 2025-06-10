@@ -110,14 +110,18 @@ const NineChatList = () => {
                   <img
                     src={
                       speakerList.find(
-                        (s) => s.index === Number(c.Contents[0].SpeakerIds[0])
+                        (s) => s.speakerId === Number(c.Contents[0].SpeakerId)
                       ).avatar
                     }
                     alt="Avatar"
                     height={24}
                     className={classes.avatar}
                   />
-                  {`${c.Contents[0].Text.substring(0, 45)}…`}
+                  {`${
+                    c.Contents[0].Type === "Sticker"
+                      ? "(Sticker sent)"
+                      : `${c.Contents[0].Text.substring(0, 45)}…`
+                  }`}
                 </Box>
               </Box>
             </Box>

@@ -15,7 +15,6 @@ Content:
   * Character basic info
 * NINE Chat
   * Addition of story chats
-  * More dynamic typing and multiple people typing
   * Better-scaling styling
   * Search filter
 * Pachimon
@@ -26,6 +25,9 @@ Content:
   * Unable to break autoscroll while a chat is playing
 
 ## Changelog
+### v0.0.3b - 12/6/2025
+* Updated typing mechanism for NINE chats to support multiple people based on typing timing data
+* Fixed UI bugs in mobile NINE chat
 ### v0.0.3a - 1/6/2025
 * Added stickers to NINE chat
 * Added more casual chats
