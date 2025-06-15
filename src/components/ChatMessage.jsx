@@ -10,6 +10,7 @@ import { keyframes } from "@mui/system";
 import { speakerList } from "../content/ChatSpeakers";
 import TypingIndicator from "./TypingIndicator";
 import { stampReplace } from "../content/ChatStamps";
+import Cookies from "universal-cookie";
 
 const expandLeft = keyframes`
     from { width: 0; }
@@ -45,6 +46,10 @@ const useStyles = makeStyles((theme) => ({
     gridTemplateColumns: "130px 10fr",
     textAlign: "left",
   },
+  messageItemSelf: {
+    gridTemplateColumns: "10fr 130px",
+    textAlign: "right",
+  },
   messagesConfirmed: {
     display: "grid",
     gridTemplateColumns: "2fr 8fr 2fr",
@@ -56,6 +61,10 @@ const useStyles = makeStyles((theme) => ({
   },
   avatarColumn: {
     width: "10vw",
+  },
+  messageColumnSelf: {
+    marginLeft: "auto",
+    order: "-1",
   },
   avatar: {
     borderRadius: "50%",
@@ -86,6 +95,26 @@ const useStyles = makeStyles((theme) => ({
       borderTopColor: "white",
       borderBottom: 0,
       marginBottom: "-10px",
+    },
+  },
+  chatBubbleSelf: {
+    background: "#a550e1",
+    color: "white",
+    textStroke: "currentColor",
+    "&::before": {
+      content: '""',
+      position: "absolute",
+      top: "15px",
+      right: "-10px",
+      width: 0,
+      height: 0,
+      border: "10px solid transparent",
+      borderTopColor: "#a550e1",
+      borderBottom: 0,
+      marginBottom: "-10px",
+    },
+    "&::after": {
+      content: "none",
     },
   },
   chatHeadIcon: {
@@ -136,12 +165,21 @@ const endMsg = "All messages have been confirmed";
 
 const ChatMessage = ({ title, speakers, chatLog }) => {
   const classes = useStyles();
+  const cookies = new Cookies();
+  const party = cookies.get("partyMembers") ?? "";
+  const currentUser = party.split(",")[0] ?? "";
   const [messages, setMessages] = useState([]);
   const [showEndMsg, setShowEndMsg] = useState(false);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isTyping, setIsTyping] = useState(
-    Object.assign({}, ...speakers.map((s) => ({ [s.SpeakerName]: false })))
+    Object.assign(
+      {},
+      ...speakers
+        .filter((s) => s.SpeakerName !== currentUser)
+        .map((s) => ({ [s.SpeakerName]: false }))
+    )
   );
+  const [selfIsTyping, setSelfIsTyping] = useState(false);
   const [triggerActivated, setTriggerActivated] = useState("");
   const messagesEndRef = useRef(null);
 
@@ -169,7 +207,10 @@ const ChatMessage = ({ title, speakers, chatLog }) => {
     ) {
       if (currentIndex === chatLog.length) {
         setIsTyping({});
-      } else if (!isTyping[chatLog[currentIndex].SpeakerData.name]) {
+      } else if (
+        !isTyping[chatLog[currentIndex].SpeakerData.name] &&
+        chatLog[currentIndex].SpeakerData.name !== currentUser
+      ) {
         setIsTyping((prev) => ({
           ...prev,
           [chatLog[currentIndex].SpeakerData.name]: true,
@@ -179,6 +220,14 @@ const ChatMessage = ({ title, speakers, chatLog }) => {
             ...prev,
             [chatLog[currentIndex].SpeakerData.name]: false,
           }));
+        }, chatLog[currentIndex].TypingDuration * 1000);
+      } else if (
+        !isTyping[chatLog[currentIndex].SpeakerData.name] &&
+        chatLog[currentIndex].SpeakerData.name === currentUser
+      ) {
+        setSelfIsTyping(true);
+        setTimeout(() => {
+          setSelfIsTyping(false);
         }, chatLog[currentIndex].TypingDuration * 1000);
       }
 
@@ -194,7 +243,7 @@ const ChatMessage = ({ title, speakers, chatLog }) => {
         // Pause before the next person typing
         const cooldownTimer = setTimeout(() => {
           setCurrentIndex((prev) => prev + 1);
-        }, 1000);
+        }, 1500);
         return () => clearTimeout(cooldownTimer);
       }, chatLog[currentIndex].DelaySec * 1000);
       return () => clearTimeout(messageTimer);
@@ -261,9 +310,20 @@ const ChatMessage = ({ title, speakers, chatLog }) => {
                 animate={{ opacity: 1, y: 0 }}
                 // exit={{ opacity: 0, y: -10 }}
                 transition={{ duration: 0.3 }}
-                className={classes.messageItem}
+                className={`${classes.messageItem}${
+                  currentUser === msg.SpeakerData.name
+                    ? ` ${classes.messageItemSelf}`
+                    : ""
+                }`}
+                {...(currentUser === msg.SpeakerData.name
+                  ? { style: { flexDirection: "reverse" } }
+                  : {})}
               >
-                <Box className={classes.avatarColumn}>
+                <Box
+                  {...(currentUser !== msg.SpeakerData.name
+                    ? { className: classes.avatarColumn }
+                    : {})}
+                >
                   {(i === 0 || messages[i - 1].SpeakerId !== msg.SpeakerId) && (
                     <img
                       className={classes.avatar}
@@ -273,19 +333,63 @@ const ChatMessage = ({ title, speakers, chatLog }) => {
                     />
                   )}
                 </Box>
-                <Box>
+                <Box
+                  {...(currentUser === msg.SpeakerData.name
+                    ? { className: classes.messageColumnSelf }
+                    : {})}
+                >
                   {(i === 0 || messages[i - 1].SpeakerId !== msg.SpeakerId) && (
                     <Box className={classes.speakerName}>
                       {msg.SpeakerData.name}
                     </Box>
                   )}
                   {msg.Type === "Message" && (
-                    <Box className={classes.chatBubble}>{msg.Text}</Box>
+                    <Box
+                      className={`${classes.chatBubble}${
+                        currentUser === msg.SpeakerData.name
+                          ? ` ${classes.chatBubbleSelf}`
+                          : ""
+                      }`}
+                    >
+                      {msg.Text}
+                    </Box>
                   )}
                   {msg.Type === "Sticker" && stampReplace(msg.Text)}
                 </Box>
               </motion.div>
             )
+          )}
+          {selfIsTyping && (
+            <motion.div
+              key="selfTyping"
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: 1, y: 0 }}
+              // exit={{ opacity: 0, y: -10 }}
+              transition={{ duration: 0.3 }}
+              className={`${classes.messageItem} ${classes.messageItemSelf}`}
+              style={{ flexDirection: "reverse" }}
+            >
+              <Box>
+                {(currentIndex === 0 ||
+                  messages[currentIndex - 1].SpeakerData.name !== currentUser) && (
+                  <img
+                    className={classes.avatar}
+                    src={
+                      speakerList.find((s) => s.name === currentUser).avatar
+                    }
+                    alt={`${currentUser}'s Avatar`}
+                    height={100}
+                  />
+                )}
+              </Box>
+              <Box className={classes.messageColumnSelf}>
+                {(currentIndex === 0 ||
+                  messages[currentIndex - 1].SpeakerData.name !== currentUser) && (
+                  <Box className={classes.speakerName}>{currentUser}</Box>
+                )}
+                <TypingIndicator typers={[]} />
+              </Box>
+            </motion.div>
           )}
           {showEndMsg && (
             <motion.div
