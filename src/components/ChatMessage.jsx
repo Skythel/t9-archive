@@ -253,7 +253,7 @@ const ChatMessage = ({ title, speakers, chatLog }) => {
 
   useEffect(() => {
     messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
-  }, [messages, showEndMsg]);
+  }, [isTyping, selfIsTyping, messages, showEndMsg]);
 
   return (
     <ThemeProvider theme={theme}>
@@ -365,18 +365,17 @@ const ChatMessage = ({ title, speakers, chatLog }) => {
               initial={{ opacity: 0, y: 10 }}
               animate={{ opacity: 1, y: 0 }}
               // exit={{ opacity: 0, y: -10 }}
-              transition={{ duration: 0.3 }}
+              transition={{ duration: 0 }}
               className={`${classes.messageItem} ${classes.messageItemSelf}`}
               style={{ flexDirection: "reverse" }}
             >
               <Box>
                 {(currentIndex === 0 ||
-                  messages[currentIndex - 1].SpeakerData.name !== currentUser) && (
+                  messages[currentIndex - 1].SpeakerData.name !==
+                    currentUser) && (
                   <img
                     className={classes.avatar}
-                    src={
-                      speakerList.find((s) => s.name === currentUser).avatar
-                    }
+                    src={speakerList.find((s) => s.name === currentUser).avatar}
                     alt={`${currentUser}'s Avatar`}
                     height={100}
                   />
@@ -384,7 +383,8 @@ const ChatMessage = ({ title, speakers, chatLog }) => {
               </Box>
               <Box className={classes.messageColumnSelf}>
                 {(currentIndex === 0 ||
-                  messages[currentIndex - 1].SpeakerData.name !== currentUser) && (
+                  messages[currentIndex - 1].SpeakerData.name !==
+                    currentUser) && (
                   <Box className={classes.speakerName}>{currentUser}</Box>
                 )}
                 <TypingIndicator typers={[]} />
