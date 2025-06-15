@@ -14,17 +14,27 @@ Content:
 * Characters
   * Character basic info
 * NINE Chat
-  * Addition of story chats
+  * Addition of more chats, story and casual
   * Better-scaling styling
   * Search filter
+  * Setting to customise sequence speed
+  * [Desktop only] Animation of party members' pixels
 * Pachimon
 
 ## Known Issues
 * NINE Chat
   * "All messsages have been confirmed" doesn't animate properly
   * Unable to break autoscroll while a chat is playing
+  * Chat bubble doesn't wrap properly for multiple-line texts sent by the current character
+  * Doesn't support multiple people typing
 
 ## Changelog
+### v0.0.4 - 15/6/2025
+* Added Party page to allow selection of party members
+* [Desktop only] Updated NINE chat page to show current party members' pixels, next update pending to animate pixels
+* Updated NINE chats to show messages sending from the current user, if at least one party member is selected
+* Updated NINE chat typing mechanic temporarily, which breaks multiple people typing. Will make further fixes in the future
+* Removed Journey to Death tension card that couldn't be found
 ### v0.0.3b - 12/6/2025
 * Updated typing mechanism for NINE chats to support multiple people based on typing timing data
 * Fixed UI bugs in mobile NINE chat

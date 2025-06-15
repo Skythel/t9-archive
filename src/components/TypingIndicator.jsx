@@ -33,15 +33,19 @@ const TypingIndicator = ({ typers }) => {
           }}
         />
       ))}
-      &nbsp;
-      <span style={{ color: "#404040", textAlign: "left" }}>
-        {typers.map((t, index) => {
-          if (index === 0) return t;
-          return index === typers.length - 1 ? ` and ${t}` : `, ${t}`;
-        })}
-        {typers.length > 1 ? " are " : " is "}
-        typing...
-      </span>
+      {typers.length > 0 && (
+        <>
+          &nbsp;
+          <span style={{ color: "#404040", textAlign: "left" }}>
+            {typers.map((t, index) => {
+              if (index === 0) return t;
+              return index === typers.length - 1 ? ` and ${t}` : `, ${t}`;
+            })}
+            {typers.length > 1 ? " are " : " is "}
+            typing...
+          </span>
+        </>
+      )}
     </div>
   );
 };

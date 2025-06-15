@@ -4,11 +4,16 @@ import { Box } from "@mui/system";
 import { chatList } from "../content/ChatList";
 import { speakerList } from "../content/ChatSpeakers";
 import { Link, useOutlet } from "react-router-dom";
-import { IconButton } from "@mui/material";
+import { IconButton, Dialog } from "@mui/material";
+import ChatFilter from "./ChatFilter";
+import { useState } from "react";
+import Cookies from "universal-cookie";
+import { characterList } from "../content/CharacterList";
 
 const IconNINE = require("../assets/topbar/ui_common_icon_header_tips_navigation.png");
 const IconCasual = require("../assets/nine_groups/nine_group_7002.png");
 const IconClose = require("../assets/ui/ui_common_button_detailmenu_close.png");
+const IconFilter = require("../assets/ui/ui_common_icon_filter.png");
 
 const theme = createTheme();
 const useStyles = makeStyles((theme) => ({
@@ -61,11 +66,14 @@ const useStyles = makeStyles((theme) => ({
     border: "1px solid #aaa",
     marginRight: "5px",
   },
+  pixels: {
+    marginTop: "auto",
+  }
 }));
 
 const NineChatList = () => {
   const classes = useStyles();
-  console.log(chatList.filter((c) => c.Contents.length < 1));
+  const [showFilter, setShowFilter] = useState(false);
   return (
     <>
       <Box className={classes.nineChatHeader}>
@@ -79,6 +87,9 @@ const NineChatList = () => {
         </Box>
         <Box>Message</Box>
         <Box style={{ marginLeft: "auto", paddingRight: "5px" }}>
+          <IconButton onClick={() => setShowFilter(true)}>
+            <img src={IconFilter} alt="Chat Filter" height={44} />
+          </IconButton>
           <Link to={`/`}>
             <IconButton>
               <img
@@ -129,17 +140,53 @@ const NineChatList = () => {
           </Link>
         ))}
       </Box>
+      <Dialog
+        open={showFilter}
+        onClose={() => setShowFilter(false)}
+        slotProps={{
+          paper: {
+            elevation: 0,
+            sx: {
+              width: "80vw",
+              height: "80vh",
+              maxWidth: "none",
+              background: "transparent",
+              color: "white",
+              overflow: "visible",
+            },
+          },
+        }}
+      >
+        <ChatFilter setShowFilter={setShowFilter} />
+      </Dialog>
     </>
   );
 };
 
 const NineChat = () => {
   const classes = useStyles();
+  const cookies = new Cookies();
+  const party = cookies.get("partyMembers") ?? "";
+  const [partyMembers] = useState(
+    party !== ""
+      ? party.split(",").map((p) => characterList.find((c) => c.name === p))
+      : []
+  );
   const outlet = useOutlet();
   return (
     <ThemeProvider theme={theme}>
       <Box className={classes.nineChatContainer}>
         {outlet || <NineChatList />}
+      </Box>
+      <Box className={classes.pixels}>
+        {partyMembers.map((p) => (
+          <img
+            src={p.pixels[0]}
+            alt={`${p.name}'s Pixel`}
+            height={200}
+            style={{ imageRendering: "pixelated" }}
+          />
+        ))}
       </Box>
     </ThemeProvider>
   );

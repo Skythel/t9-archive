@@ -10,6 +10,7 @@ import { keyframes } from "@mui/system";
 import { speakerList } from "../content/ChatSpeakers";
 import TypingIndicator from "../components/TypingIndicator";
 import { stampReplace } from "../content/ChatStamps";
+import Cookies from "universal-cookie";
 
 const expandLeft = keyframes`
     from { width: 0; }
@@ -45,6 +46,10 @@ const useStyles = makeStyles((theme) => ({
     gridTemplateColumns: "60px 10fr",
     textAlign: "left",
   },
+  messageItemSelf: {
+    gridTemplateColumns: "10fr 60px",
+    textAlign: "right",
+  },
   messagesConfirmed: {
     display: "grid",
     gridTemplateColumns: "2fr 10fr 2fr",
@@ -57,6 +62,10 @@ const useStyles = makeStyles((theme) => ({
   },
   avatarColumn: {
     width: "10vw",
+  },
+  messageColumnSelf: {
+    marginLeft: "auto",
+    order: "-1",
   },
   avatar: {
     borderRadius: "50%",
@@ -87,6 +96,26 @@ const useStyles = makeStyles((theme) => ({
       borderTopColor: "white",
       borderBottom: 0,
       marginBottom: "-10px",
+    },
+  },
+  chatBubbleSelf: {
+    background: "#a550e1",
+    color: "white",
+    textStroke: "currentColor",
+    "&::before": {
+      content: '""',
+      position: "absolute",
+      top: "15px",
+      right: "-5px",
+      width: 0,
+      height: 0,
+      border: "10px solid transparent",
+      borderTopColor: "#a550e1",
+      borderBottom: 0,
+      marginBottom: "-10px",
+    },
+    "&::after": {
+      content: "none",
     },
   },
   chatHeadIcon: {
@@ -139,12 +168,21 @@ const endMsg = "All messages have been confirmed";
 
 const MobileChatMessage = ({ title, speakers, chatLog }) => {
   const classes = useStyles();
+  const cookies = new Cookies();
+  const party = cookies.get("partyMembers") ?? "";
+  const currentUser = party.split(",")[0] ?? "";
   const [messages, setMessages] = useState([]);
   const [showEndMsg, setShowEndMsg] = useState(false);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isTyping, setIsTyping] = useState(
-    Object.assign({}, ...speakers.map((s) => ({ [s.SpeakerName]: false })))
+    Object.assign(
+      {},
+      ...speakers
+        .filter((s) => s.SpeakerName !== currentUser)
+        .map((s) => ({ [s.SpeakerName]: false }))
+    )
   );
+  const [selfIsTyping, setSelfIsTyping] = useState(false);
   const [triggerActivated, setTriggerActivated] = useState("");
   const messagesEndRef = useRef(null);
 
@@ -159,55 +197,59 @@ const MobileChatMessage = ({ title, speakers, chatLog }) => {
   );
 
   useEffect(() => {
+    let typingTimeout, messageTimeout, cooldownTimeout;
     if (currentIndex >= chatLog.length) {
-      setTimeout(() => {
+      typingTimeout = setTimeout(() => {
         setShowEndMsg(true);
       }, chatLog[chatLog.length - 1].DelaySec * 1000);
-      return;
-    }
+    } else {
+      const currentMsg = chatLog[currentIndex];
+      const speaker = currentMsg.SpeakerData.name;
 
-    // Only sequence messages with the current trigger activated
-    if (
-      [triggerActivated, ""].includes(chatLog[currentIndex].WaitTriggerName)
-    ) {
-      if (currentIndex === chatLog.length) {
-        setIsTyping({});
-      } else if (!isTyping[chatLog[currentIndex].SpeakerData.name]) {
-        setIsTyping((prev) => ({
-          ...prev,
-          [chatLog[currentIndex].SpeakerData.name]: true,
-        }));
-        setTimeout(() => {
-          setIsTyping((prev) => ({
-            ...prev,
-            [chatLog[currentIndex].SpeakerData.name]: false,
-          }));
-        }, chatLog[currentIndex].TypingDuration * 1000);
-      }
+      // Only sequence messages with the current trigger activated
+      if ([triggerActivated, ""].includes(currentMsg.WaitTriggerName)) {
+        if (currentIndex === chatLog.length) {
+          setIsTyping({});
+        } else if (!isTyping[speaker]) {
+          if (speaker !== currentUser) {
+            setIsTyping((prev) => ({ ...prev, [speaker]: true }));
+          } else {
+            setSelfIsTyping(true);
+          }
 
-      const messageTimer = setTimeout(() => {
-        setMessages((prev) => [...prev, chatLog[currentIndex]]);
+          typingTimeout = setTimeout(() => {
+            if (speaker !== currentUser) {
+              setIsTyping((prev) => ({ ...prev, [speaker]: false }));
+            } else {
+              setSelfIsTyping(false);
+            }
+            messageTimeout = setTimeout(() => {
+              setMessages((prev) => [...prev, currentMsg]);
+              // Check if current message triggers anything down in the log
+              if (currentMsg.InvokeTriggerName !== "") {
+                // Change the trigger activation - TBD? Not sure if may cause errors with certain chats
+                setTriggerActivated(currentMsg.InvokeTriggerName);
+              }
 
-        // Check if current message triggers anything down in the log
-        if (chatLog[currentIndex].InvokeTriggerName !== "") {
-          // Change the trigger activation - TBD? Not sure if may cause errors with certain chats
-          setTriggerActivated(chatLog[currentIndex].InvokeTriggerName);
+              cooldownTimeout = setTimeout(() => {
+                setCurrentIndex((prev) => prev + 1);
+              }, 1000);
+            }, currentMsg.DelaySec * 1000);
+          }, currentMsg.TypingDuration * 1000);
         }
-
-        // Pause before the next person typing
-        const cooldownTimer = setTimeout(() => {
-          setCurrentIndex((prev) => prev + 1);
-        }, 1000);
-        return () => clearTimeout(cooldownTimer);
-      }, chatLog[currentIndex].DelaySec * 1000);
-      return () => clearTimeout(messageTimer);
+      }
     }
+    return () => {
+      clearTimeout(typingTimeout);
+      clearTimeout(messageTimeout);
+      clearTimeout(cooldownTimeout);
+    };
     // eslint-disable-next-line
   }, [currentIndex]);
 
   useEffect(() => {
     messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
-  }, [messages, showEndMsg]);
+  }, [isTyping, selfIsTyping, messages, showEndMsg]);
 
   return (
     <ThemeProvider theme={theme}>
@@ -264,9 +306,20 @@ const MobileChatMessage = ({ title, speakers, chatLog }) => {
                 animate={{ opacity: 1, y: 0 }}
                 // exit={{ opacity: 0, y: -10 }}
                 transition={{ duration: 0.3 }}
-                className={classes.messageItem}
+                className={`${classes.messageItem}${
+                  currentUser === msg.SpeakerData.name
+                    ? ` ${classes.messageItemSelf}`
+                    : ""
+                }`}
+                {...(currentUser === msg.SpeakerData.name
+                  ? { style: { flexDirection: "reverse" } }
+                  : {})}
               >
-                <Box className={classes.avatarColumn}>
+                <Box
+                  {...(currentUser !== msg.SpeakerData.name
+                    ? { className: classes.avatarColumn }
+                    : {})}
+                >
                   {(i === 0 || messages[i - 1].SpeakerId !== msg.SpeakerId) && (
                     <img
                       className={classes.avatar}
@@ -276,19 +329,63 @@ const MobileChatMessage = ({ title, speakers, chatLog }) => {
                     />
                   )}
                 </Box>
-                <Box>
+                <Box
+                  {...(currentUser === msg.SpeakerData.name
+                    ? { className: classes.messageColumnSelf }
+                    : {})}
+                >
                   {(i === 0 || messages[i - 1].SpeakerId !== msg.SpeakerId) && (
                     <Box className={classes.speakerName}>
                       {msg.SpeakerData.name}
                     </Box>
                   )}
                   {msg.Type === "Message" && (
-                    <Box className={classes.chatBubble}>{msg.Text}</Box>
+                    <Box
+                      className={`${classes.chatBubble}${
+                        currentUser === msg.SpeakerData.name
+                          ? ` ${classes.chatBubbleSelf}`
+                          : ""
+                      }`}
+                    >
+                      {msg.Text}
+                    </Box>
                   )}
                   {msg.Type === "Sticker" && stampReplace(msg.Text)}
                 </Box>
               </motion.div>
             )
+          )}
+          {selfIsTyping && (
+            <motion.div
+              key="selfTyping"
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: 1, y: 0 }}
+              // exit={{ opacity: 0, y: -10 }}
+              transition={{ duration: 0 }}
+              className={`${classes.messageItem} ${classes.messageItemSelf}`}
+              style={{ flexDirection: "reverse" }}
+            >
+              <Box>
+                {(currentIndex === 0 ||
+                  messages[currentIndex - 1].SpeakerData.name !==
+                    currentUser) && (
+                  <img
+                    className={classes.avatar}
+                    src={speakerList.find((s) => s.name === currentUser).avatar}
+                    alt={`${currentUser}'s Avatar`}
+                    height={50}
+                  />
+                )}
+              </Box>
+              <Box className={classes.messageColumnSelf}>
+                {(currentIndex === 0 ||
+                  messages[currentIndex - 1].SpeakerData.name !==
+                    currentUser) && (
+                  <Box className={classes.speakerName}>{currentUser}</Box>
+                )}
+                <TypingIndicator typers={[]} />
+              </Box>
+            </motion.div>
           )}
           {showEndMsg && (
             <motion.div

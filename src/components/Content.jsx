@@ -1,16 +1,14 @@
 import { makeStyles } from "@mui/styles";
-import { createTheme, ThemeProvider } from '@mui/material/styles';
+import { createTheme, ThemeProvider } from "@mui/material/styles";
 import { Container } from "@mui/system";
 import Character from "./Character";
 import TensionCards from "./TensionCards";
 import { chatList } from "../content/ChatList";
-import {
-  Route,
-  Routes,
-  Link,
-} from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import NineChat from "./NineChat";
 import ChatMessage from "./ChatMessage";
+import Party from "./Party";
+import MainPage from "./MainPage";
 
 const theme = createTheme();
 const useStyles = makeStyles((theme) => ({
@@ -30,33 +28,21 @@ const Content = () => {
     <ThemeProvider theme={theme}>
       <Container className={classes.content} maxWidth={false}>
         <Routes>
-          <Route
-            path="/"
-            element={
-              <div style={{ color: "white", textAlign: "left" }}>
-                <h2>Welcome to the Tribe Nine archival project!</h2>
-                <p>Content will slowly be added over time. Currently, the only pages available are <Link to="./characters">Characters</Link>, <Link to="./tension-cards">Tension Cards</Link> and <Link to="./chat">NINE Chats</Link>.</p>
-                <p>Do let me know if you encounter any issues. (Discord: @skythel)</p>
-                <p><a href="https://github.com/Skythel/t9-archive" rel="noreferrer" target="_blank">GitHub source</a></p>
-              </div>
-            }
-          />
-          <Route
-            path="/characters"
-            element={<Character />}
-          />
-          <Route
-            path="/tension-cards"
-            element={<TensionCards />}
-          />
-          <Route
-            path="/chat"
-            element={<NineChat />}
-          >
+          <Route path="/" element={<MainPage />} />
+          <Route path="/party" element={<Party />}></Route>
+          <Route path="/characters" element={<Character />} />
+          <Route path="/tension-cards" element={<TensionCards />} />
+          <Route path="/chat" element={<NineChat />}>
             {chatList.map((c, i) => (
               <Route
                 path={`/chat/${i + 1}`}
-                element={<ChatMessage title={c.title} speakers={c.Speakers} chatLog={c.Contents} />}
+                element={
+                  <ChatMessage
+                    title={c.title}
+                    speakers={c.Speakers}
+                    chatLog={c.Contents}
+                  />
+                }
               />
             ))}
           </Route>
@@ -65,6 +51,6 @@ const Content = () => {
         {currentPage === "Cards" && <TensionCards />} */}
       </Container>
     </ThemeProvider>
-  )
+  );
 };
 export default Content;

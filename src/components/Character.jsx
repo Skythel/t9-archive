@@ -11,9 +11,11 @@ const useStyles = makeStyles((theme) => ({
     border: "10px double black",
     borderRadius: "20px",
     backgroundColor: "grey",
+    width: "156px",
   },
   characterCardIconImage: {
     borderRadius: "10px",
+    height: "176px",
   },
   characterCardName: {
     backgroundColor: "black",

@@ -194,60 +194,53 @@ const ChatMessage = ({ title, speakers, chatLog }) => {
   );
 
   useEffect(() => {
+    let typingTimeout, messageTimeout, cooldownTimeout;
     if (currentIndex >= chatLog.length) {
-      setTimeout(() => {
+      typingTimeout = setTimeout(() => {
         setShowEndMsg(true);
       }, chatLog[chatLog.length - 1].DelaySec * 1000);
-      return;
-    }
+    } else {
+      const currentMsg = chatLog[currentIndex];
+      const speaker = currentMsg.SpeakerData.name;
 
-    // Only sequence messages with the current trigger activated
-    if (
-      [triggerActivated, ""].includes(chatLog[currentIndex].WaitTriggerName)
-    ) {
-      if (currentIndex === chatLog.length) {
-        setIsTyping({});
-      } else if (
-        !isTyping[chatLog[currentIndex].SpeakerData.name] &&
-        chatLog[currentIndex].SpeakerData.name !== currentUser
-      ) {
-        setIsTyping((prev) => ({
-          ...prev,
-          [chatLog[currentIndex].SpeakerData.name]: true,
-        }));
-        setTimeout(() => {
-          setIsTyping((prev) => ({
-            ...prev,
-            [chatLog[currentIndex].SpeakerData.name]: false,
-          }));
-        }, chatLog[currentIndex].TypingDuration * 1000);
-      } else if (
-        !isTyping[chatLog[currentIndex].SpeakerData.name] &&
-        chatLog[currentIndex].SpeakerData.name === currentUser
-      ) {
-        setSelfIsTyping(true);
-        setTimeout(() => {
-          setSelfIsTyping(false);
-        }, chatLog[currentIndex].TypingDuration * 1000);
-      }
+      // Only sequence messages with the current trigger activated
+      if ([triggerActivated, ""].includes(currentMsg.WaitTriggerName)) {
+        if (currentIndex === chatLog.length) {
+          setIsTyping({});
+        } else if (!isTyping[speaker]) {
+          if (speaker !== currentUser) {
+            setIsTyping((prev) => ({ ...prev, [speaker]: true }));
+          } else {
+            setSelfIsTyping(true);
+          }
 
-      const messageTimer = setTimeout(() => {
-        setMessages((prev) => [...prev, chatLog[currentIndex]]);
+          typingTimeout = setTimeout(() => {
+            if (speaker !== currentUser) {
+              setIsTyping((prev) => ({ ...prev, [speaker]: false }));
+            } else {
+              setSelfIsTyping(false);
+            }
+            messageTimeout = setTimeout(() => {
+              setMessages((prev) => [...prev, currentMsg]);
+              // Check if current message triggers anything down in the log
+              if (currentMsg.InvokeTriggerName !== "") {
+                // Change the trigger activation - TBD? Not sure if may cause errors with certain chats
+                setTriggerActivated(currentMsg.InvokeTriggerName);
+              }
 
-        // Check if current message triggers anything down in the log
-        if (chatLog[currentIndex].InvokeTriggerName !== "") {
-          // Change the trigger activation - TBD? Not sure if may cause errors with certain chats
-          setTriggerActivated(chatLog[currentIndex].InvokeTriggerName);
+              cooldownTimeout = setTimeout(() => {
+                setCurrentIndex((prev) => prev + 1);
+              }, 1000);
+            }, currentMsg.DelaySec * 1000);
+          }, currentMsg.TypingDuration * 1000);
         }
-
-        // Pause before the next person typing
-        const cooldownTimer = setTimeout(() => {
-          setCurrentIndex((prev) => prev + 1);
-        }, 1500);
-        return () => clearTimeout(cooldownTimer);
-      }, chatLog[currentIndex].DelaySec * 1000);
-      return () => clearTimeout(messageTimer);
+      }
     }
+    return () => {
+      clearTimeout(typingTimeout);
+      clearTimeout(messageTimeout);
+      clearTimeout(cooldownTimeout);
+    };
     // eslint-disable-next-line
   }, [currentIndex]);
 

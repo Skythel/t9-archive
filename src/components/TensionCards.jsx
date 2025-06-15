@@ -1,10 +1,16 @@
 import { makeStyles } from "@mui/styles";
-import { createTheme, ThemeProvider } from '@mui/material/styles';
+import { createTheme, ThemeProvider } from "@mui/material/styles";
 import { Box, Grid } from "@mui/system";
 import { useState } from "react";
 import { Button, ButtonBase, Dialog } from "@mui/material";
 import { tensionCardList } from "../content/TensionCardList";
 import TensionCardExpanded from "./TensionCardExpanded";
+import {
+  fixedWidthIcon,
+  InfoHeader,
+  InfoRow,
+  styledButton,
+} from "../vars/Styles";
 
 const IconRarity = require("../assets/common_icons/ui_common_icon_rarity.png");
 const IconTension0 = require("../assets/common_icons/ui_common_icon_tensionlevel_0.png");
@@ -52,31 +58,10 @@ const useStyles = makeStyles((theme) => ({
     margin: 0,
   },
   tensionCardViewName: {
-    fontSize: "26px",
-    fontWeight: "800",
-    fontStyle: "italic",
-    borderRadius: "10px",
-    padding: "5px",
-    paddingLeft: "20px",
-    position: "relative",
-    bgcolor: "black",
-    "&::before": {
-      content: '""',
-      position: "absolute",
-      top: 0,
-      left: 0,
-      bottom: 0,
-      width: "8px",
-      backgroundColor: "#aaaaaa",
-      borderTopLeftRadius: 8,
-      borderBottomLeftRadius: 8,
-    },
+    ...InfoHeader,
   },
   tensionCardDetails: {
-    fontStyle: "italic",
-    background: "black",
-    padding: "3px",
-    borderRadius: "50px",
+    ...InfoRow,
   },
   tensionLevel: {
     position: "absolute",
@@ -95,20 +80,8 @@ const useStyles = makeStyles((theme) => ({
     alignItems: "center",
     justifyContent: "center",
   },
-  fixedWidthIcon: {
-    display: "inline-block",
-    width: "40px",
-    textAlign: "center",
-    verticalAlign: "middle",
-    paddingRight: "20px",
-  },
-  styledButton: {
-    outline: "none",
-    transition: "transform 0.5s ease",
-    "&:active": {
-      transform: "scale(0.8)",
-    }
-  },
+  fixedWidthIcon,
+  styledButton,
 }));
 
 const TensionCards = () => {
@@ -117,90 +90,160 @@ const TensionCards = () => {
   const [showExpandedCard, setShowExpandedCard] = useState(false);
   return (
     <ThemeProvider theme={theme}>
-      <Grid container alignItems="flex-start" columnSpacing={2} rowSpacing={1} style={{ overflow: "auto", height: "80vh" }}>
+      <Grid
+        container
+        alignItems="flex-start"
+        columnSpacing={2}
+        rowSpacing={1}
+        style={{ overflow: "auto", height: "80vh" }}
+      >
         {tensionCardList.map((c) => (
           <ButtonBase onClick={() => setCurrentCard(c)}>
             <Grid item className={classes.tensionCardIcon} key={c.name}>
               <div style={{ backgroundColor: "black" }}>
-                <img src={c.icon} alt={c.name} className={classes.tensionCardIconImage} />
-                {c.tensionPhase === 0 && <img src={IconTension0} alt="Tension Level" className={classes.tensionLevel} />}
-                {c.tensionPhase === 1 && <img src={IconTension1} alt="Tension Level" className={classes.tensionLevel} />}
-                {c.tensionPhase === 2 && <img src={IconTension2} alt="Tension Level" className={classes.tensionLevel} />}
-                {c.tensionPhase === 3 && <img src={IconTensionEx} alt="Tension Level" className={classes.tensionLevel} />}
+                <img
+                  src={c.icon}
+                  alt={c.name}
+                  className={classes.tensionCardIconImage}
+                />
+                {c.tensionPhase === 0 && (
+                  <img
+                    src={IconTension0}
+                    alt="Tension Level"
+                    className={classes.tensionLevel}
+                  />
+                )}
+                {c.tensionPhase === 1 && (
+                  <img
+                    src={IconTension1}
+                    alt="Tension Level"
+                    className={classes.tensionLevel}
+                  />
+                )}
+                {c.tensionPhase === 2 && (
+                  <img
+                    src={IconTension2}
+                    alt="Tension Level"
+                    className={classes.tensionLevel}
+                  />
+                )}
+                {c.tensionPhase === 3 && (
+                  <img
+                    src={IconTensionEx}
+                    alt="Tension Level"
+                    className={classes.tensionLevel}
+                  />
+                )}
                 <div className={classes.tensionType}>
                   <img src={c.type} alt="Tension Type" height={32} />
                 </div>
-                <div className={classes.tensionCardName}>{c.name.substring(0, 15)}</div>
+                <div className={classes.tensionCardName}>
+                  {c.name.substring(0, 15)}
+                </div>
               </div>
             </Grid>
           </ButtonBase>
         ))}
       </Grid>
-      <Box style={{ overflow: "hidden", height: "80vh", position: "sticky", top: 0, }}>
+      <Box
+        style={{
+          overflow: "hidden",
+          height: "80vh",
+          position: "sticky",
+          top: 0,
+        }}
+      >
         <Box className={classes.tensionCardInfo} height="65vh">
-          <Box className={classes.tensionCardViewName}>
-            {currentCard.name}
-          </Box>
+          <Box className={classes.tensionCardViewName}>{currentCard.name}</Box>
           <Box className={classes.tensionCardDetails}>
-            <span style={{ paddingLeft: "20px" }}>
-              Rarity
-            </span>
+            <span style={{ paddingLeft: "20px" }}>Rarity</span>
             <span style={{ float: "right" }}>
-              {[...Array(currentCard.rarity)].map((e, i) => <img key={i} src={IconRarity} alt="Rarity" />)}
+              {[...Array(currentCard.rarity)].map((e, i) => (
+                <img key={i} src={IconRarity} alt="Rarity" />
+              ))}
             </span>
           </Box>
           <br />
-          <Box className={classes.tensionCardViewName}>
-            Effect Details
-          </Box>
+          <Box className={classes.tensionCardViewName}>Effect Details</Box>
           <Box className={classes.tensionCardDetails}>
             <span className={classes.fixedWidthIcon}>
-              {currentCard.tensionPhase === 0 && <img src={IconTension0} alt="Tension Level" height={28} />}
-              {currentCard.tensionPhase === 1 && <img src={IconTension1} alt="Tension Level" height={28} />}
-              {currentCard.tensionPhase === 2 && <img src={IconTension2} alt="Tension Level" height={28} />}
-              {currentCard.tensionPhase === 3 && <img src={IconTensionEx} alt="Tension Level" height={28} />}
+              {currentCard.tensionPhase === 0 && (
+                <img src={IconTension0} alt="Tension Level" height={28} />
+              )}
+              {currentCard.tensionPhase === 1 && (
+                <img src={IconTension1} alt="Tension Level" height={28} />
+              )}
+              {currentCard.tensionPhase === 2 && (
+                <img src={IconTension2} alt="Tension Level" height={28} />
+              )}
+              {currentCard.tensionPhase === 3 && (
+                <img src={IconTensionEx} alt="Tension Level" height={28} />
+              )}
             </span>
             Tension needed to activate effect: Phase {currentCard.tensionPhase}
           </Box>
           <Box className={classes.tensionCardDetails}>
             <span className={classes.fixedWidthIcon}>
-              {currentCard.effectTarget === "All" && <img src={IconTargetAll} alt="Effect Target" height={28} />}
-              {currentCard.effectTarget === "Met" && <img src={IconTargetMet} alt="Effect Target" height={28} />}
-              {currentCard.effectTarget === "Unmet" && <img src={IconTargetUnmet} alt="Effect Target" height={28} />}
-              {currentCard.effectTarget === "Special" && <img src={IconTargetSpecial} alt="Effect Target" height={28} />}
+              {currentCard.effectTarget === "All" && (
+                <img src={IconTargetAll} alt="Effect Target" height={28} />
+              )}
+              {currentCard.effectTarget === "Met" && (
+                <img src={IconTargetMet} alt="Effect Target" height={28} />
+              )}
+              {currentCard.effectTarget === "Unmet" && (
+                <img src={IconTargetUnmet} alt="Effect Target" height={28} />
+              )}
+              {currentCard.effectTarget === "Special" && (
+                <img src={IconTargetSpecial} alt="Effect Target" height={28} />
+              )}
             </span>
             Effect Target:&nbsp;
             {currentCard.effectTarget === "All" && "All Party Members"}
             {currentCard.effectTarget === "Met" && "Characters: Conditions Met"}
-            {currentCard.effectTarget === "Unmet" && "Characters: Conditions Unmet"}
+            {currentCard.effectTarget === "Unmet" &&
+              "Characters: Conditions Unmet"}
             {currentCard.effectTarget === "Special" && "Special Condition"}
           </Box>
           {currentCard.effect.map((i) => (
-            <>{i}<br /></>
+            <>
+              {i}
+              <br />
+            </>
           ))}
         </Box>
         <Box>
-          <Button className={classes.styledButton} disableRipple onClick={() => setShowExpandedCard(true)}>
+          <Button
+            className={classes.styledButton}
+            disableRipple
+            onClick={() => setShowExpandedCard(true)}
+          >
             <img src={ButtonBg} alt="Story" />
           </Button>
         </Box>
       </Box>
-      <Dialog open={showExpandedCard} onClose={() => setShowExpandedCard(false)} slotProps={{
-        paper: {
-          elevation: 0,
-          sx: {
-            width: "80vw",
-            height: "80vh",
-            maxWidth: "none",
-            background: "transparent",
-            color: "white",
-            overflow: "visible",
-          }
-        }
-      }}>
-        <TensionCardExpanded currentCard={currentCard} setShowExpandedCard={setShowExpandedCard} />
+      <Dialog
+        open={showExpandedCard}
+        onClose={() => setShowExpandedCard(false)}
+        slotProps={{
+          paper: {
+            elevation: 0,
+            sx: {
+              width: "80vw",
+              height: "80vh",
+              maxWidth: "none",
+              background: "transparent",
+              color: "white",
+              overflow: "visible",
+            },
+          },
+        }}
+      >
+        <TensionCardExpanded
+          currentCard={currentCard}
+          setShowExpandedCard={setShowExpandedCard}
+        />
       </Dialog>
     </ThemeProvider>
-  )
+  );
 };
 export default TensionCards;
