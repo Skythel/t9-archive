@@ -1,11 +1,11 @@
 import { makeStyles } from "@mui/styles";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 import { Grid } from "@mui/system";
-import PartyCharacterPanel from "../components/PartyCharacterPanel";
 import { useState } from "react";
 import { characterList } from "../content/CharacterList";
-import PartyCharacterInfo from "../components/PartyCharacterInfo";
 import Cookies from "universal-cookie";
+import MobilePartyCharacterInfo from "./MobilePartyCharacterInfo";
+import MobilePartyCharacterPanel from "./MobilePartyCharacterPanel";
 
 const theme = createTheme();
 const useStyles = makeStyles(() => ({
@@ -45,22 +45,20 @@ const MobileParty = () => {
   return (
     <ThemeProvider theme={theme}>
       <Grid container className={classes.container}>
-        <Grid item className={classes.characterPanel} size={6}>
-          <PartyCharacterPanel
-            partyMembers={partyMembers}
-            characterViewing={characterViewing}
-            setCharacterViewing={setCharacterViewing}
-            selectedPosition={selectedPosition}
-            setSelectedPosition={setSelectedPosition}
-          />
-        </Grid>
-        <Grid item className={classes.characterView} size={4}></Grid>
+        <MobilePartyCharacterPanel
+          partyMembers={partyMembers}
+          characterViewing={characterViewing}
+          setCharacterViewing={setCharacterViewing}
+          selectedPosition={selectedPosition}
+          setSelectedPosition={setSelectedPosition}
+        />
+        {/* <Grid item className={classes.characterView} size={4}></Grid> */}
+        <MobilePartyCharacterInfo
+          characterViewing={characterViewing}
+          addPartyMember={addPartyMember}
+          removePartyMember={removePartyMember}
+        />
       </Grid>
-      <PartyCharacterInfo
-        characterViewing={characterViewing}
-        addPartyMember={addPartyMember}
-        removePartyMember={removePartyMember}
-      />
     </ThemeProvider>
   );
 };
